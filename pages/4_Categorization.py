@@ -16,8 +16,7 @@ driver_cat = pd.read_excel(
 
 # Display the DataFrame in Streamlit
 st.title("Driver Categories")
-st.write("Below is the content of the `driver_cat` dataset:")
-st.dataframe(driver_cat)  # Displays the DataFrame interactively
+
 
 # Import result_df_31 Oct.csv
 result_df = (
@@ -34,10 +33,7 @@ result_df = (
         [
             "DonId",
             "Cause_by_OpenAI",
-            "Effect_by_OpenAI",
             "Cause_category_by_OpenAI",
-            "Effect_category_by_OpenAI",
-            "Raw_Text",
         ]
     )
 )
@@ -49,7 +45,7 @@ st.dataframe(result_df)  # Displays the DataFrame interactively
 # Select only 10 rows for processing
 result_df_sample = result_df.head(10).copy()
 
-st.dataframe(result_df_sample)
+#st.dataframe(result_df_sample)
 
 # Define the Categorization class
 class Categorization(dspy.Signature):
@@ -77,14 +73,13 @@ categories = []
 
 for cause_text in result_df_sample["Cause_by_OpenAI"]:
     prompt = (
-        f"Analyze the following text and map it to a predefined category from the list below. "
-        f"Return the output in this exact format:\n"
-        f"consolidate_name: [name], category: [category]\n\n"
-        f"Categories and examples:\n{category_examples}\n\n"
-        f"If none of the above applies, please return consolidate_name: Undefined, category: Undefined\n\n"
-        f"Now, analyze the following text:\n"
+        "Analyze the following text and map it to a predefined category from the list below. "
+        "Return your answer as a valid JSON object with keys 'consolidate_name' and 'category'.\n\n"
+        "Categories and examples:\n"
+        f"{category_examples}\n\n"
+        "If none of the above applies, please return {\"consolidate_name\": \"Undefined\", \"category\": \"Undefined\"}.\n\n"
+        "Now, analyze the following text:\n"
         f"'{cause_text}'\n"
-        f"Provide your answer in this format: consolidate_name: [name], category: [category]"
     )
 
     pred = categorize_text(text=prompt)
@@ -100,4 +95,5 @@ for cause_text in result_df_sample["Cause_by_OpenAI"]:
 result_df_sample["Consolidate_Name"] = consolidate_names
 result_df_sample["Predicted_Category"] = categories
 
+st.write('_'*50)
 st.dataframe(result_df_sample)
