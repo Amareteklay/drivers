@@ -4,3 +4,4 @@ env/
 2_Preprocess.py
 tasks.json
 execution_flow.json
+__pycache__
