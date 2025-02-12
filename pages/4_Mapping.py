@@ -42,7 +42,7 @@ result_df = pd.read_csv("./data/result_df_31_Oct.csv").rename(columns={
 class CauseCategorizationSignature(dspy.Signature):
     """Categorize cause text into one of the predefined driver categories."""
     cause_text = dspy.InputField(desc="Cause text from causal extraction")
-    driver_category = dspy.OutputField(desc=f"Category from: {', '.join(driver_categories)}")
+    driver_category = dspy.OutputField(desc=f"Category from: {', '.join(driver_categories)}") # Use Literal here
 
 # --- Category Validator Module ---
 class CategoryValidator(dspy.Module):
