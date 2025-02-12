@@ -108,12 +108,12 @@ st.write(f"Unique categories ({len(driver_categories)}):")
 st.dataframe(driver_categories)
 
 st.subheader("Input Data (Last 10 Rows)")
-st.dataframe(result_df.tail(10))
+st.dataframe(result_df.head(30))
 
 if st.button("Run Categorization"):
     st.header("Categorization Results")
     with st.spinner("Processing causes..."):
-        result_df_categorized = process_dataframe(result_df.tail(10), cause_categorizer)
+        result_df_categorized = process_dataframe(result_df.head(30), cause_categorizer)
     st.dataframe(result_df_categorized[['Cause_by_OpenAI', 'Cause_driver_category']])
     
     st.subheader("Category Distribution")
