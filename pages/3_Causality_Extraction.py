@@ -16,7 +16,7 @@ st.title("Causality Extraction")
 who_data = pd.read_csv("./data/corpus.csv")
 who_data_assessment = who_data[who_data["InformationType"] == "Assessment"]
 
-st.dataframe(who_data_assessment.head(10))
+st.dataframe(who_data_assessment.head(20))
 
 # Define the DSPy signature for extracting cause-effect pairs
 class CauseEffectExtractionSignature(dspy.Signature):
@@ -94,10 +94,10 @@ def extract_from_row(row):
     return extractor.forward(text)
 
 # Apply the extraction function to the first 10 rows and store the results in a new column
-who_data_assessment['CauseEffectPairs'] = who_data_assessment.head(10).apply(extract_from_row, axis=1)
+who_data_assessment['CauseEffectPairs'] = who_data_assessment.head(20).apply(extract_from_row, axis=1)
 
 st.title("WHO Data Assessment: Causality Extraction")
-for index, row in who_data_assessment.head(10).iterrows():
+for index, row in who_data_assessment.head(20).iterrows():
     st.write(f"Text: {row['Text']}")
     st.write("Extracted Cause-Effect Pairs:")
     for pair in row['CauseEffectPairs']:
