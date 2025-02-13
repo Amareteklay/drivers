@@ -1,1 +1,72 @@
-# cause-effect
+<h1 align='center'>DRIVERS OF PESTS AND PATHOGENS INVESTIGATION</h1>
+
+
+## Project description
+
+Emerging pests and pathogens (EPPs) are an increasingly disruptive force to human society that can cause large social and ecological changes far beyond their initial site of emergence. Three forces contribute to this growing challenge now and in the foreseeable future: first, potential EPPs are more likely to come in to first contact with human habitats as human land use expands. Second, denser human trade and travel networks mean that EPPs are more likely to emerge in new regions. Third, human technology, such as biocidal agents, increases risks for re-emergence. Understanding how EPPs cascade across scales in social-ecological systems is therefore an urgent priority, but no formal approach currently exists for analysing the ripple effects at scale, from their seeding to their lasting societal imprints. This project aims to fill this gap in sustainability science for society.
+
+Email: peter.sogaard.jorgensen@su.se <br>
+
+
+## Table of Contents
+<details open>
+<summary>Show/Hide</summary>
+<br>
+
+- [Project description](#project-description)
+- [Table of Contents](#table-of-contents)
+- [File Descriptions](#file-descriptions)
+- [Structure of Page's py files:](#structure-of-pages-py-files)
+- [Environment setup](#environment-setup)
+- [Deployment instruction](#deployment-instruction)
+</details>
+
+## File Descriptions
+<details>
+<a name="File_Description"></a>
+<summary>Show/Hide</summary>
+<br>
+    
+* <strong>[ Data ](https://github.com/Amareteklay/cause-effect/tree/master/data)</strong>: folder containing all data files
+    * <strong>corpus.csv</strong>: Raw data crawled from WHO-DONs website (latest data on 31 Oct 2024). Each article has its own DonID and contains typical information of an outbreak reports including Summary, Overview, Epidemiology, Assessment, Advice and Further Information. Currently, only `Assessment section` is considered for analysis. The file is used to extract drivers of EPPs using large language models
+    * <strong>result_df_31_oct.csv</strong>: Output file from the task `Causality Extraction` above and then be used in the task `Driver Mapping`
+    * <strong>drivers.xlsx</strong>: A pre-defined list of relevant drivers of EPPs. The file was aggregated from different reviews by two experienced researchers in the field of health, ecology and sustainability. It is used for the `Mapping extracted drivers by LLMs with domain knowledge` 
+
+
+* <strong>[ Pages ](https://github.com/Amareteklay/cause-effect/tree/master/pages)</strong>: folder containing all Streamlit pages
+    * <strong>3_Causality_Extraction.py</strong>: Define classess and functions to extract drivers of EPP from text, with the help of different LLMs.
+    * <strong>4_Mapping.py</strong>: Define classess and functions to map identified drivers from the previous step with a predefined list of drivers.
+
+* <strong>[ App ](https://github.com/Amareteklay/cause-effect/blob/main/app.py)</strong>: Empty file to start the app
+* <strong>[ Config file ](https://github.com/Amareteklay/cause-effect/blob/main/config.py)</strong>: For configuring models, APIs
+
+</details>
+
+
+## Structure of Page's py files:
+<details>
+<a name="Structure"></a>
+<summary>Show/Hide</summary>
+<br>
+    
+1. Causality Extraction
+   * 1.1 Import libraries and data
+   * 1.2 Only keep `Assessment` information of the column `InformationType`, and the first 20 rows
+   * 1.3 Define class `CauseEffectExtractionSignature`, for ...
+   * 1.4 Define class `CauseEffectExtractionModule`, for..., including sub-methods like...
+   * 1.5 Initialize the extraction module
+
+2. Drivers Mapping
+   * 2.1 Import libraries and data
+   * 2.2 Could you continue here as above...
+
+</details>  
+   
+
+
+## Environment setup 
+     
+
+## Deployment instruction
+    
+</details>

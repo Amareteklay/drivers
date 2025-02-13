@@ -18,23 +18,41 @@ who_data_assessment = who_data[who_data["InformationType"] == "Assessment"]
 
 st.dataframe(who_data_assessment.head(20))
 
+
 # Define the DSPy signature for extracting cause-effect pairs
 class CauseEffectExtractionSignature(dspy.Signature):
     """
     Extract cause and effect pairs from the provided text.
     """
+
     text = dspy.InputField(desc="Input text with potential cause-effect relationships.")
     cause = dspy.OutputField(desc="Identified cause (e.g., 'heavy rainfall').")
     effect = dspy.OutputField(desc="Identified effect (e.g., 'flooded streets').")
 
+
 # Define the extraction module, keeping all extraction logic here.
 class CauseEffectExtractionModule(dspy.Module):
     def __init__(self):
+        """
+        Initialize the extraction module.
+
+        We use the ChainOfThought model from dspy to perform cause-effect extraction.
+        The predict method is a thin wrapper around the ChainOfThought model.
+        """
         super().__init__()
         self.predict = dspy.ChainOfThought(CauseEffectExtractionSignature)
-    
+
     def forward(self, text: str) -> List[Tuple[str, str]]:
         # Break the input text into smaller chunks using our helper from utils.py
+        """
+        Break the input text into smaller chunks and extract cause-effect pairs from each.
+
+        Args:
+            text (str): Input text with potential cause-effect relationships.
+
+        Returns:
+            List[Tuple[str, str]]: A list of cause-effect pairs, where each pair is a tuple of (cause, effect) strings.
+        """
         chunks = chunk_text(text)
         cause_effect_pairs = []
         for chunk in chunks:
@@ -42,9 +60,24 @@ class CauseEffectExtractionModule(dspy.Module):
             if pair:
                 cause_effect_pairs.append(pair)
         return cause_effect_pairs
-    
+
     def extract_cause_effect(self, text: str) -> Tuple[str, str]:
         # Construct a few-shot prompt with examples
+        """
+        Extract cause and effect pairs from the provided text.
+
+        The function takes a string of text as input and returns a tuple of two strings: the cause and effect.
+
+        The extraction is done using a few-shot prompt with examples of how causality can be reported in different forms.
+
+        The function is a thin wrapper around the ChainOfThought model from dspy.
+
+        Args:
+            text (str): Input text with potential cause-effect relationships.
+
+        Returns:
+            Tuple[str, str]: A tuple of two strings: the cause and effect.
+        """
         prompt = f"""
         Below are some examples how causality can be reported in different forms:
         - Single cause, single effect (Type 1)
@@ -80,27 +113,42 @@ class CauseEffectExtractionModule(dspy.Module):
         Cause:
         """
         response = self.predict(text=prompt)
-        if response and hasattr(response, 'cause') and hasattr(response, 'effect'):
+        if response and hasattr(response, "cause") and hasattr(response, "effect"):
             return response.cause, response.effect
         else:
             return None
 
+
 # Initialize the extraction module
 extractor = CauseEffectExtractionModule()
 
+
 # Function to apply the extractor to each row of the dataset
 def extract_from_row(row):
-    text = row['Text']  # Adjust the column name if necessary
+    """
+    Apply the cause-effect extraction module to a single row of the dataset.
+
+    Parameters:
+    row (pandas.Series): A row of the dataset, containing the text to be analyzed.
+
+    Returns:
+    List[Tuple[str, str]]: List of extracted cause-effect pairs, where each pair is a tuple (cause, effect).
+    """
+
+    text = row["Text"]  # Adjust the column name if necessary
     return extractor.forward(text)
 
+
 # Apply the extraction function to the first 10 rows and store the results in a new column
-who_data_assessment['CauseEffectPairs'] = who_data_assessment.head(20).apply(extract_from_row, axis=1)
+who_data_assessment["CauseEffectPairs"] = who_data_assessment.head(20).apply(
+    extract_from_row, axis=1
+)
 
 st.title("WHO Data Assessment: Causality Extraction")
 for index, row in who_data_assessment.head(20).iterrows():
     st.write(f"Text: {row['Text']}")
     st.write("Extracted Cause-Effect Pairs:")
-    for pair in row['CauseEffectPairs']:
+    for pair in row["CauseEffectPairs"]:
         if pair:
             cause, effect = pair
             st.write(f"- Cause: {cause}")
