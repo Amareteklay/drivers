@@ -39,6 +39,7 @@ Email: peter.sogaard.jorgensen@su.se <br>
 
 * <strong>[ App ](https://github.com/Amareteklay/cause-effect/blob/main/app.py)</strong>: Empty file to start the app
 * <strong>[ Config file ](https://github.com/Amareteklay/cause-effect/blob/main/config.py)</strong>: For configuring models, APIs
+* * <strong>[ Utils file ](https://github.com/Amareteklay/cause-effect/blob/main/utils.py)</strong>: To define universal functions
 
 </details>
 
@@ -67,7 +68,7 @@ Email: peter.sogaard.jorgensen@su.se <br>
 ## Environment setup 
 - Install a standalone `uv` package manager. Check this [link](https://docs.astral.sh/uv/getting-started/installation/)
 - Check in the folder, navigate the `Terminal` in Vscode and type `uv venv --python 3.13`
-- To install packages, type `uv pip sync requirements.txt`. Installing through uv is much faster than conventional pip. It tooks me only 45s to install all packages     
+- To install packages, type `uv pip sync requirements.txt`. Installing through uv is much faster than conventional pip. It tooks me only 18s to install all packages     
 
 ## Deployment instruction
     
