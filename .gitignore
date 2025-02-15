@@ -5,3 +5,5 @@ env/
 tasks.json
 execution_flow.json
 __pycache__
+.venv
+ 
