@@ -7,10 +7,12 @@ from typing import List, Tuple
 from config import configure_lm
 from utils import chunk_text
 
+
 # Configure the language model using our centralized config
-lm = configure_lm()
+lm = configure_lm(model="openai")
 
 st.title("Causality Extraction")
+st.subheader("Data preview")
 
 # Load the dataset (adjust the file path as needed)
 who_data = pd.read_csv("./data/corpus.csv")
