@@ -1,3 +1,4 @@
+# Files and folders not being pushed to github go here
 env/
 .ipynb_checkpoints
 1_Workflow.py
