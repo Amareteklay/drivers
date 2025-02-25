@@ -1,11 +1,12 @@
-# pages/3_Causality_Extraction.py
-
 import streamlit as st
 import pandas as pd
 import dspy
+import os
+import ast
 from typing import List, Tuple
 from config import configure_lm
 from utils import chunk_text
+from prompts.few_shot_examples import few_shot_examples
 
 # Configure the language model using our centralized config
 lm = configure_lm()
@@ -16,42 +17,54 @@ st.title("Causality Extraction")
 who_data = pd.read_csv("./data/corpus.csv")
 who_data_assessment = who_data[who_data["InformationType"] == "Assessment"]
 
-st.dataframe(who_data_assessment.head(20))
+st.dataframe(who_data_assessment.head(10))
 
+# Path for saving extracted results
+saved_results_path = "./data/extracted_cause_effect.csv"
 
-# Define the DSPy signature for extracting cause-effect pairs
 class CauseEffectExtractionSignature(dspy.Signature):
     """
-    Extract cause and effect pairs from the provided text.
+    A DSPy signature for extracting cause-effect pairs from text.
+    
+    Attributes:
+        text (dspy.InputField): The input text that may contain cause-effect relationships.
+        cause (dspy.OutputField): The extracted cause from the input text.
+        effect (dspy.OutputField): The extracted effect from the input text.
     """
-
     text = dspy.InputField(desc="Input text with potential cause-effect relationships.")
-    cause = dspy.OutputField(desc="Identified cause (e.g., 'heavy rainfall').")
-    effect = dspy.OutputField(desc="Identified effect (e.g., 'flooded streets').")
+    cause = dspy.OutputField(desc="Identified cause.")
+    effect = dspy.OutputField(desc="Identified effect.")
 
 
-# Define the extraction module, keeping all extraction logic here.
+# Define the extraction module using few-shot examples
 class CauseEffectExtractionModule(dspy.Module):
+    """
+    A module for extracting cause-effect pairs from text using DSPy's ChainOfThought.
+    
+    Methods:
+        forward(text: str) -> List[Tuple[str, str]]:
+            Processes the input text, extracts, and returns a list of cause-effect pairs.
+        extract_cause_effect(text: str) -> Tuple[str, str]:
+            Extracts a cause-effect pair from a single text chunk using few-shot examples.
+    """
     def __init__(self):
-        """
-        Initialize the extraction module.
-
-        We use the ChainOfThought model from dspy to perform cause-effect extraction.
-        The predict method is a thin wrapper around the ChainOfThought model.
-        """
         super().__init__()
-        self.predict = dspy.ChainOfThought(CauseEffectExtractionSignature)
+        self.predict = dspy.ChainOfThought(
+            signature=CauseEffectExtractionSignature,
+            examples=few_shot_examples  # Using few-shot examples as dictionaries
+        )
 
     def forward(self, text: str) -> List[Tuple[str, str]]:
-        # Break the input text into smaller chunks using our helper from utils.py
         """
-        Break the input text into smaller chunks and extract cause-effect pairs from each.
-
+        Processes the input text to extract cause-effect pairs.
+        
+        The text is split into chunks (using `chunk_text`) and each chunk is processed to extract a cause-effect pair.
+        
         Args:
-            text (str): Input text with potential cause-effect relationships.
-
+            text (str): The input text containing potential cause-effect relationships.
+        
         Returns:
-            List[Tuple[str, str]]: A list of cause-effect pairs, where each pair is a tuple of (cause, effect) strings.
+            List[Tuple[str, str]]: A list of tuples, each containing a cause and its corresponding effect.
         """
         chunks = chunk_text(text)
         cause_effect_pairs = []
@@ -62,93 +75,55 @@ class CauseEffectExtractionModule(dspy.Module):
         return cause_effect_pairs
 
     def extract_cause_effect(self, text: str) -> Tuple[str, str]:
-        # Construct a few-shot prompt with examples
         """
-        Extract cause and effect pairs from the provided text.
-
-        The function takes a string of text as input and returns a tuple of two strings: the cause and effect.
-
-        The extraction is done using a few-shot prompt with examples of how causality can be reported in different forms.
-
-        The function is a thin wrapper around the ChainOfThought model from dspy.
-
+        Extracts a cause-effect pair from the given text chunk using few-shot examples.
+        
         Args:
-            text (str): Input text with potential cause-effect relationships.
-
+            text (str): A text chunk with potential cause-effect information.
+        
         Returns:
-            Tuple[str, str]: A tuple of two strings: the cause and effect.
+            Tuple[str, str]: A tuple containing the extracted cause and effect, or None if extraction fails.
         """
-        prompt = f"""
-        Below are some examples how causality can be reported in different forms:
-        - Single cause, single effect (Type 1)
-
-        Example 1: (C1) High population density and mobility in urban areas (C1) have facilitated (E1) the rapid spread of the virus (E1)". 
-
-        Example 2: There is (C1) no vaccine for Influenza A(H1N1)v infection currently licensed for use in humans (C1). Seasonal influenza vaccines against human influenza viruses are generally not expected to protect people from (E1) infection with influenza viruses (E1) that normally circulate in pigs, but they can reduce severity.
-
-
-        - Single cause, multiple effects (Type 2)
-
-        Example 3: Several countries including Cameroon, Ethiopia, Haiti, Lebanon, Nigeria (north-east of the country), Pakistan, Somalia, Syria and the Democratic Republic of Congo (eastern part of the country) are in the midst of complex (C1) humanitarian crises (C1) with (E1) fragile health systems (E1), (E1) inadequate access to clean water and sanitation (E1) and have (E1) insufficient capacity to respond to the outbreaks (E1)
-
-        - Multiple causes, single effect (Type 3)
-        Example 4: Moreover, (C1) a low index of suspicion (C1), (C1) socio-cultural norms (C1), (C1) community resistance (C1), (C1) limited community knowledge regarding anthrax transmission (C1), (C1) high levels of poverty (C1) and (C1) food insecurity (C1), (C1) a shortage of available vaccines and laboratory reagents (C1), (C1) inadequate carcass disposal (C1) and (C1) decontamination practices (C1) significantly contribute to hampering (E1) the containment of the anthrax outbreak (E1).
-
-        Example 5:
-        The (E1) risk at the national level (E1) is assessed as 'High' due to the following:
-        + In other parts of Timor-Leste (C1) health workers have limited knowledge dog bite and scratch case management (C1) including PEP and RIG administration
-        + (C2) Insufficient stock of human rabies vaccines (C2) in the government health facilities.
-
-        - Multiple causes, multiple effects (Type 4) - Chain of causalities
-        The text may describe a chain of causality, where one effect becomes then the cause of another effect. To describe the chain, you should number the causes and effects. For example, cause 1 (C1) -> effect 1 (E1), but since effect 1 is also cause of effect 2, you should do cause 1 (C1) -> effect 1 (E1, C2) -> effect 2 (E2). 
-
-        Example 6: (E2) The risk of insufficient control capacities (E2) is considered high in Zambia due to (C1) concurrent public health emergencies in the country (cholera, measles, COVID-19) (C1) that limit the country’s human and (E1, C2) financial capacities to respond to the current anthrax outbreak adequately (E1, C2).
-
-        Example 7: (C1) Surveillance systems specifically targeting endemic transmission of chikungunya or Zika are weak or non-existent (C1) -> (E1, C2) Misdiagnosis between diseases  & Skewed surveillance (E1, C2) -> (E2, C3) Misinform policy decisions (E2, C3) -> (E3)reduced accuracy on the estimation of the true burden of each diseases (E3), poor risk assessments (E3), and non optimal clinical management and resource allocation (E3). 
-
-        Example 8: (C1) Changes in the predominant circulating serotype (C1) -> (E1, C2) increase the population risk of subsequent exposure to a heterologous DENV serotype (E1, C2), -> (E2) which increases the risk of higher rates of severe dengue and deaths (E2).
-
-        Now, extract the cause and effect from the following sentence:
-        Text: "{text}"
-        Cause:
-        """
+        # Create a minimal prompt; few-shot examples are integrated automatically
+        prompt = f"Text: \"{text}\"\nCause:"
         response = self.predict(text=prompt)
         if response and hasattr(response, "cause") and hasattr(response, "effect"):
-            return response.cause, response.effect
+            return (response.cause, response.effect)
         else:
             return None
 
-
-# Initialize the extraction module
-extractor = CauseEffectExtractionModule()
-
-
 # Function to apply the extractor to each row of the dataset
 def extract_from_row(row):
-    """
-    Apply the cause-effect extraction module to a single row of the dataset.
-
-    Parameters:
-    row (pandas.Series): A row of the dataset, containing the text to be analyzed.
-
-    Returns:
-    List[Tuple[str, str]]: List of extracted cause-effect pairs, where each pair is a tuple (cause, effect).
-    """
-
     text = row["Text"]  # Adjust the column name if necessary
     return extractor.forward(text)
 
+# Check if saved results exist
+if os.path.exists(saved_results_path):
+    st.write("Loading saved extraction results...")
+    who_data_assessment = pd.read_csv(saved_results_path)
+else:
+    extractor = CauseEffectExtractionModule()
+    st.write("Running extraction...")
+    who_data_assessment["CauseEffectPairs"] = who_data_assessment.head(10).apply(extract_from_row, axis=1)
+    who_data_assessment.to_csv(saved_results_path, index=False)
+    st.write("Extraction completed and results saved.")
 
-# Apply the extraction function to the first 10 rows and store the results in a new column
-who_data_assessment["CauseEffectPairs"] = who_data_assessment.head(20).apply(
-    extract_from_row, axis=1
-)
-
+# Display the extracted data
 st.title("WHO Data Assessment: Causality Extraction")
-for index, row in who_data_assessment.head(20).iterrows():
+st.write(who_data_assessment['CauseEffectPairs'])
+
+for index, row in who_data_assessment.head(10).iterrows():
     st.write(f"Text: {row['Text']}")
     st.write("Extracted Cause-Effect Pairs:")
-    for pair in row["CauseEffectPairs"]:
+    pairs = row["CauseEffectPairs"]
+    if isinstance(pairs, str):
+        try:
+            pairs = ast.literal_eval(pairs)
+        except Exception as e:
+            st.write("Error parsing CauseEffectPairs:", e)
+            continue
+    # If not a string, assume it's already a list.
+    for pair in pairs:
         if pair:
             cause, effect = pair
             st.write(f"- Cause: {cause}")
