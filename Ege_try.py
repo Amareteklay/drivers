@@ -23,10 +23,12 @@ pip3 install streamlit
 streamlit run app.py
 
 
-# git comments
+# git comments work flow do these step by step 27-29
 git add . # do everything, add all the changes in my local branch
 git commit -m "message" # commit with a message
 git push origin main # push to main branch
+git pull origin main # pull from main branch # send it to the reviewer.
+
 git branch # check branches
 
 git checkout -b ege_branch # create a new branch
@@ -36,3 +38,6 @@ git status # check status
 git reset --hard ### this is to do the rest so git pull would work. 
 
 git push origin ege_branch
+
+## if you do git pull before you git push, there could be conflicts. so wait for amare to finish updates.
+# you can play at Ege_try.py because it is in gitignore anyways. 
