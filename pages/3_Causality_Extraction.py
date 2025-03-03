@@ -51,7 +51,7 @@ class CauseEffectExtractionModule(dspy.Module):
         super().__init__()
         self.predict = dspy.ChainOfThought(
             signature=CauseEffectExtractionSignature,
-            examples=few_shot_examples  # Using few-shot examples as dictionaries
+            examples=few_shot_examples
         )
 
     def forward(self, text: str) -> List[Tuple[str, str]]:

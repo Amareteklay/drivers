@@ -10,17 +10,17 @@ from sentence_transformers import SentenceTransformer, util
 # Configure the language model using our config settings
 lm = configure_lm()
 
-st.title("Cause Categorization")
+st.title("Driver Categorization")
 
 # Path for saving extracted results
 saved_results_path = "./data/mapped_categories.csv"
 
 # --- Load and prepare the drivers data ---
-driver_cat = pd.read_excel("./data/drivers.xlsx", sheet_name="V2_Peter_PSJ_EP_PSJ_EP")
+driver_cat = pd.read_excel("./data/drivers.xlsx", sheet_name="only consolidated names")
 driver_categories = driver_cat["Consolidated Name"].dropna().unique().tolist()
-st.write("Original driver categories:", driver_categories)
+
 driver_categories = [str(cat).strip() for cat in driver_categories]
-st.write("Cleaned driver categories:", driver_categories)
+
 # Build regex pattern for matching categories
 category_pattern = re.compile(
     r"\b(" + "|".join(re.escape(cat) for cat in driver_categories) + r")\b",
@@ -73,13 +73,10 @@ class CategoryValidator(dspy.Module):
         self.categories = categories
         self.normalized_categories = {cat.lower(): cat for cat in categories}
         # Initialize the semantic similarity model
-        st.write("Loading semantic similarity model...")
         self.model = SentenceTransformer('all-MiniLM-L6-v2')
-        st.write("Model loaded.")
+        
         # Precompute embeddings for driver categories
-        st.write("Computing category embeddings...")
         self.category_embeddings = self.model.encode(categories, convert_to_tensor=True)
-        st.write("Category embeddings computed.")
 
     def forward(self, output: str) -> str:
         # Direct match
@@ -165,10 +162,8 @@ def process_dataframe(df: pd.DataFrame, categorizer: CauseCategorizationModule) 
 # --- Streamlit Interface ---
 cause_categorizer = CauseCategorizationModule()
 
-st.header("Data Preview")
 st.subheader("Driver Categories")
-st.write(f"Unique categories ({len(driver_categories)}):")
-st.dataframe(driver_categories)
+st.write(f"Unique categories: {len(driver_categories)}")
 
 st.subheader("Input Data (First 10 Rows)")
 st.dataframe(result_df.head(10))
