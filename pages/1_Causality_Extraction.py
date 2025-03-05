@@ -13,10 +13,21 @@ lm = configure_lm()
 
 st.title("Causality Extraction")
 
+st.markdown("""
+**Workflow:**
+- Load corpus.csv 
+- Filter records where InformationType is 'Assessment'.
+- Create path to for saving extracted results
+- Define DSPy signature with Text column of the data as input
+- Define DSPy module
+- Check if saved results exist and either run causal extraction or show saved results.
+""")
+
 # Load the dataset (adjust the file path as needed)
 who_data = pd.read_csv("./data/corpus.csv")
 who_data_assessment = who_data[who_data["InformationType"] == "Assessment"]
 
+st.subheader('First 10 rows of filtered data')
 st.dataframe(who_data_assessment.head(10))
 
 # Path for saving extracted results
@@ -107,10 +118,12 @@ else:
     who_data_assessment["CauseEffectPairs"] = who_data_assessment.head(10).apply(extract_from_row, axis=1)
     who_data_assessment.to_csv(saved_results_path, index=False)
     st.write("Extraction completed and results saved.")
+    # st.write(dspy.inspect_history(n=5))
 
 # Display the extracted data
-st.title("WHO Data Assessment: Causality Extraction")
-st.write(who_data_assessment['CauseEffectPairs'])
+st.subheader("Extracted Cause and Effect Pairs")
+
+st.dataframe(who_data_assessment[who_data_assessment['CauseEffectPairs'].notnull()])
 
 for index, row in who_data_assessment.head(10).iterrows():
     st.write(f"Text: {row['Text']}")
