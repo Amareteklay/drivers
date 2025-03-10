@@ -1,5 +1,5 @@
 # Define few-shot examples as JSON-serializable dictionaries
-few_shot_examples = [
+trainset = [
     {
         "text": "High population density and mobility in urban areas have facilitated the rapid spread of the virus.",
         "cause": "High population density and mobility in urban areas",
