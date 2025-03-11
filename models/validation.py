@@ -16,8 +16,8 @@ def compute_similarity(text1, text2):
 
 def validate_cause_effect(example, pred, threshold=0.8):
     """Validation function using cosine similarity."""
-    cause_sim = compute_similarity(example.cause, pred.cause)
-    effect_sim = compute_similarity(example.effect, pred.effect)
+    cause_sim = compute_similarity(example.cause, pred["cause"])
+    effect_sim = compute_similarity(example.effect, pred["effect"])
     return cause_sim >= threshold and effect_sim >= threshold
 
 def evaluate_model(few_shot_examples, extractor, save_path="./data/evaluation_results.csv"):
@@ -30,30 +30,31 @@ def evaluate_model(few_shot_examples, extractor, save_path="./data/evaluation_re
         # Convert dictionary to DSPy Example object
         example = dspy.Example(text=ex["text"], cause=ex["cause"], effect=ex["effect"])
 
-        pred = extractor.extract_cause_effect(example.text)  # No more AttributeError!
+        predictions = extractor.forward(example.text) 
 
-        if pred:
-            pred_dict = {"cause": pred[0], "effect": pred[1]}
-            expected_dict = {"cause": example.cause, "effect": example.effect}
+        if predictions:
+            pred_dict = predictions[0]  
+        else:
+            pred_dict = {"cause": "", "effect": ""}  # Handle cases where no prediction is made
 
-            # Compute similarity scores
-            cause_sim = float(compute_similarity(example.cause, pred_dict["cause"]))
-            effect_sim = float(compute_similarity(example.effect, pred_dict["effect"]))
-            is_correct = cause_sim >= 0.8 and effect_sim >= 0.8
+        # Compute similarity scores
+        cause_sim = compute_similarity(example.cause, pred_dict["cause"]) if pred_dict["cause"] else 0
+        effect_sim = compute_similarity(example.effect, pred_dict["effect"]) if pred_dict["effect"] else 0
+        is_correct = cause_sim >= 0.8 and effect_sim >= 0.8
 
-            results.append({
-                "text": example.text,
-                "expected_cause": example.cause,
-                "expected_effect": example.effect,
-                "predicted_cause": pred_dict["cause"],
-                "predicted_effect": pred_dict["effect"],
-                "cause_similarity": round(cause_sim, 2),
-                "effect_similarity": round(effect_sim, 2),
-                "is_correct": is_correct
-            })
+        results.append({
+            "text": example.text,
+            "expected_cause": example.cause,
+            "expected_effect": example.effect,
+            "predicted_cause": pred_dict["cause"],
+            "predicted_effect": pred_dict["effect"],
+            "cause_similarity": round(cause_sim, 2),
+            "effect_similarity": round(effect_sim, 2),
+            "is_correct": is_correct
+        })
 
-            if is_correct:
-                correct += 1
+        if is_correct:
+            correct += 1
 
     accuracy = correct / total if total > 0 else 0
     df_results = pd.DataFrame(results)
@@ -61,7 +62,7 @@ def evaluate_model(few_shot_examples, extractor, save_path="./data/evaluation_re
 
     # Save JSON format
     with open(save_path.replace(".csv", ".json"), "w") as json_file:
-        json.dump(results, json_file, indent=4)
+        json.dump(results, json_file, indent=4, default=str)
+
 
     return accuracy, df_results
-

@@ -13,6 +13,8 @@ def chunk_text(text: str, chunk_size: int = 200, overlap: int = 20) -> list:
     Returns:
         List[str]: A list of text chunks.
     """
+    if not isinstance(text, str):
+        text = str(text)  # Convert to string if it's not
     words = text.split()
     chunks = []
     for i in range(0, len(words), chunk_size - overlap):
@@ -21,7 +23,7 @@ def chunk_text(text: str, chunk_size: int = 200, overlap: int = 20) -> list:
     return chunks
 
 
-def chunk_text_by_sentences(text: str, chunk_size: int = 3, overlap: int = 1) -> list:
+def chunk_text_by_sentences(text: str, chunk_size: int = 4, overlap: int = 1) -> list:
     """
     Splits the text into chunks of a specified number of sentences with a given overlap.
     

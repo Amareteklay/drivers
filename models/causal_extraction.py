@@ -1,11 +1,12 @@
 import dspy
 from utils import chunk_text_by_sentences
+import streamlit as st
 
 class CauseEffectExtractionSignature(dspy.Signature):
     """ A DSPy signature for extracting cause-effect pairs from text. """
     text = dspy.InputField(desc="Input text with potential cause-effect relationships.")
-    cause = dspy.OutputField(desc="Identified cause.")
-    effect = dspy.OutputField(desc="Identified effect.")
+    cause = dspy.OutputField(desc="A list of any identified causes.")
+    effect = dspy.OutputField(desc="A list of any identified effects.")
 
 class CauseEffectExtractionModule(dspy.Module):
     def __init__(self):
@@ -15,15 +16,14 @@ class CauseEffectExtractionModule(dspy.Module):
     def forward(self, text: str):
         chunks = chunk_text_by_sentences(text)
         cause_effect_pairs = []
-        for chunk in chunks:
-            pair = self.extract_cause_effect(chunk)
-            if pair:
-                cause, effect = pair
-                cause_effect_pairs.append({"cause": cause, "effect": effect})
-        return cause_effect_pairs
 
-    def extract_cause_effect(self, text: str):
-        response = self.predict(text=text)
-        if response and hasattr(response, "cause") and hasattr(response, "effect"):
-            return response.cause, response.effect
-        return None
+        for chunk in chunks:
+            response = self.predict(text=chunk)  # Directly call predict()
+            st.write(f"Chunk: {chunk}")
+
+            if response and hasattr(response, "cause") and hasattr(response, "effect"):
+                cause_effect_pairs.append({"cause": response.cause, "effect": response.effect})
+                st.write(f"Cause: {response.cause}")
+                st.write(f"Effect: {response.effect}")
+
+        return cause_effect_pairs
