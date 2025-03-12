@@ -15,11 +15,23 @@ Email: peter.sogaard.jorgensen@su.se <br>
 
 - [Project description](#project-description)
 - [Table of Contents](#table-of-contents)
+- [Code Updates](#code-updates)
+  - [2025-03-12](#2025-03-12)
 - [File Descriptions](#file-descriptions)
 - [Structure of Page's py files:](#structure-of-pages-py-files)
 - [Environment setup](#environment-setup)
 - [Deployment instruction](#deployment-instruction)
 </details>
+
+## Code Updates
+
+### 2025-03-12
+<details>
+The OpenAI o3 model family deprecated max_tokens in favor of max_completion_tokens. 
+Additionally, both o1 and o3 models (including their mini variants) are part of the same "reasoning model" family that require specific configuration (temperature=1.0, tokens >= 5000). 
+This change is does this behind the scenes so that it wouldn't introduce any backward compatibility issues.
+</details>
+
 
 ## File Descriptions
 <details>
@@ -71,5 +83,7 @@ Email: peter.sogaard.jorgensen@su.se <br>
 - To install packages, type `uv pip sync requirements.txt`. Installing through uv is much faster than conventional pip. It tooks me only 18s to install all packages     
 
 ## Deployment instruction
-    
+
+Simply type `streamlit run app.py` in your terminal to start the app
+
 </details>
