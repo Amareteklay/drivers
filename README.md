@@ -41,6 +41,8 @@ This change is does this behind the scenes so that it wouldn't introduce any bac
     
 * <strong>[ Data ](https://github.com/Amareteklay/cause-effect/tree/master/data)</strong>: folder containing all data files
     * <strong>corpus.csv</strong>: Raw data crawled from WHO-DONs website (latest data on 31 Oct 2024). Each article has its own DonID and contains typical information of an outbreak reports including Summary, Overview, Epidemiology, Assessment, Advice and Further Information. Currently, only `Assessment section` is considered for analysis. The file is used to extract drivers of EPPs using large language models
+    * <strong>output/extracted_cause_effect.csv</strong>: Result obtained from running the LLM
+    * <strong>output/evaluation_results.csv</strong>: Calibrated results to validate the model precision
     * <strong>result_df_31_oct.csv</strong>: Output file from the task `Causality Extraction` above and then be used in the task `Driver Mapping`
     * <strong>drivers.xlsx</strong>: A pre-defined list of relevant drivers of EPPs. The file was aggregated from different reviews by two experienced researchers in the field of health, ecology and sustainability. It is used for the `Mapping extracted drivers by LLMs with domain knowledge` 
 
