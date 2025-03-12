@@ -20,7 +20,7 @@ st.dataframe(df_results)
 # Load dataset
 who_data = pd.read_csv("./data/corpus.csv")
 # TODO Test for the first 20 articles, to be run on the full dataset later
-who_data_assessment = who_data[who_data["InformationType"] == "Assessment"].head(20)
+who_data_assessment = who_data[who_data["InformationType"] == "Assessment"].head(10)
 
 # Extract cause-effect pairs
 if not os.path.exists("./data/output/extracted_cause_effect.csv"):

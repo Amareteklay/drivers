@@ -27,9 +27,15 @@ Email: peter.sogaard.jorgensen@su.se <br>
 
 ### 2025-03-12
 <details>
-The OpenAI o3 model family deprecated max_tokens in favor of max_completion_tokens. 
+
+- The openai/o3-mini model was set as the default LLM model. The reasoning model is believed providing better result.
 Additionally, both o1 and o3 models (including their mini variants) are part of the same "reasoning model" family that require specific configuration (temperature=1.0, tokens >= 5000). 
-This change is does this behind the scenes so that it wouldn't introduce any backward compatibility issues.
+- Create the `env/.env` file to keep your OpenAI API in this format `OPENAI_API_KEY=''`
+- Add new packages in `requirements.txt`, you may need to run `uv pip sync requirements.txt` to synchonize the packages
+- Create `data/output` subfolder to store model results
+- First attempt to run the model, the accuracy was not high. In addition, the Cause-Effect pairs data should be presented in long format.
+  ![Preliminary results](media/result_2025-03-12.png)
+
 </details>
 
 
@@ -85,7 +91,7 @@ This change is does this behind the scenes so that it wouldn't introduce any bac
 - To install packages, type `uv pip sync requirements.txt`. Installing through uv is much faster than conventional pip. It tooks me only 18s to install all packages     
 
 ## Deployment instruction
-
-Simply type `streamlit run app.py` in your terminal to start the app
+- Activate the venv by running `.venv\Scripts\Activate.ps1`
+- Simply type `streamlit run app.py` in your terminal to start the app
 
 </details>
