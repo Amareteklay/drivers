@@ -17,7 +17,8 @@ st.markdown(
 
     - **Technology**: 
         - Uses DSPy for iterative improvement.
-        - Uses llama3.2 but it can be adapted easily to other LLMs
+        - Use OpenAI o3-mini under the hood as the default LLM model 
+        - It can be adapted easily to other LLMs, such as llama3.2 
 
     - **Features**:
         - **Casual Extraction:** Extracts causes and effects from input text.
@@ -33,7 +34,7 @@ col1, col2 = st.columns(2)
 
 with col1:
     if st.button("Causal Extraction"):
-        st.switch_page("pages/1_Causal_Extraction.py")
+        st.switch_page("pages/1_Causality_Extraction.py")
 
 with col2:
     if st.button("Drivers Mapping"):
