@@ -22,13 +22,36 @@ who_data = pd.read_csv("./data/corpus.csv")
 # TODO Test for the first 20 articles, to be run on the full dataset later
 who_data_assessment = who_data[who_data["InformationType"] == "Assessment"].head(10)
 
-# Extract cause-effect pairs
-if not os.path.exists("./data/output/extracted_cause_effect.csv"):
-    who_data_assessment["CauseEffectPairs"] = who_data_assessment.apply(
-        lambda row: str(extractor.forward(row["Text"])), axis=1
+# Path to extracted cause-effect pairs
+extracted_file_path = "./data/output/extracted_cause_effect.csv"
+
+# If extracted data exists, load it
+if os.path.exists(extracted_file_path):
+    st.write("Loading extracted cause-effect pairs from saved file...")
+    who_data_assessment = pd.read_csv(extracted_file_path)  # Load directly
+else:
+    st.write("Extracting cause-effect pairs...")
+
+    # Function to extract cause-effect pairs safely
+    def extract_cause_effect(text):
+        cause_effect_pairs = extractor.forward(
+            text
+        )  # Calls forward() which returns a list
+        return (
+            str(cause_effect_pairs)
+            if cause_effect_pairs
+            else "No cause-effect pairs found"
+        )
+
+    # Apply extraction
+    who_data_assessment["CauseEffectPairs"] = (
+        who_data_assessment["Text"].head(10).apply(extract_cause_effect)
     )
-    who_data_assessment.to_csv("./data/output/extracted_cause_effect.csv", index=False)
+
+    # Save extracted results
+    who_data_assessment.to_csv(extracted_file_path, index=False)
+    st.write("Extraction complete. Data saved.")
 
 # Display extracted results
 st.subheader("Extracted Cause-Effect Pairs")
-st.dataframe(who_data_assessment[who_data_assessment["CauseEffectPairs"].notnull()])
+st.dataframe(who_data_assessment.head(10))
