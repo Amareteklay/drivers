@@ -12,7 +12,7 @@ ALTERNATIVE_LM_API_BASE = "http://localhost:11434"
 DEFAULT_LM_API_KEY = os.getenv("OPENAI_API_KEY")
 
 
-def configure_lm(model: str = "openai"):
+def configure_lm(model=""):
     """
     Configure and return the language model based on the given model_type.
     model can be either "openai" or "llama".

@@ -3,70 +3,70 @@
         "text": "High population density and mobility in urban areas have facilitated the rapid spread of the virus.",
         "expected_cause": "High population density and mobility in urban areas",
         "expected_effect": "the rapid spread of the virus",
-        "predicted_cause": "High population density and mobility in urban areas",
-        "predicted_effect": "Rapid spread of the virus",
-        "cause_similarity": 1.0,
-        "effect_similarity": 0.98,
-        "is_correct": true
+        "predicted_cause": "* High population density\n* Mobility in urban areas",
+        "predicted_effect": "* Rapid spread of the virus",
+        "cause_similarity": "0.96",
+        "effect_similarity": "0.91",
+        "is_correct": "True"
     },
     {
         "text": "There is no vaccine for Influenza A(H1N1)v infection currently licensed for use in humans. Seasonal influenza vaccines against human influenza viruses are generally not expected to protect people from infection with influenza viruses that normally circulate in pigs, but they can reduce severity.",
         "expected_cause": "no vaccine for Influenza A(H1N1)v infection currently licensed for use in humans",
         "expected_effect": "infection with influenza viruses that normally circulate in pigs",
-        "predicted_cause": "Administration of seasonal influenza vaccines against human influenza viruses",
-        "predicted_effect": "Reduced severity of disease when infected with influenza viruses that normally circulate in pigs",
-        "cause_similarity": 0.63,
-        "effect_similarity": 0.93,
-        "is_correct": false
+        "predicted_cause": "* Lack of vaccine protection\n* Infection with influenza viruses that normally circulate in pigs",
+        "predicted_effect": "* No protection against Influenza A(H1N1)v infection\n* Reduced severity of symptoms for seasonal influenza viruses",
+        "cause_similarity": "0.57",
+        "effect_similarity": "0.5",
+        "is_correct": "False"
     },
     {
         "text": "Several countries including Cameroon, Ethiopia, Haiti, Lebanon, Nigeria, Pakistan, Somalia, Syria, and the Democratic Republic of Congo are in the midst of complex humanitarian crises with fragile health systems, inadequate access to clean water and sanitation, and insufficient capacity to respond to the outbreaks.",
         "expected_cause": "complex humanitarian crises with fragile health systems, inadequate access to clean water and sanitation, and insufficient capacity",
         "expected_effect": "insufficient capacity to respond to the outbreaks",
-        "predicted_cause": "Fragile health systems, inadequate access to clean water and sanitation, and insufficient capacity to respond to outbreaks.",
-        "predicted_effect": "Complex humanitarian crises in various countries.",
-        "cause_similarity": 0.77,
-        "effect_similarity": 0.37,
-        "is_correct": false
+        "predicted_cause": "1. Fragile health systems\n2. Inadequate access to clean water and sanitation\n3. Insufficient capacity",
+        "predicted_effect": "1. Complex humanitarian crises",
+        "cause_similarity": "0.78",
+        "effect_similarity": "0.36",
+        "is_correct": "False"
     },
     {
         "text": "Moreover, a low index of suspicion, socio-cultural norms, community resistance, limited community knowledge regarding anthrax transmission, high levels of poverty and food insecurity, a shortage of available vaccines and laboratory reagents, inadequate carcass disposal and decontamination practices significantly contribute to hampering the containment of the anthrax outbreak.",
         "expected_cause": "low index of suspicion, socio-cultural norms, community resistance, limited community knowledge regarding anthrax transmission, high levels of poverty and food insecurity, shortage of available vaccines and laboratory reagents, inadequate carcass disposal and decontamination practices",
         "expected_effect": "hampering the containment of the anthrax outbreak",
-        "predicted_cause": "A low index of suspicion, socio-cultural norms, community resistance, limited community knowledge regarding anthrax transmission, high levels of poverty and food insecurity, a shortage of available vaccines and laboratory reagents, inadequate carcass disposal and decontamination practices.",
-        "predicted_effect": "Hampering the containment of the anthrax outbreak.",
-        "cause_similarity": 0.98,
-        "effect_similarity": 1.0,
-        "is_correct": true
+        "predicted_cause": "* Low index of suspicion\n* Socio-cultural norms\n* Community resistance\n* Limited community knowledge regarding anthrax transmission\n* High levels of poverty and food insecurity\n* Shortage of available vaccines and laboratory reagents\n* Inadequate carcass disposal and decontamination practices",
+        "predicted_effect": "* Hampering the containment of the anthrax outbreak",
+        "cause_similarity": "0.98",
+        "effect_similarity": "0.97",
+        "is_correct": "True"
     },
     {
         "text": "The risk of insufficient control capacities is considered high in Zambia due to concurrent public health emergencies in the country (cholera, measles, COVID-19) that limit the country\u2019s human and financial capacities to respond to the current anthrax outbreak adequately.",
         "expected_cause": "concurrent public health emergencies in the country (cholera, measles, COVID-19)",
         "expected_effect": "limit the country\u2019s human and financial capacities to respond to the current anthrax outbreak",
-        "predicted_cause": "Concurrent public health emergencies (cholera, measles, and COVID-19) limiting Zambia's human and financial capacities.",
-        "predicted_effect": "A high risk of insufficient control capacities to adequately respond to the current anthrax outbreak.",
-        "cause_similarity": 0.74,
-        "effect_similarity": 0.82,
-        "is_correct": false
+        "predicted_cause": "- Concurrent public health emergencies (cholera, measles, COVID-19)\n- Limited human capacities\n- Limited financial capacities",
+        "predicted_effect": "- Insufficient control capacities for responding to the anthrax outbreak\n- Inadequate response to the current anthrax outbreak",
+        "cause_similarity": "0.87",
+        "effect_similarity": "0.82",
+        "is_correct": "True"
     },
     {
         "text": "Surveillance systems specifically targeting endemic transmission of chikungunya or Zika are weak or non-existent, leading to misdiagnosis between diseases & skewed surveillance, which in turn misinforms policy decisions and reduces the accuracy on the estimation of the true burden of each disease.",
         "expected_cause": "weak or non-existent surveillance systems",
         "expected_effect": "misdiagnosis between diseases, skewed surveillance, misinformed policy decisions, and reduced accuracy on the estimation of the true burden of each disease",
-        "predicted_cause": "Weak or non-existent surveillance systems targeting chikungunya or Zika.",
-        "predicted_effect": "Misdiagnosis between diseases, skewed surveillance, misinformed policy decisions, and reduced accuracy in estimating the true disease burden.",
-        "cause_similarity": 0.56,
-        "effect_similarity": 0.99,
-        "is_correct": false
+        "predicted_cause": "1. Weak or non-existent surveillance systems targeting endemic transmission of chikungunya or Zika.\n2. Misdiagnosis between diseases due to inadequate surveillance.",
+        "predicted_effect": "1. Skewed surveillance data.\n2. Misinformed policy decisions.\n3. Reduced accuracy in estimating the true burden of each disease.",
+        "cause_similarity": "0.53",
+        "effect_similarity": "0.87",
+        "is_correct": "False"
     },
     {
         "text": "Changes in the predominant circulating serotype increase the population risk of subsequent exposure to a heterologous DENV serotype, which increases the risk of higher rates of severe dengue and deaths.",
         "expected_cause": "changes in the predominant circulating serotype",
         "expected_effect": "increased risk of severe dengue and deaths",
-        "predicted_cause": "Changes in the predominant circulating serotype",
-        "predicted_effect": "Higher rates of severe dengue and deaths",
-        "cause_similarity": 1.0,
-        "effect_similarity": 0.91,
-        "is_correct": true
+        "predicted_cause": "- Changes in the predominant circulating serotype of DENV\n- Exposure to a heterologous DENV serotype",
+        "predicted_effect": "- Higher rates of severe dengue\n- Increased risk of deaths",
+        "cause_similarity": "0.63",
+        "effect_similarity": "0.96",
+        "is_correct": "False"
     }
 ]

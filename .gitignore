@@ -4,3 +4,4 @@ env/
 __pycache__
 .venv
 Ege_try.py
+dspy_training.ipynb

@@ -1,5 +1,26 @@
-# utils.py
+# src/data_utils.py
 import re
+import pandas as pd
+
+def load_train_data(json_path: str) -> pd.DataFrame:
+    """
+    Read the JSON file containing training data.
+    Expected format: a list of dictionaries with keys like 'Text', 'Cause', and 'Effect'.
+    Returns a DataFrame for further processing.
+    """
+    df = pd.read_json(json_path)
+    # Optional: add cleaning or filtering steps (e.g., handling missing values)
+    return df
+
+def load_inference_data(csv_path: str) -> pd.DataFrame:
+    """
+    Read the CSV file containing inference data.
+    Expected format: a CSV with at least a 'Text' column.
+    Returns a DataFrame for further processing.
+    """
+    df = pd.read_csv(csv_path)
+    # Optional: add cleaning or filtering steps (e.g., drop duplicates, handle missing values)
+    return df
 
 def chunk_text(text: str, chunk_size: int = 200, overlap: int = 20) -> list:
     """
