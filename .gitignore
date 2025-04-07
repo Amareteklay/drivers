@@ -1,0 +1,9 @@
+# Files and folders not being pushed to github go here
+env/
+.ipynb_checkpoints
+__pycache__
+.venv
+Ege_try.py
+dspy_training.ipynb
+.vscode
+*.pyc

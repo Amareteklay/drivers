@@ -1,0 +1,142 @@
+[
+    {
+      "text": "High population density and mobility in urban areas have facilitated the rapid spread of the virus.",
+      "marked_text": "High population density and mobility in urban areas have facilitated (C1) the rapid spread of the virus (E1).",
+      "extracted_pairs": [
+        {
+          "cause": "High population density and mobility in urban areas",
+          "effect": "the rapid spread of the virus",
+          "cause_polarity": "positive",
+          "effect_polarity": "positive",
+          "type": "Type 1"
+        }
+      ]
+    },
+    {
+      "text": "There is no vaccine for Influenza A(H1N1)v infection currently licensed for use in humans. Seasonal influenza vaccines against human influenza viruses are generally not expected to protect people from infection with influenza viruses that normally circulate in pigs, but they can reduce severity.",
+      "marked_text": "There is (C1) no vaccine for Influenza A(H1N1)v infection currently licensed for use in humans (C1). Seasonal influenza vaccines ... not expected to protect people from (E1) infection with influenza viruses that normally circulate in pigs (E1).",
+      "extracted_pairs": [
+        {
+          "cause": "no vaccine for Influenza A(H1N1)v infection currently licensed for use in humans",
+          "effect": "infection with influenza viruses that normally circulate in pigs",
+          "cause_polarity": "negative",
+          "effect_polarity": "negative",
+          "type": "Type 1"
+        }
+      ]
+    },
+    {
+      "text": "Several countries including Cameroon, Ethiopia, Haiti, Lebanon, Nigeria, Pakistan, Somalia, Syria, and the Democratic Republic of Congo are in the midst of complex humanitarian crises with fragile health systems, inadequate access to clean water and sanitation, and insufficient capacity to respond to the outbreaks.",
+      "marked_text": "Several countries ... are in the midst of complex (C1) humanitarian crises (C1) with (E1) fragile health systems (E1), (E1) inadequate access to clean water and sanitation (E1), and (E1) insufficient capacity to respond to the outbreaks (E1).",
+      "extracted_pairs": [
+        {
+          "cause": "humanitarian crises",
+          "effect": "fragile health systems, inadequate access to clean water and sanitation, and insufficient capacity to respond to the outbreaks",
+          "cause_polarity": "negative",
+          "effect_polarity": "negative",
+          "type": "Type 3"
+        }
+      ]
+    },
+    {
+      "text": "Moreover, a low index of suspicion, socio-cultural norms, community resistance, limited community knowledge regarding anthrax transmission, high levels of poverty and food insecurity, a shortage of available vaccines and laboratory reagents, inadequate carcass disposal and decontamination practices significantly contribute to hampering the containment of the anthrax outbreak.",
+      "marked_text": "Moreover, (C1) a low index of suspicion (C1), (C1) socio-cultural norms (C1), (C1) community resistance (C1), (C1) limited community knowledge regarding anthrax transmission (C1), (C1) high levels of poverty and food insecurity (C1), (C1) a shortage of available vaccines and laboratory reagents (C1), (C1) inadequate carcass disposal and decontamination practices (C1) significantly contribute to hampering (E1) the containment of the anthrax outbreak (E1).",
+      "extracted_pairs": [
+        {
+          "cause": "a low index of suspicion; socio-cultural norms; community resistance; limited community knowledge regarding anthrax transmission; high levels of poverty and food insecurity; a shortage of available vaccines and laboratory reagents; inadequate carcass disposal and decontamination practices",
+          "effect": "the containment of the anthrax outbreak",
+          "cause_polarity": "negative",
+          "effect_polarity": "negative",
+          "type": "Type 3"
+        }
+      ]
+    },
+    {
+      "text": "The risk of insufficient control capacities is considered high in Zambia due to concurrent public health emergencies in the country (cholera, measles, COVID-19) that limit the country’s human and financial capacities to respond to the current anthrax outbreak adequately.",
+      "marked_text": "The risk of insufficient control capacities is considered high in Zambia due to (C1) concurrent public health emergencies in the country (cholera, measles, COVID-19) (C1) that limit the country’s human and financial capacities to respond to the current anthrax outbreak adequately (E1).",
+      "extracted_pairs": [
+        {
+          "cause": "concurrent public health emergencies (cholera, measles, COVID-19)",
+          "effect": "limit the country’s human and financial capacities to respond to the current anthrax outbreak",
+          "cause_polarity": "negative",
+          "effect_polarity": "negative",
+          "type": "Type 1"
+        }
+      ]
+    },
+    {
+      "text": "Surveillance systems specifically targeting endemic transmission of chikungunya or Zika are weak or non-existent, leading to misdiagnosis between diseases & skewed surveillance, which in turn misinforms policy decisions and reduces the accuracy on the estimation of the true burden of each disease.",
+      "marked_text": "Surveillance systems ... are weak or non-existent (C1) leading to (E1) misdiagnosis between diseases & skewed surveillance (E1), which in turn misinforms (E2) policy decisions (E2) and (E2) reduces the accuracy on the estimation of the true burden of each disease (E2).",
+      "extracted_pairs": [
+        {
+          "cause": "weak or non-existent surveillance systems",
+          "effect": "misdiagnosis between diseases, skewed surveillance, misinformed policy decisions, and reduced accuracy on the estimation of the true burden of each disease",
+          "cause_polarity": "negative",
+          "effect_polarity": "negative",
+          "type": "Type 2"
+        }
+      ]
+    },
+    {
+      "text": "Changes in the predominant circulating serotype increase the population risk of subsequent exposure to a heterologous DENV serotype, which increases the risk of higher rates of severe dengue and deaths.",
+      "marked_text": "(C1) Changes in the predominant circulating serotype (C1) -> (E1, C2) increase the population risk of subsequent exposure to a heterologous DENV serotype (E1, C2) -> (E2) which increases the risk of higher rates of severe dengue and deaths (E2).",
+      "extracted_pairs": [
+        {
+          "cause": "Changes in the predominant circulating serotype",
+          "effect": "increase the population risk of subsequent exposure to a heterologous DENV serotype",
+          "cause_polarity": "positive",
+          "effect_polarity": "positive",
+          "type": "Type 4"
+        },
+        {
+          "cause": "increase the population risk of subsequent exposure to a heterologous DENV serotype",
+          "effect": "which increases the risk of higher rates of severe dengue and deaths",
+          "cause_polarity": "positive",
+          "effect_polarity": "positive",
+          "type": "Type 4"
+        }
+      ]
+    },
+    {
+      "text": "The sudden appearance of unlinked cases of mpox in South Africa without a history of international travel, the high HIV prevalence among confirmed cases, and the high case fatality ratio suggest that community transmission is underway, and the cases detected to date represent a small proportion of all mpox cases that might be occurring in the community; it is unknown how long the virus may have been circulating. This may in part be due to the lack of early clinical recognition of an infection, potential pauci-symptomatic manifestation of the disease, or delays in care-seeking behaviour due to limited access to care or fear of stigma.",
+      "marked_text": "The sudden appearance of unlinked cases of mpox in South Africa without a history of international travel, the high HIV prevalence among confirmed cases, and the high case fatality ratio suggest that (E1) community transmission (E1) is underway, and the cases detected to date represent a small proportion of all mpox cases that might be occurring in the community; it is unknown how long the virus may have been circulating. This may in part be due to the (C1) lack of early clinical recognition of an infection (C1) with which South Africa previously gained little experience during the ongoing global outbreak, potential (C1) pauci-symptomatic manifestation of the disease (C1), or (C1, E2) delays in care-seeking behaviour (C1, E2) due to (C2) limited access to care (C2) or (C2) fear of stigma (C2).",
+      "extracted_pairs": [
+        {
+          "cause": "lack of early clinical recognition of an infection",
+          "effect": "community transmission",
+          "cause_polarity": "negative",
+          "effect_polarity": "positive",
+          "type": "Type 4"
+        },
+        {
+          "cause": "pauci-symptomatic manifestation of the disease",
+          "effect": "community transmission",
+          "cause_polarity": "negative",
+          "effect_polarity": "positive",
+          "type": "Type 4"
+        },
+        {
+          "cause": "delays in care-seeking behaviour",
+          "effect": "community transmission",
+          "cause_polarity": "negative",
+          "effect_polarity": "positive",
+          "type": "Type 4"
+        },
+        {
+          "cause": "limited access to care",
+          "effect": "delays in care-seeking behaviour",
+          "cause_polarity": "negative",
+          "effect_polarity": "negative",
+          "type": "Type 4"
+        },
+        {
+          "cause": "fear of stigma",
+          "effect": "delays in care-seeking behaviour",
+          "cause_polarity": "negative",
+          "effect_polarity": "negative",
+          "type": "Type 4"
+        }
+      ]
+    }
+  ]
+  
