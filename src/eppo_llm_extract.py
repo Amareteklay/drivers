@@ -111,9 +111,9 @@ class EPPOExtractor:
                 raw_json = raw_json.removeprefix("```json").strip()
             if raw_json.endswith("```"):
                 raw_json = raw_json.removesuffix("```").strip()
-            print(
-                "🧪 Raw Response:", raw_json[:500]
-            )  # Print just the first 500 chars for safety
+            # print(
+            #     "🧪 Raw Response:", raw_json[:500]
+            # )  # Print just the first 500 chars for safety
             try:
                 extracted_data = json.loads(raw_json)
             except json.JSONDecodeError as je:
