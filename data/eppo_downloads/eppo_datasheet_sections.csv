@@ -1,0 +1,2465 @@
+DocumentID,Full Name,Section Title,Section Content
+LIBEAF,'Candidatus Liberibacter africanus',IDENTITY,"Preferred name:
+'Candidatus Liberibacter africanus'
+Authority:
+Jagoueix, Bové & Garnier
+Taxonomic position:
+Bacteria: Proteobacteria: Alphaproteobacteria: Rhizobiales: Phyllobacteriaceae
+Other scientific names:
+Citrus greening bacterium (heat-sensitive strain)
+,
+Liberibacter africanum
+,
+Liberibacter africanus
+Common names in English:
+greening of citrus
+view more common names online...
+Notes on taxonomy and nomenclature
+The disease name ‘greening’ was the first English name adopted by the scientific literature probably because of the influence of South Africa research, as it was the disease name in that country. In 1995 the International Organization of Citrus Virologists (IOCV) decided to adopt the original Chinese name of ‘huanglongbing’ as official (Gottwald, 2010). The acronym HLB is also widely used in the literature.
+For many years, abiotic factors such as mineral deficiencies (or toxicities) and water logging were thought to be the causes of huanglongbing. In the 1960s, it was suspected that the causal agent was a virus or a mycoplasma-like organism (MLO). The discovery by transmission electron microscopy of cell-walled bacteria in affected plants demonstrated that true bacteria were present (Laflèche & Bové, 1970; Gottwald
+et al.
+, 2007).
+Three taxonomic entities are currently associated with huanglongbing symptoms. They are all fastidious, phloem-limited, Gram-negative bacteria with a peptidoglycan-containing cell wall (Moll and Martin, 1973; Garnier
+et al.,
+1984). Molecular and phylogenetic analyses have demonstrated that they belong to the family Phyllobacteriaceae. The first proposed names were
+‘Candidatus
+Liberobacter africanum’ and ‘
+Candidatus
+Liberobacter asiaticum' Jagoueix, Bové & Garnier (Jagoueix
+et al.
+, 1994). They were then changed to '
+Candidatus
+Liberibacter africanus
+’
+and ‘
+Candidatus
+Liberibacter asiaticus' to follow the rules of the International Code of Nomenclature of Bacteria (Garnier
+et al.,
+2000). In 2005, a third species was found in Brazil and called ‘
+Ca
+. Liberibacter americanus’ (Teixeira
+et al.
+, 2005 b). As these bacteria have not yet been cultivated in axenic culture, the Koch’s postulates have not been fulfilled to confirm that they are the causal agents of the disease. Consequently, according to the rules of taxonomy they must be named ‘
+Candidatus
+,’ an interim taxonomic status. In the past, two forms of the disease were reported: a heat-tolerant ‘Asian form’ now identified as ‘
+Ca
+. Liberibacter asiaticus’, and a heat-sensitive ‘African form’ now identified as ‘
+Ca.
+Liberibacter africanus’. ‘
+Ca
+. Liberibacter americanus’ has also been shown to be heat sensitive (Lopes
+et al.,
+2009 b).
+Several subspecies have also been proposed. In 1995 a new strain was detected in
+Calodendrum capense
+from South Africa and named '
+Candidatus
+Liberibacter africanus subsp. capensis
+’
+(Garnier
+et al.
+, 2000). More recently, four new subspecies have been proposed: ‘
+Candidatus
+Liberibacter africanus subsp. clausenae’, ‘
+Candidatus
+Liberibacter africanus subsp. vepridis’, ‘
+Candidatus
+Liberibacter africanus subsp. zanthoxyli’ and ‘
+Candidatus
+Liberibacter africanus subsp. teclae’ (Roberts
+et al.
+, 2015; Roberts & Pietersen, 2017) but they are not considered as validly published.
+EPPO Categorization:
+A1 list
+EU Categorization:
+A1 Quarantine pest (Annex II A)
+view more categorizations online...
+EPPO Code:
+LIBEAF"
+LIBEAF,'Candidatus Liberibacter africanus',HOSTS,"The three species of ‘
+Ca
+. Liberibacter’ infect species of
+Citrus
+and other genera within the Rutaceae family. There is no available information about differences in host range between ‘
+Ca
+. Liberibacter asiaticus’ and ‘
+Ca
+. Liberibacter africanus’, and consequently the host list is the same for these two species (ANSES, 2019; EFSA, 2019). Both can multiply and colonize many
+Citrus
+spp., but the most severe symptoms are found on sweet orange (
+C. sinensis
+), mandarin (
+C. reticulata
+) and tangelo (
+C. reticulata x C. paradisi
+). Somewhat less severe symptoms are found on lemon (
+C. limon
+), grapefruit (
+C. paradisi
+), Rangpur lime (
+C. limonia
+), Palestinian sweet lime (
+C. limettioides
+), rough lemon (
+C. jambhiri
+), kumquat (
+Fortunella
+spp.) and citron (
+C. medica
+) (McClean & Schwarz, 1970). Symptoms are even weaker on lime (
+C. aurantiifolia
+) and pummelo (
+C. grandis
+).
+Some citrus-related plants have been confirmed as hosts for the disease, namely
+Severinia
+buxifolia
+,
+Limonia acidissima
+and
+Vepris lanceolata
+(ANSES, 2019). The ornamental Rutaceae,
+Murraya paniculata,
+is a very important host for ‘
+Ca.
+Liberibacter asiaticus’ in American countries and
+M. koenigii
+(
+Bergera koenigii
+) is also recorded as a host in other countries. There is some confusion concerning the taxonomic distinction between
+M. paniculata
+and
+Murraya exotica
+, the latter being more susceptible to bacterial infection and more attractive to the vector
+Diaphorina citri
+.
+Other species of Rutaceae have been infected by experimental inoculation, but apparently there are no records of natural infections. Both bacterial species have been experimentally transmitted by
+Cuscuta campestris
+, from citrus to the following non-rutaceous hosts:
+Catharanthus roseus, Nicotiana glauca, N. tabacum
+and
+Solanum lycopersicum
+(Garnier and Bové, 1983; ANSES, 2019; EFSA, 2019).
+For ‘
+Ca
+. Liberibacter americanus’, data are scarce, and it has only been reported on sweet orange (
+C. sinensis
+), mandarin (
+Citrus reticulata
+), tangor (
+C. reticulata
+x
+C. sinensis
+) and
+M. paniculata
+(Bové 2006; Lopes
+et al.
+2010).
+In summary, genera of Rutaceae with species affected by huanglongbing are:
+Atalantia, Balsamocitrus, Calodendron, Citroncirus, Citroncirus x (Citrange), Citrofortunella, Citrus, Citrus x Limonia, Citrus x Tangelo, Clausena, Fortunella, Limonia, Murraya, Poncirus, Severinia, Swinglea, Toddalia
+and
+Vepris.
+In addition, weeds of non Rutaceae plants such as some in the genera
+Cleome
+,
+Pisonia, Pithecellobium, Trichostigma
+and
+Triphasia
+may also be considered as hosts, since in Jamaica or China, species of these genera have been found infected in huanglongbing affected orchards (ANSES, 2019; EFSA, 2019 b).
+Host list:
+Calodendrum capense
+,
+Citroncirus
+,
+Citrus maxima
+,
+Citrus medica
+,
+Citrus reticulata
+,
+Citrus trifoliata
+,
+Citrus x aurantiifolia
+,
+Citrus x aurantium var. paradisi
+,
+Citrus x aurantium var. sinensis
+,
+Citrus x aurantium
+,
+Citrus x limon var. limettioides
+,
+Citrus x limon
+,
+Citrus x limonia var. jambhiri
+,
+Citrus x limonia
+,
+Citrus x tangelo
+,
+Citrus
+,
+Clausena anisata
+,
+Fortunella
+,
+Rutaceae
+,
+Vepris gerrardii
+,
+Vepris lanceolata
+,
+Zanthoxylum sp.
+,
+x Citrofortunella microcarpa"
+LIBEAF,'Candidatus Liberibacter africanus',GEOGRAPHICAL DISTRIBUTION,"Huanglongbing was probably first observed in Asia in the 18th century when a severe disease of unknown origin called ‘citrus dieback’ was recorded in the central provinces of India. Then, in 1919, a disease causing yellowing and leaf mottle symptoms was reported in Southern China as present since the late 19th century and farmers called it ‘huanglongbing’ that means yellow shoot disease. Similar symptoms were reported in Pakistan in 1927 and in Southern China in 1943 (Gottwald
+et al
+., 2007). From the 1920s, this new citrus disease was also described in several other Asian countries (Philippines, Taiwan, Indonesia), as well as in other areas of China. During the same period, in 1928 similar disorders were reported in South Africa as ‘yellow branch disease’, later called ‘greening’, and afterwards reported in other African countries. For decades, huanglongbing (or greening) has been considered limited to Asian and African countries, but in 2004 it was found in Brazil and in 2005 in Florida (USA). In the following years, it was also found in other USA states and many American countries (Bové, 2006; Dala-Paula
+et al
+., 2019).
+The available information about the geographical distribution does not always indicate if the species identified in each country was asiaticus or africanus, especially in the old literature. The Mediterranean area and most of the Middle East, Australia, New Zealand, New Caledonia and small Pacific islands are still free from the disease (Duran-Vila
+et al.
+, 2014; Siverio
+et al
+.,2017).
+Regarding disease vectors,
+Diaphorina citri
+(EPPO/CABI, 1996 b) has not been reported in the EPPO region, but
+Trioza erytreae
+(EPPO/CABI, 1996 a) is present with restricted distribution in Spain, (including Canary Islands), and in Portugal, (including Madeira Island) (Pérez-Otero
+et al
+., 2015; Siverio
+et al
+., 2017; Arenas-Arenas
+et al.
+, 2018).
+The map below shows the world distribution of '
+Ca
+. Liberibacter africanus'. Click on the links to view the distributions of ‘
+Ca
+. Liberibacter americanus
+’ and
+‘Ca. Liberibacter asiaticus’
+.
+Africa:
+Angola, Burundi, Cameroon, Central African Republic, Eswatini, Ethiopia, Kenya, Madagascar, Malawi, Mauritius, Nigeria, Rwanda, Saint Helena, Somalia, South Africa, Tanzania, United Republic of, Uganda, Zimbabwe
+Asia:
+Saudi Arabia, Yemen"
+LIBEAF,'Candidatus Liberibacter africanus',BIOLOGY,"Location within the plant
+The three ‘
+Ca
+. Liberibacter’ reside within phloem tissues, being restricted to the inside of sieve tubes (Folimonova and Achor, 2010), although ‘
+Ca
+. Liberibacter asiaticus’ has been reported in companion cells (Fu
+et al.
+, 2015). Systemic infection of the host plant follows the direction of phloem sap translocation, moving in a passive way from leaves to roots, flushes, and fruits. The movement of ‘
+Ca
+. Liberibacter’ occurs primarily in a vertical direction through the sieve pores, rather than horizontally to adjacent sieve tubes (Wang
+et al.
+, 2017). Bacterial infection causes accumulated starch in the sieve elements, ultrastructural changes of phloem tissue, plugged sieve pores, and eventually phloem disruption (da Graça
+et al.,
+2016). The bacteria multiply very well within the roots suggesting that early invasion of roots by these bacteria leads to root decline before the appearance of foliar symptoms (Johnson
+et al.,
+2014).
+Transmission
+In 1956, Lin described the symptoms of the disease in China and in 1963 demonstrated the graft transmissibility of the disease (Zheng
+et al
+., 2018). Later, this was confirmed in South Africa, as well as the transmission by the African citrus psyllid,
+T. erytreae
+(McClean & Oberholzer, 1965). Almost at the same time, experiments in India and the Philippines demonstrated that another psyllid,
+D. citr
+i (Capoor
+et al.
+, 1967) was also a vector of the disease in Asia. More recently,
+Cacopsylla
+citrisuga
+(Cen
+et al.
+, 2012) and
+Diaphorina
+communis
+(Donovan
+et al.
+, 2012), have also been reported as potential vectors of the disease. The two main psyllid vectors feed from the phloem sap of infected hosts and acquire the bacteria predominately from young shoots (EFSA, 2019 b). Then, they are disseminated into the plant, but with an heterogenous distribution among the different organs. Once acquired, the bacteria remain in the hemolymph and the psyllid retains the ability to transmit the bacteria in a persistent manner throughout its lifespan.
+Tolerance to temperature
+The three Liberibacter species present differences in their tolerance to temperature and transmission by psyllid vectors. ‘
+Ca
+. Liberibacter africanus’, transmitted by
+T. erytreae
+is heat-sensitive and disease symptoms do not develop in climates where temperatures above 30°C are reached several hours a day (Bové
+et al.
+, 1974). ‘
+Ca
+. Liberibacter asiaticus’ which is present in Asia and America, is heat-tolerant and withstands high temperatures, its optimum ranging from 24 to 32°C and is transmitted by
+D. citri
+. Experimentally and also naturally in some countries
+T. erytreae
+and
+D. citri
+can also transmit the Asian and African forms, respectively (Massonié
+et al.
+, 1976; Lallemand
+et al.
+, 1986; Ajene
+et al
+., 2020).
+‘
+Ca
+. Liberibacter americanus’ was detected in Brazil with
+D. citri
+as its vector and it can also be transmitted by graft inoculations under greenhouse conditions (Teixeira
+et al.
+, 2005 b).
+Ca
+. Liberibacter americanus’ is heat sensitive and was discovered in central and southern Brazilian regions, where the annual number of hours above 30°C is two to five times lower than that in the extreme northern and western regions. In experimental conditions, trees inoculated with ‘
+Ca
+. Liberibacter asiaticus’ had high bacterial titres and showed symptoms at 32 and 35°C, but not at 38°C, while temperatures of 32°C or above were detrimental to ‘
+Ca
+. Liberibacter americanus’ (Lopes
+et al.
+, 2009 a and b). Mixed infections of two of these species have been also reported (Coletta-Filho
+et al.
+, 2005).
+Epidemics
+Epidemics of huanglongbing are established by introduction of infected plant material followed by natural transmission due to vectors. The unintentional entry of infected plant material establishes the disease in new areas or countries and subsequent unregulated movement of plants can have disastrous consequences. Natural transmission appears to be related to high vector populations and the extensiveness of the inoculum reservoirs. As psyllid migrations appear to be highest when host plants are flushing, natural spread is probably greatest in late spring and perhaps in other periods when new citrus flushes are available and psyllid populations are high (Gottwald
+et al.
+, 2007; Gottwald, 2010).
+At field level, in areas where huanglongbing is present, aggregations of infected trees can be quite large, for example encompassing more than 1 600 trees in Florida (Gottwald
+et al
+., 2007). This does not mean that every tree in these areas will become infected, but that a high proportion of them will be so. Vectors apparently spread the pathogen to either adjacent or nearby trees only a few spaces away. The secondary foci are at variable distance from the main cluster of disease and when vectors move, (naturally for feeding or when disturbed by cultural practices), they occasionally move at least 25 to 50 m (Gottwald, 2010). However, as most of the spatial and temporal data analysed up to now were collected by visual assessments, it is probable that more accurate detection methods will improve the understanding of the disease epidemiology. By using PCR tests, it has been demonstrated that visual assessment largely underestimated disease prevalence. The number of trees found to be infected using PCR tests was more than double the number of positive results from visual assessment (Gottwald, 2010).
+The spatial and temporal dynamics of the bacterial species associated with huanglongbing in citrus orchards have been investigated in different parts of the world. In South Africa, epidemics of '
+Ca
+. Liberibacter africanus' have been frequently observed in young orchards, in areas where the disease is endemic and where numerous sources of inoculum are present. Studies have shown that in these areas, damage appeared more rapidly in young plants than in older ones, even when insecticide sprays were applied against
+T. erytreae
+. For '
+Ca
+. Liberibacter asiaticus' epidemics, when inoculum pressure and vector levels were high, disease prevalence reached almost 100 % in orchards managed without insecticides within three years after planting. In orchards treated with fenobucarb and imidacloprid, disease prevalence reached more than 70 % and 20 %, respectively. Similarly, in North and South American countries, the prevalence of symptomatic trees in new citrus plantations, surrounded by older and heavily affected blocks, reached 20% two years after plantation and 70% within five years (Gottwald, 2010).
+Related to the co-habitation of several bacterial species in the same area, soon after the discovery of ‘
+Ca.
+Liberibacter americanus’ in São Paulo, Brazil in 2004 (Coletta-Filho
+et al
+., 2004), '
+Ca
+. Liberibacter asiaticus' was detected in a small number of samples and ‘
+Ca
+. Liberibacter americanus’ in 95 % of symptomatic trees tested (Teixeira
+et al.
+, 2005 b). However, four years later, the situation had reversed, and most symptomatic trees when tested were found to be infected only with ‘
+Ca
+. L. asiaticus’ (Lopes
+et al.
+, 2009 b).
+Reviews of huanglongbing have been provided by McClean & Schwarz (1970), da Graça (1991), Da Graça & Korsten (2004), Bové (2006), Gottwald
+et al.
+(2007), Gottwald (2010), da Graça
+et al.
+(2016), Zheng
+et al
+. (2018), Li
+et al.
+(2020) among others."
+LIBEAF,'Candidatus Liberibacter africanus',DETECTION AND IDENTIFICATION,"Symptoms
+On infected plants, symptoms are expressed after a variable period of time after infection (from one to three years) which depends on several factors (e.g. initial bacterial inoculum, time of infection, environmental conditions, tree age, species/cultivar, sanitary status of the tree). Symptoms generally appear faster in young trees (Gottwald
+et al.
+, 2007). The general aspect of citrus trees affected by huanglongbing is open growth, stunting, twig dieback, sparse yellow foliage, and severe fruit drop. Certain symptoms are described as more frequently observed in some countries, such as in China, where leaf symptoms were seen initially on one limb of the tree causing yellow branch; or in South Africa where the disease is currently called greening because of the poorly coloured fruits and the inversion of colouration when maturing. Symptoms develop relatively slowly, and infected trees gradually decline in vigour and yield, and remain stunted or eventually die. The disease develops irregularly so that individual trees may show a mixture of normal and diseased sectors (Bové, 2006; Gottwald
+et al.
+, 2007; CABI, 2018; EFSA, 2019b). Symptoms are generally the same for the three ‘
+Ca
+. Liberibacter’ species, although the Asian form is considered associated to more severe symptoms, because dieback can be more extensive and eventually resulting in tree death.
+Phytoplasmas of several groups (16SrI, 16SrII, 16SrIII, 16SrVI and 16SrIX) have been reported associated with huanglongbing symptoms in Brazil, China, India, and Mexico (Wulff
+et al
+., 2019). Zinc and copper deficiency may also cause symptoms similar to those described below.
+On fruits
+On infected plants, some fruits are under-developed and sometimes poorly coloured (greening). They often fail to develop normal fruit colour because at the time when the fruit changes from green to orange, affected fruit show colour inversion: the peduncular end of the fruit turns orange, while the stylar end is still green, whereas on normal fruit the coloration starts first at the stylar end. There is early fruit drop from affected branches reducing fruit harvest. Fruits from affected plants are smaller, lighter, and more acidic. They also have a bitter and salty taste and the juice quality is severely affected, making the fruits not exploitable for the industry. Inside, the columella is curved causing the fruit to be distorted and lopsided. Seeds in the affected fruit are usually abortive.
+On leaves
+Symptoms usually first appear as leaf yellowing followed by mottling and chlorosis in one shoot or sector of the tree. Later, leaf symptoms resemble nutritional deficiencies (zinc, copper, or manganese) but may vary depending on the bacterial strain. The larger leaves on the base of branches turn yellow along the main and secondary veins and later change to a blotchy-mottle. As the discoloration spreads away from the veins, the leaves become pale to light yellow with unevenly distributed dark green areas. Leaves on weak terminal twigs are small, up-right and show a variety of chlorotic patterns. This is the most characteristic foliar symptom, because the two halves of the leaf patterns of yellow and green areas are asymmetric, in contrast with the nutrient deficiencies, that are symmetric. Mature leaves often show irregular patches between the main veins. The veins are often prominent and yellow. Frequently, there is abundant leaf drop.
+On trunk, limbs, and shoots
+Twig dieback is abundant in chronically infected trees, but no symptoms are apparent on trunk. Histological symptoms are localized zones of necrotic phloem scattered through the vascular system of the leaf. Massive accumulation of starch in the plastids is observed together with aberrations in cambial activity and excessive phloem formation.
+Morphology
+The huanglongbing associated bacteria are variable in morphology but mainly are elongated sinuous rod-like structures, around 0.1-0.2 µm in diameter and around 1-2 µm long, but round forms of larger diameter can also be found (CABI, 2018). The bacterial cells can be observed by electron microscopy in the phloem of infected trees and in both vectors showing in thin-sections a characteristic double-membrane cell envelope (Garnier
+et al.
+, 1984).
+Sequences of the three associated species have been published and they have a small genome that range from 1.1 to 1.2 Mb with a low GC content below 37 %. The average nucleotide identity (ANI) values between different strains of the same species are above 99 % and below 81% among the different species. Although genomic sequences of the three species are quite different the effect on the plants are similar, even if ‘
+Ca
+. Liberibacter asiaticus’ is generally causing more severe symptoms. Complete type I secretion systems (T1SS) and one of its putative substrates such as serralysin have been identified in ‘
+Ca
+. Liberibacter asiaticus’ and ‘
+Ca
+. Liberibacter africanus’ but not in ‘
+Ca
+. Liberibacter americanus’. A complete general secretory pathway (Sec) is present in the three liberibacters but significant differences among them have been identified in its putative substrates. Moreover, differences on the genes involved in lipopolysaccharides (LPSs) of the three liberibacters that might affect their induction of host plant defence have been also identified. As well, ‘
+Ca
+. Liberibacter asiaticus’ and ‘
+Ca
+. Liberibacter africanus’ show differences in flagella regulators as compared to ‘
+Ca
+. Liberibacter americanus’, that maybe be also connected to a different induction of plant defences (Wang
+et al.
+, 2017).
+Detection and inspection methods
+Detailed protocols for surveillance, sampling and detection are indicated in the EPPO Standard PM 9/27 (2020)
+.
+Visual inspection
+Visual symptoms are important for diagnosis in symptomatic plants and visual inspection is a routine method for huanglongbing eradication in countries where the disease is present, as well as for its surveillance in countries or areas where it is not present. Surveys must be carried out carefully, all trees in an orchard should be examined one by one, and a few minutes must be spent at each tree. The scouts in charge of the surveys should work in pairs, so that each tree is examined by the two scouts, one on each side of the row. In the case of orchards with adult trees, it is essential to examine the top of the trees. For this reason, in Brazil, high towers have been built onto tractors to permit efficient observation of treetops (Bové, 2006). Finally, once affected trees have been identified, they should be removed as quickly as possible.
+Yellow shoot and blotchy mottle on leaves are considered the most typical symptoms and can be used in field surveys as part of an initial diagnosis. However, some symptoms can be confused with nutritional disorders, deficiencies or with other
+diseases, because
+Citrus tristeza virus
+, stubborn, citrus blight, Australian citrus dieback,
+Phytophthora spp.
+, waterlogging or the use of marcots can produce similar blotchy mottle patterns, according to CABI (2018). A pest survey card on huanglongbing was prepared in the context of the EFSA mandate on plant pest surveillance, upon request by the European Commission to assist the Member States in planning annual survey activities (EFSA, 2019 a).
+Symptoms of the infected trees in the aerial part are not always easy to distinguish from those due to other citrus diseases or abiotic factors. Yellow shoots, leaf blotchy mottle and lopsided fruits with colour inversion and aborted seeds, are quite specific but they do not always appear together on the same tree, and they can be distorted or masked by symptoms of other origins. In addition, trees can be latently infected for some months and the symptoms can appear even one or more years after infection (Lee
+et al.
+, 2015). Consequently, visual inspections can lead to false positives and negatives and complementary diagnosis (for symptomatic plants) or detection methods (for asymptomatic plants), in the laboratory and/or greenhouse must be performed.
+Detection in plants
+Different tools have been developed over time for the detection and/or identification of huanglongbing associated agents and are described with details and recommendations in the EPPO Standard PM 7/121 (EPPO, 2021). However, the low bacterial concentration in host plants and their uneven distribution may render their detection difficult (Gottwald, 2010). In the leaves the detection maybe problematic due to the spatial and seasonal patterns of pathogen movement in the plant (Wang
+et al
+., 2017). Another difficulty is also that the bacteria associated with huanglongbing have not been cultured yet. Several reports claiming successful culture can be found in the literature, but there is still no experimental evidence to demonstrate that the described cultured organisms were really the causal agent of huanglongbing. However, studies indicating that the bacterium can be maintained in a biofilm form (but not yet in axenic culture) could be considered as a first step towards real isolation (Ha
+et al.
+, 2019).
+For many years, electron microscopy was used as a diagnostic method, and is still useful to confirm the presence of the characteristic bacteria in the sieve tubes of trees presenting suspicious symptoms. In the late 1980s an enzyme-linked immunosorbent assay (ELISA) and an immunofluorescence test were developed. The presence of a specific fluorescent marker, gentisoyl glucoside in infected tissue was also used for detection. Biological indexing was employed for testing, as suspect material may be grafted onto sensitive indicator plants. Preferred indicator plants are Orlando tangelo and sweet orange seedlings.
+More recently, several molecular methods have been developed for the detection and identification of the bacteria associated with huanglongbing. Conventional PCR is still used in some laboratories as screening test and for confirmation purposes for symptomatic material. For detection of ‘
+Ca
+. Liberibacter africanus’ and ‘
+Ca
+. Liberibacter asiaticus’ by conventional PCR, two sets of primers can be used (Jagoueix
+et al.
+, 1996 and Hocquellet
+et al.
+, 1999) and for ‘
+Ca
+. Liberibacter americanus’ another set has been developed (Teixeira
+et al.
+, 2005 a). Conventional PCR can be also used for doubtful samples or for the first description of the disease in a new area.
+However, real-time PCR is currently the preferred method for detecting these pathogens because of its high sensitivity and lower risk of contamination. Bertolini
+et al.
+(2014) developed a tissue-print (for plants) or squash (for vectors) methodology for performing a direct real-time PCR without the need of previous DNA extraction for detecting any ‘
+Candidatus
+Liberibacter’ from symptomatic samples or suspected plants as well as for vectors in surveys; the samples can be directly imprinted in the field and sent by conventional mail to a laboratory to be processed (the imprints are non-infective samples). It is useful as a first screening and a good alternative for being used in the current situation of the EPPO countries in which the disease is still absent. The positive detections should be followed by specific real-time or conventional PCRs for the three huanglongbing associated bacteria and sequencing of the amplicons, to avoid false positives. Such method is well adapted to the countries where any of these bacteria has been detected and when the most important criterium is to avoid false negatives. It is simple, safe, and sensitive enough to be used for processing large numbers of symptomatic or suspected plants in surveys.
+The real-time PCR based test using the TaqMan probe described by Li
+et al.
+(2006), is also very sensitive and it shows acceptable exclusivity and inclusivity criteria in the detection of these bacteria and Fu
+et al.
+(2019) also used the tissue printing system coupled with such real-time PCR with excellent results. For species identification, the primers and TaqMan probe described by Li
+et al.
+(2006); Morgan
+et al.
+(2012); Carlos
+et al.
+(2006); Teixeira
+et al.
+(2008) are also useful but all these protocols require a previous DNA extraction of the sample.
+Detection in vectors
+The different ‘
+Ca
+. Liberibacter’ associated to huanglongbing can also be detected in their psyllid vectors. Bertolini
+et al.
+(2014) developed a squash assay for individual psyllids followed by real-time PCR for
+T. erytreae
+and
+D. citri.
+Such methodology has been used in surveys conducted in Spain by Siverio
+et al
+. (2017). In the USA,
+‘Ca
+. Liberibacter asiaticus’ has been found in
+D. citri
+several months or even years before symptoms appeared on infected plants (Manjunath
+et al.
+, 2008). In California (USA), the detection of the bacteria in
+D. citri
+was successfully used during the first surveys for the disease (Kumagai
+et al.
+, 2013). Testing psyllids has also proven valuable in assessing the status of plants for sale. Positive psyllids were found on average 9 months prior to the discovery of positive‐testing symptomatic plants in retail venues (Halbert
+et al.
+, 2012)."
+LIBEAF,'Candidatus Liberibacter africanus',PATHWAYS FOR MOVEMENT,"As the bacteria associated to huanglongbing are limited to the plant phloem, movement of infected host plant material (seedlings, plants, grafts, and rootstocks) are the main pathways for entry and spread over short and long distances (primary introduction). It is also considered that cut flowers, branches, foliage of host plants (in particular,
+Murraya paniculata
+and
+Citrus hystrix)
+can also be a pathway (ANSES, 2019). No transmission through seeds or fruits has been demonstrated yet. Hartung
+et al.
+, (2010) and Hilf (2011) found no evidence of seed transmission in hundreds of tested seedlings from seed collected from symptomatic fruit, although PCR tests on the fruit and seeds of infected plants (from which the seeds were used to produce the seedlings) were positive.
+The psyllid vectors,
+T. erytreae
+and
+D. citri
+are responsible for disease spread over short and long distances (secondary spread), because they can both spread the disease between plants and also travel with the plants (da Graça
+et al.
+, 2016; ANSES, 2019; EFSA, 2019 b). In Florida (USA), infected samples of
+D. citri
+were found on oranges in fruit trailers, the insects were distributed throughout the loads on the fruit itself and not on accompanying plant debris (Halbert
+et al
+., 2010)."
+LIBEAF,'Candidatus Liberibacter africanus',PEST SIGNIFICANCE,"Economic impact
+Huanglongbing is currently regarded as one of the most important socio-economic threats to commercial citrus production at global level. Control measures in the field are difficult because long term resistance is still unknown and chemical-cultural management is technically difficult and expensive. In areas where the disease is endemic or uncontrolled, its progression within orchards can be relatively rapid. It is reported that it can reach more than 95 % of prevalence within 3 to 13 years after the onset of symptoms (Gottwald, 2010). Severe symptoms are always observed 5 to 8 years after planting in areas where abundant populations of bacteriliferous vectors are prevailing. In diseased orchards, yield is reduced and fruit quality is affected. Yield reduction can reach 30 to 100 %, depending on the proportion of affected canopy and may render affected orchards non-economical within seven to ten years after planting. In many countries of America, Asia, and Africa, yield losses and difficulties in maintaining economically viable orchards have forced many growers out of business (Gottwald, 2010; Rasowo
+et al.,
+2019).
+In Asia, where ‘
+Ca.
+Liberibacter asiaticus’ occurs, huge impacts have been reported. A review about the disease in China (Zheng
+et al
+., 2018) shows its enormous consequences for the citrus industry for over a hundred years. In Indonesia, 3 million trees were destroyed between 1960 and 1970 (Tirtawadja, 1980) and 4 million between 1986-1988 (Aubert, 1993). In India and Thailand, the disease was described as widespread and causing catastrophic losses during the 1960s and 1970s (Bové
+et al.
+, 1993; Varma
+et al.
+, 1993). In Saudi Arabia, all sweet oranges and mandarin trees had declined by 1986 leaving only limes (Aubert, 1993). In the Philippines, mandarin production decreased by 85 % in only eight years. In northern Bali, almost 100 % of mandarin trees planted in 1990-91 were severely affected five years later. In most cases, when the diseased trees were replaced, the disease reappeared on the newly planted trees. Almost 100 million trees have been affected and destroyed in many countries of South and Southeast Asia, compromising the local citriculture and large areas of citrus cultivation had to be abandoned (Gottwald, 2010).
+In the Americas, the economic impact has also been dramatic, and the current situation is still difficult, despite the fact that the first detections were made in the 21
+st
+century and the causal agent was well known. In Brazil, five years after the identification of ‘
+Ca.
+Liberibacter asiaticus’ in 2004 (Coletha-Filho
+et al.
+, 2004), more than 4 million trees were eliminated (officially and unofficially by the growers directly) in attempts to limit the dissemination of ‘
+Ca.
+Liberibacter asiaticus and ‘
+Ca
+. Liberibacter americanus’. One year later, the number of symptomatic trees was estimated to be ca. 2 million (ca. 87 %) according to Belasque
+et al.
+(2010). In Florida (USA), costs of cultivation drastically increased since 2005, when the disease was first reported (Spreen
+et al.
+, 2014). The costs of visual inspections of trees increased from 4 to 17 USD/ha and costs of insecticide treatments increased from 240 to 1000 USD/ha per year (Belasque
+et al.,
+2010). The disease also had a very high economic and social impact during the first seven years after its detection. In addition, many packing houses and processing plants closed, with significant declines in employment and it was estimated that losses reached more than 3.63 billion USD in Florida and that more than 6 600 jobs were lost (Hodges & Spreen, 2012).
+The African form, ‘
+Ca.
+Liberibacter africanus’, is considered to be less aggressive than the Asian form. However, da Graça & Korsten (2004) based on past information, reported that 4 out of 11 million trees in South Africa were affected by this disease. Crop losses of 30-100 % had been reported in South Africa during the 20
+th
+century and many of these orchards had subsequently to be abandoned or removed (Buitendag, 1991). In East Africa, surveys In Kenya and Tanzania, showed that it had the greatest impact on citrus production in the cooler highland regions, causing yield losses of 25–100 % (Rasowo
+et al
+., 2019).
+Finally, the economic impact of the disease caused by ‘
+Ca
+. Liberibacter americanus’ in Brazil is difficult to determine due to the lack of data, and the fact that it currently appears to be displaced by the Asian form (CABI, 2018).
+Control
+Control options of huanglongbing have been evaluated for over a hundred years but as the disease situation and dynamics vary among countries, these options have been adapted. Consequently, it should be stressed that there is no universal solution for huanglongbing, but some strategies have been found to be useful in different areas.
+In Africa, control of ‘
+Ca
+. Liberibacter africanus’ during the second part of the 20
+th
+century relied on a combination of measures that were considered the most appropriate for each country (including chemical or biological vector control, trunk injections with tetracycline, pruning, thermotherapy, eradication, use of disease-free planting material, alternative hosts) and this integrated approach obtained relative success (da Graça, 1991; da Graca & Korsten, 2004). In South Africa, where most of the research was performed, removal of infected branches or trees, use of
+Liberibacter
+-free planting material, and control of the psyllid vector were applied (Buitendag & von Broembsen, 1993) with the main emphasis on the effect of systemic insecticides against
+T. erytreae,
+to maintain low psyllid populations.
+In Asia, most research on strategies for a successful control of ‘
+Ca
+. Liberibacter asiaticus’ were carried out in China with a similar approach, by promoting large-scale production of healthy nursery plants, early removal of infected plants in existing orchards, and applying insecticide sprays at critical flushing periods (Ke & Fan, 1990; Zheng
+et al.,
+2018). In the Americas, the most comprehensive example for the management of ‘
+Ca
+. Liberibacter asiaticus’ is provided by the Sao Paulo state in Brazil because it is one of the few regions in the world where control against huanglongbing has been carried out on a large scale by the growers, and found to be successful. It is summarized by Belasque
+et al
+(2010) and based on three principles: (i) inoculum reduction by exhaustive inspections and frequent removal of affected trees, (ii) control of psyllid vector populations by insecticide treatments, to prevent new trees from becoming infected, and iii) replanting with healthy tested plants produced under screen facilities only. Data from farms where the recommended measures have been applied since 2004 showed that the disease can be controlled. But the success was mainly obtained in large farms and it was necessary to apply the recommended measures rigorously. They must be strictly utilised in all the orchards of the area to be efficient. However, in a review on the management practices in Florida (antibiotics, insecticide applications, enhanced foliar nutritional programs, thermotherapy, and biological control), after the analysis of their economic performance and the economic impact of several control options, Li
+et al.
+(2020) concluded that broad-spectrum insecticides provide the only cost-effective strategy for mitigating the high impact of the disease in the conditions of this state.
+An essential part of the integrated control of huanglongbing in all the continents is the use of healthy plant material for replanting after eradication, developing a certification program based on microshoot-tip grafting
+in vitro
+(Navarro & Juárez, 2007; FAO, 2014), and producing plants in protected greenhouses to avoid the presence of vectors.
+The successful management reported in some countries was considered a short-term solution to keep the citrus industry alive while other long-term solutions can be developed for an effective and integrated control of the disease.
+Phytosanitary risk
+In the EPPO region, host plants of huanglongbing are essentially
+Citrus
+species that are intensively cultivated in the Mediterranean basin countries. For the moment, none of the bacteria associated with huanglongbing has been found in the EPPO region, but one of its vectors,
+T. erytreae,
+is already present (in Spain and Portugal, Pérez-Otero
+et al
+., 2015). There is no suggestion that native Mediterranean vectors could exist. If the huanglongbing associated bacteria were introduced in citrus-growing areas of the EPPO region, it is foreseen that tree development, harvest amount and quality would be severely impacted, and that this would ultimately seriously limit the citrus industry. Based on the experience of citrus-producing countries in other parts of the world, many changes quickly take place for the industry when new outbreaks are detected. In the short term, costly eradication, vector control, and nursery certification programs have to be immediately put in place and quarantine restrictions for export probably will appear. Nursery production must be maintained free of the disease, combined with the increased demand due to increasing infected tree removals. This can result in a rapid reduction of citrus production area as diseased trees are continuously removed (Gottwald, 2010) and final consequences are not only economic but also social and environmental. Considering the severity of huanglongbing, it is essential to keep this disease (and its vectors when possible) out of the EPPO region and to prevent their spread in the Middle East."
+LIBEAF,'Candidatus Liberibacter africanus',PHYTOSANITARY MEASURES,"Considering the severity of huanglongbing, EPPO has recommended to prohibit the importation of citrus plants for planting and cut branches or buds of citrus from areas or countries where citrus huanglongbing (or either of its vectors) are present. In the EU, in addition, in areas where
+T. erytreae
+occurs, control is compulsory, and it is prohibited to move plant material from infested areas to pest-free areas. In the EU territory, it is also forbidden to import fruit from third countries with their peduncles and leaves. In disease free countries as those of the Mediterranean area, awareness, monitoring, surveillance, pest risk assessment, quarantine measures and action plans are advised (Duran-Vila
+et al.
+, 2014; Siverio
+et al.
+, 2017). Procedures for official control with the aim of detecting, containing and eradicating huanglongbing and its vectors are provided in the EPPO Standard PM 9/27 (EPPO, 2020)
+.
+As surveys should be carried out in all the EU member countries, a pest survey card was prepared by the European Food Safety Authority (EFSA, 2019) to assist EU Member States in planning their huanglongbing annual survey activities.
+Healthy plant material is essential, and it should be available in the different EPPO countries. It can be obtained from citrus plants grown under quarantine restricted facilities, by using microshoot-tip grafting to produce pathogen-free buds
+in vitro
+. This pathogen-free material should be kept and propagated under insect-proof screenhouses, and its health status checked periodically, preferably by molecular techniques (e.g. real-time PCR) before being released or grafted onto indicator plants. Such a certification scheme is routinely used in Spain and in many countries where citrus are economically important crops (Navarro & Juárez, 2007).
+REFERENCES
+2021-09-01
+Ajene IJ, Khami FM, van Asch B, Pietersen G, Seid N, Rwomushana I, Ombura FLO, Momanyi G, Finyange P, Rasowo BA, Tanga CM, Mohammed S & Ekesi S (2020) Distribution of
+Candidatus
+Liberibacter species in Eastern Africa, and the first report of
+Candidatus
+Liberibacter asiaticus in Kenya.
+Science Reports
+10
+, 3919.
+https://doi.org/10.1038/s41598-020-60712-0
+ANSES (2019)
+Maladie du huanglongbing. Analyse du risque phytosanitaire pour l’Union européenne.
+ANSES, Maisons-Alfort, France
+,
+278 pp.
+Arenas-Arenas FJ, Duran-Vila N, Quinto J & Hervalejo A (2018) Is the presence of
+Trioza erytreae
+, vector of huanglongbing disease, endangering the Mediterranean citrus industry? Survey of its population density and geographical spread over the last years.
+Journal of Plant Pathology
+100
+, 567-574.
+Aubert, B (1993) Citrus greening disease, a serious limiting factor for citriculture in Asia and Africa.
+Proceedings of the 4th Congress of the International Society of Citrus Nurserymen
+, South Africa. 134-142.
+Belasque J, Bassanezi R, Yamamoto P, Ayres AJ, Tachibana A, Violante AR, Tank A Jr, Giorgi F, Tersi FEA, Menezes GM, Dragone J, Tank RH Jr & Bové J (2010) Lessons from huanglongbing management in São Paulo state, Brazil.
+Journal of Plant Pathology
+92
+.
+https://doi.org/10.4454/jpp.v92i2.171
+Bertolini E, Felipe R, Sauer AV, Lopes S, Arilla A, Mourão Filho FFA, Nunes WMC, Bové JM, López MM, Cambra M (2014) Tissue-print and squash real-time polymerase chain reaction for direct detection of ‘
+Candidatus
+Liberibacter’ spp. in citrus plants and insect vectors.
+Plant Pathology
+65
+,
+1142-1158.
+Bové JM (2006) Huanglongbing: A destructive, newly-emerging, century-old disease of citrus.
+Journal of Plant
+Pathology
+88
+, 7-37.
+Bové JM, Calavan ED, Capoor SP, Cortez RE & Schwarz RE (1974) Influence of temperature on symptom of Californian stubborn, South African greening, Indian citrus decline and Philippines leaf mottling disease. In: Weathers LG, Cohen M (eds)
+Proceedings of the 6th Conference of the International Organization of Citrus Virologists.
+IOCV, University of California, Berkeley, USA, pp. 12-15.
+Bové JM, Garnier M, Ahlawat YS, Chakraborty NK & Varma A (1993) Detection of the Asian strains of the greening BLO by DNA-DNA hybridisation in Indian orchard trees and Malaysian
+Diaphorina citri
+psyllids.
+Proceedings of the 12th Conference of the International Organization of Citrus Virologists.
+IOCV, University of California, Riverside, USA, pp. 258-263.
+Buitendag CH (1991) The current status and the control of greening disease of citrus in the Republic of South Africa.
+Citrus Journal
+1
+, 35-40.
+Buitendag & von Broembsen (1993) The African form of huanglongbing could be eliminated from citrus plant material by exposure to extended periods of heat. In: Calavan EC, Garnsey SM, Timmer LW (eds)
+International Organization of Citrus
+Virologists.
+IOCV, University of California, Riverside, USA, pp. 91-97.
+CABI (2018) Citrus huanglongbing disease.
+www.cabi.org/isc/datasheet
+Capoor SP, Rao DG & Viswanath SM (1967)
+Diaphorina cit
+ri Kuwayana, a vector of greening disease of citrus in India.
+Indian Journal of Agricultural Sciences
+37
+, 572-576.
+Carlos EF, Coletta-Filho HD, Targon MLN & Machado MA (2006) Quantitative real-time PCR based on TaqMan probes for the molecular detection of
+Candidatus
+Liberibacter asiaticus and
+Ca
+. L. americanus. In:
+Proceedings of Huanglongbing-Greening International Workshop
+, Ribeirao Preto, Brazil, p 81.
+Cen Y, Zhang L, Xia Y, Guo J, Deng X, Zhou W, Sequeira R, Gao J, Wang Z, Yue J & Gao Y (2012) Detection of ‘
+Candidatus
+Liberibacter asiaticus’ in
+Cacopsylla
+(
+P
+sylla
+)
+citrisuga
+(Hemiptera: Psyllidae).
+Florida Entomologist
+95
+, 304-311.
+Coletta-Filho H, Takita MA, Targon M, & Machado MA (2005) Analysis of 16S rDNA sequences from citrus huanglongbing bacteria reveal a different ‘Ca. Liberibacter’ strain associated with citrus disease in São Paulo.
+Plant Disease
+89
+(8), 848-852.
+Coletta-Filho H, Targon M, Takita M, De Negri J, Pompeu J, & Machado M (2004) First report of the causal agent of Huanglongbing (’Candidatus Liberibacter asiaticus’) in Brazil.
+Plant Disease
+88
+, 12.
+Da Graça JV (1991) Citrus huanglongbing or greening disease.
+Annual Review of Phytopathology
+29
+, 109-136.
+Da Graça JV, Douhan GW, Halbert SE, Keremane ML, Lee RF, Vidalakis G & Zhao H (2016) Huanglongbing: An overview of a complex pathosystem ravaging the world's citrus.
+Journal of Integrative Plant Biology
+58
+, 373-387.
+Da Graça J & Korsten L (2004) Citrus Huanglongbing: Review, present status and future strategies. In: Navqui S (ed)
+Diseases of Fruits and Vegetables: Diagnosis and Management
+1
+, 848-852.
+Dala-Paula BM, Plotto A, Bai J, Manthey JA, Baldwin EA, Ferrarezi RS & Gloria MBA (2019) Effect of huanglongbing or greening disease on orange juice quality, a review.
+Frontiers in Plant Science
+https://doi.org/10.3389/fpls.2018.01976
+Donovan NJ, Beattie GAC, Chambers GA, Holford P, Englezou A, Hardy S, Dorjee, Phuntsho Wangdi, Thinlay & Namgay Om (2012) First report of ‘
+Candidatus
+Liberibacter asiaticus’ in
+Diaphorina communis
+.
+Australian Plant Diseases Notes
+7
+, 1-4.
+Duran-Vila N, Janse JD, Foissac X, Melgarejo P & Bové JM (2014) Addressing the threat of Huanglongbing in the Mediterranean region: a challenge to save the citrus industry.
+Journal of Plant Pathology
+96
+(4supl.), 4-3.
+EFSA (2019 a) Parnell S, Camilleri M, Diakaki M, Schrader G & Vos S. Pest survey card on Huanglongbing and its vectors.
+EFSA Supporting publication
+2019, EN-1574. https://doi.org/doi:10.2903/sp.efsa.2019.EN-1574
+www.efsa.europa.eu/publications
+EFSA (2019 b) Baker R, Gilioli G, Behring C, Candiani D, Gogin A, Kaluski T, Kinkar M, Mosbach-Schulz O, Neri FM, Preti S, Rosace MC, Siligato R, Stancanelli & Tramontini S.
+Candidatus
+Liberibacter - Pest Report and Datasheet to support ranking of EU candidate priority pests [Data set]. Zenodo.
+http://doi.org/10.5281/zenodo.2788905
+EPPO (2020) PM 9/27 (1) National regulatory control systems ‘
+Candidatus
+Liberibacter’ species that are causal agents of Huanglongbing disease of citrus and their vectors: procedures for ofﬁcial control
+. Bulletin OEPP/EPPO Bulletin
+50
+, 122-141.
+https://doi.org/10.1111/epp.12619
+EPPO (2021) PM 7/121 (2) '
+Candidatus
+Liberibacter africanus', '
+Candidatus
+Liberibacter americanus' and '
+Candidatus
+Liberibacter asiaticus'.
+EPPO Bulletin
+51
+(2), 267-282.
+https://doi.org/10.1111/epp.12757
+EPPO/CABI (1996 a)
+Trioza erytreae.
+In:
+Quarantine pests for Europe
+. 2nd edition (Ed. by Smith IM, McNamara DG, Scott PR, Holderness M). CAB INTERNATIONAL, Wallingford, UK.
+EPPO/CABI (1996 b)
+Diaphorina citri.
+In:
+Quarantine pests for Europe
+. 2nd edition (Ed. by Smith IM, McNamara DG, Scott PR, Holderness M). CAB INTERNATIONAL, Wallingford, UK.
+EU (2016) Regulation (EU)
+2016/2031
+of the European Parliament of the Council of 26 October 2016 on protective measures against pests of plants, amending Regulations (EU) No
+228/2013,
+(EU) No
+652/2014
+and (EU) No
+1143/2014
+of the European Parliament and of the Council and repealing Council Directives 69/464/EEC, 74/647/EEC, 93/85/EEC, 98/57/EC, 2000/29/EC, 2006/91/EC and 2007/33/EC
+. Official Journal of the European Union
+23.11.2016,
+L317/4.
+FAO (2014) Project TCP-BZE-3402
+Technical Manual Shoot-tip grafting in vitro to obtain citrus planting material free of graft transmissible pathogens and for the safe movement of citrus budwood
+. FAO, Roma.
+Folimonova SY & Achor DS (2010) Early events of citrus greening (Huanglongbing) disease development at the ultrastructural level.
+Phytopathology
+100
+, 949-958.
+Fu SM, Hartung J, Zhou CY, Su HN, Tan J & Li ZA (2015) Ultrastructural changes and putative phage particles observed in sweet orange leaves infected with ‘
+Candidatus
+Liberibacter asiaticus’.
+Plant Disease
+99
+, 320-324.
+Fu SM, Liu HW, Liu QH, Zhou CY & Hartung JS (2019) Detection of ‘
+Candidatus
+Liberibacter asiaticus’ in citrus by concurrent tissue print-based qPCR and immunoassay.
+Plant Pathology
+68
+, 796-801.
+Garnier M & Bové JM (1983) Transmission of the organism associated with citrus greening disease from sweet orange to periwinkle by dodder.
+Phytopathology
+73
+,
+1358-1363.
+Garnier M, Danel N & Bové JM (1984) Etiology of citrus huanglongbing or greening disease.
+Annales de Microbiologie (Institut Pasteur)
+153A
+, 169-179.
+Garnier M, Jagoueix-Eveillard S, Cronje P, Le Roux H & Bové_JM (2000) Genomic characterization of a liberibacter present in an ornamental Rutaceous tree,
+Calodendrum capense
+, in the Western Cape province of South Africa. Proposal for ‘
+Candidatus
+Liberibacter africanus subs. capensis’.
+International Journal of Systematic and Evolutionary Microbiology
+50
+,
+2119-2125.
+Gottwald TR (2010) Current epidemiological understanding of citrus huanglongbing.
+Annual Review of Phytopathology
+48
+, 119-139
+.
+Gottwald TR, da Graça JV & Bassanezi R (2007) Citrus Huanglongbing: the pathogen and its impact.
+Plant Health Progress
+.
+https://doi.org/10.1094/PHP-2007-0906-01-RV
+Ha PT, He R, Killiny N, Brown J, Omsland A, Gang DR & Beyenal H (2019) Host-free biofilm culture of ´
+Candidatus
+Liberibacter asiaticus´, the bacterium associated with Huanglongbing.
+Biofilm
+1
+, 100005.
+https://doi.org/10.1016/j.bioflm.2019.100005
+Halbert SE, Manjunath K, Ramadugu C & Lee RF (2012) Incidence of huanglongbing‐associated ‘
+Candidatus
+Liberibacter asiaticus’ in
+Diaphorina citri
+(Hemiptera: Psyllidae) collected form plants for sale in Florida.
+Florida Entomol
+ogist
+95
+, 617-624.
+Halbert SE, Manjunath KL, Ramadugu C, Brodie MW, Webb SE & Lee RF (2010) Trailers transporting oranges to processing plants move Asian citrus psyllids.
+Florida Entomologist
+93
+, 33-38.
+Hartung JS, Halbert SE, Pelz‐Stelinski K, Brlansky RH, Chen CX & Gmitter FG (2010) Lack of evidence for transmission of ‘
+Candidatus
+Liberibacter asiaticus’ through citrus seed taken from affected fruit.
+Plant Disease
+94
+,
+1200-1205.
+Hilf ME (2011) Colonization of citrus seed coats by ‘
+Candidatus
+Liberibacter asiaticus’: Implications for seed transmission of the bacterium.
+Phytopathology
+101
+,
+1242-1250.
+Hocquellet A, Toorawa P, Bové JM & Garnier M (1999) Detection and identification of the two
+Candidatus
+Liberobacter species associated with citrus huanglongbing by PCR amplification of ribosomal protein genes of the b operon.
+Molecular and Cellular Probes
+13
+, 373-379.
+Hodges, AW, & Spreen TH (2012)
+Economic impacts of citrus greening (huanglongbing) in Florida, 2006/07-2010/11.
+Electronic data information source (EDIS): FE903. University of Florida. Gainesville, Florida, USA.
+Jagoueix S, Bové JM & Garnier M (1994) The phloem-limited bacterium of huanglongbing or greening disease of citrus is a member of the alpha subdivision of the Proteobacteria.
+International Journal of Systematic Bacteriology
+44
+, 379-386.
+Jagoueix S, Bové JM & Garnier M (1996) PCR detection of the two Candidatus Liberobacter species associated with greening disease of citrus.
+Molecular and Cellular Probes
+10
+, 43-50.
+Johnson EG, Wu J, Bright DB & Graham JH (2014) Root loss on presymptomatic huanglongbing affected trees is preceded by
+Candidatus
+Liberibacter asiaticus root infection but not phloem plugging.
+Plant Pathol
+ogy
+63
+, 290-298.
+Ke C & Fan XC (1990) Successful integrated management of huanglongbing disease in several farms of Guangdong and Fujian, by combining early eradication with targeted insecticide sprayings. In: Aubert B, Tontyaporn S, Buangsuwon D (eds)
+Proceedings of the 4th International Asia Pacific Conference on Citrus Rehabilitation
+, Chiang Mai, Thailand. FAO-UNDP RAS/86/022 Regional Project, pp.145-148.
+Kumagai LB, LeVesque CS, . Blomquist CL,  Madishetty K, Guo Y, Woods PW, Rooney-Latham S, Rascoe J,  Gallindo T, Schnabel D & Polek M (2013) First report of
+Candidatus
+Liberibacter asiaticus associated with citrus huanglongbing in California
+.
+Plant Disease
+97
+, p 283.
+Laflèche D & Bové JM (1970) Structures de type mycoplasma dans les feuilles d’orangers atteints de la maladie du greening.
+Comptes Rendus de l’Académie des Sciences,
+Paris
+270
+,
+1915-1917.
+Lallemand J, Fos A & Bové JM (1986) Transmission de la bactérie associée à la forme africaine de la maladie du 'greening' par le psylle asiatique
+Diaphorina citri.
+Fruits
+41
+, 341-343.
+Lee JA, Halbert SE, Dawson WO, Robertson C, Keesling JE & Singer BH (2015) Asymptomatic spread of huanglongbing and implications for disease control.
+Proceedings National Academy of Science USA
+112
+,
+7605-7610.
+Li W, Hartung JS & Levy L (2006) Quantitative real-time PCR for detection and identification quantification of
+Candidatu
+s Liberibacter species associated with citrus huanglongbing.
+Journal of Microbiological Methods
+66
+, 104-115.
+Li S, Wu F, Duan Y, Singerman A & Guan Z (2020) Citrus Greening: Management strategies and their economic impact.
+Hort Science.
+https://doi.org/10.21273/HORTSCI14696-19
+Lin KH (1956) Observations on yellow shoot on citrus. Etiological studies of yellow shoot on citrus.
+Acta Phytopathologica Sinica
+2
+, 1-42.
+Lopes SA, Bertolini E, Frare GF, Martins EC, Wulff NA, Teixeira DC, Fernandes NG, Cambra M (2009 a) Graft transmission efficiencies and multiplication of ‘
+Candidatus
+Liberibacter americanus’ and ‘
+Ca.
+Liberibacter asiaticus’ in citrus plants.
+Phytopathology
+99
+, 301-306.
+Lopes SA, Frare GF, Bertolini E, Cambra M, Fernandes NG, Ayres A J, Marin D & Bové, JM (2009 b) Liberibacters associated with citrus huanglongbing in Brazil: ‘
+Candidatus
+Liberibacter asiaticus’ is heat tolerant, ‘
+Ca
+. L. americanus’ is heat sensitive.
+Plant Disease
+93
+, 257-262.
+Lopes SA, Frare GF, Camargo LEA, Wulff NA, Teixeira DC, Bassanezi RB, Beattie GAC & Ayres AJ (2010) Liberibacters associated with orange jasmine in Brazil: incidence in urban areas and relatedness to citrus liberibacters.
+Plant Pathology
+59
+,
+1044-1053.
+Manjunath KL, Halbert SE, Ramadugu C, Webb S & Lee RF (2008) Detection of ‘
+Candidatus
+Liberibacter asiaticus’ in
+Diaphorina citri
+and its importance in the management of Citrus huanglongbing in Florida.
+Phytopathology
+98
+, 387-396.
+Massonié G, Garnier M & Bové JM (1976) Transmission of Indian citrus decline by
+Trioza erytreae,
+the vector of South African greening. In: Calavan EC (ed)
+Proceedings of the 7th Conference of the International Organization of Citrus Virologists
+. OICV, University of California, Riverside, USA, pp. 18-20.
+McClean APD & Oberholzer PCJ (1965) Citrus psylla, a vector of the huanglongbing or greening disease of sweet orange.
+South African Journal of Agricultural Science
+8
+, 297-298.
+McClean APD & Schwarz RE (1970) Huanglongbing or greening or blotchy-mottle disease of citrus.
+Phytophylactica
+2
+, 177-194.
+Moll JN & Martin MN (1973) Electron microscope evidence that citrus psylla (
+Trioza erytreae
+) is a vector of citrus huanglongbing or greening in South Africa.
+Phytophylactica
+5
+, 41-44.
+Morgan JK, Zhou L, Li W, Shatters RG, Keremane M &Duan YP (2012) Improved real-time PCR detection of ‘
+Candidatus
+Liberibacter asiaticus’ from citrus and psyllid hosts by targeting the intragenic tandem-repeats of its prophage genes.
+Molecular and Cellular Probes
+26
+, 90-98.
+Navarro L & Juárez J (2007) Shoot-tip grafting in vitro: Impact in the citrus industry and research applications. In: Khan A (ed)
+Citrus Genetics, Breeding and Biotechnology
+. CABI, Wallingford, UK, pp. 353-370.
+Pérez-Otero R, Mansilla JP & del Estal P (2015) Detección de la psila africana de los cítricos,
+Trioza erytreae
+(Del Guercio, 1918) (Hemiptera: Psylloidea: Triozidae), en la Península Ibérica.
+Arquivos Entomoloxicos
+13
+, 119-122.
+Rasowo BA, Khamis FM, Mohamed SA, Ajene IJ, Aidoo OF, Ombura L, Sétamou M,
+Ekesi
+S & Borgemeister C (2019). African citrus greening disease in East Africa: Incidence, severity, and distribution patterns.
+Journal of Economic Entomology
+112,
+2389-2397.
+Roberts R & Pietersen G (2017) A novel subspecies of ‘
+Candidatus
+Liberibacter africanus’ found on native
+Teclea gerrardii
+(Family: Rutaceae) from South Africa
+.
+Antonie van Leeuwenhoek
+110
+, 437-444.
+Roberts R, Steenkamp ET & Pietersen G (2015) Three novel lineages of ‘
+Candidatus
+Liberibacter africanus’ associated with native rutaceous hosts of
+Trioza erytreae
+in South Africa.
+International Journal of Systematic and Evolutionary Microbiology
+65
+, 723-731.
+Siverio F, Marco-Noales E, Bertolini E, Ribeiro G, Peñalver J, Mansilla P, Pérez-Otero O, Abelleira A, Guerra-García A, Hernández E, Cambra M & López MM (2017). Survey of huanglongbing associated with ´
+Candidatus
+Liberibacter´species in Spain: Analyses of citrus plants and
+Trioza erytreae
+.
+Phytopathologia Mediterranea
+56
+, 98-110.
+Spreen TH, Baldwin J-P & Futch SH (2014) An economic assessment of the impact of Huanglongbing on citrus tree plantings in Florida.
+HortScience
+49
+,
+1052-1055.
+Teixeira DC, Danet JL, Eveillard S, Martins EC, Jesus WC Jr, Yamamoto PT, Aparecido Lopes S, Beozzo Bassanezi R, Ayres AJ, Saillard C, Bové JM (2005 a) Citrus huanglongbing in Sao Paulo, Brazil: PCR detection of the Candidatus Liberibacter species associated with the disease.
+Molecular and Cellular Probes
+19
+, 173-179.
+Teixeira DC, Saillard C, Couture C, Martins E, Wulff NA, Eveillard S, Jagoueix S, Yamamoto PT, Ayres AJ Bové JM (2008) Distribution and quantification of ‘
+Candidatus
+Liberibacter americanus’, agent of huanglongbing disease of citrus in Sao Paulo State, Brazil, in leaves of an affected sweet orange tree as determined by PCR.
+Molecular and Cellular Probes
+22
+, 139-150.
+Teixeira D C, Saillard C, Eveillard S, Danet JL, da Costa PI, Ayres AJ & Bové J (2005 b) ""
+Candidatus
+Liberibacter americanus”, associated with citrus huanglongbing (greening disease) in Sao Paulo State, Brazil
+.
+International Journal of Systematic and Evolutionary Microbiology
+55
+,
+1857-1862.
+Tirtawadja S (1980) Citrus virus research in Indonesia. In: Calavan E, Garnsey S, Timmer L (eds.)
+Proceedings of the 8th Conference of the International Organisation of Citrus Virologists
+. IOCV, University of California, Riverside, USA, p 129.
+Varma A, Ahlawat YS, Chakraborty NK, Garnier M & Bové JM (1993) Detection of the greening BLO by electron microscopy, DNA hybridization and ELISA in citrus leaves with and without mottle from various regions in India. In: Moreno P, da Grata JV, Timmer LW (eds.)
+Proceedings of the 12th Conference of the International Organization of Citrus Virologists.
+OICV, University of California, Riverside, USA, pp 280-285.
+Wang N, Pierson EA, Setubal JC, Xu J, Levy JG, Zhang Y, Li J, Rangel LT & Martins J Jr. (2017) The
+Candidatus
+Liberibacter-host interface: Insights into pathogenesis mechanisms and disease control.
+Annual Review
+of
+Phytopathology
+55
+, 451-482.
+Wulff NA, Fassini CG, Marques VV, Martins EC, Bonono Coletti DA, Teixeira D do C, Sanches MM & Bové JM (2019) Molecular characterization and detection of group 16SrIII phytoplasma associated with huanglongbing symptoms.
+Phytopathology
+109
+, 366-374.
+Zheng Z, Chen J & Deng X (2018) Historical perspectives, management and current research of HLB in Guangdong province of China, where the disease has been endemic for over a hundred of years.
+Phytopathology
+108
+,
+1224-1236.
+ACKNOWLEDGEMENTS
+2020-06-09
+This datasheet was prepared by EPPO and extensively revised by María M. López, Ester Marco-Noales and Mariano Cambra, from Instituto Valenciano de Investigaciones Agrarias (IVIA), Moncada, Valencia, Spain and Jaime Cubero from Instituto Nacional de Investigación y Tecnología Agraria y Alimentaria (INIA), Madrid, Spain.
+Their valuable contribution is gratefully acknowledged.
+How to cite this datasheet?
+EPPO (2025)
+'Candidatus Liberibacter africanus'
+. EPPO datasheets on pests recommended for regulation.
+https://gd.eppo.int
+(accessed 2025-09-11)
+Datasheet history
+2020-06-09
+This datasheet was first published in the EPPO Bulletin in 1988 and revised in the two editions of 'Quarantine Pests for Europe' in 1992 and 1997. It is now maintained in an electronic format in the EPPO Global Database. The sections on 'Identity', ‘Hosts’, and 'Geographical distribution' are automatically updated from the database. For other sections, the date of last revision is indicated on the right.
+CABI/EPPO (1992/1997)
+Quarantine Pests for Europe
+(1
+st
+and 2
+nd
+edition).
+CABI, Wallingford (GB).
+EPPO (1988) Data sheets on quarantine organisms No. 151, Citrus huanglongbing or greening bacterium and its vectors
+Diaphorina citri & Trioza erytreae
+.
+Bulletin OEPP/EPPO Bulletin
+18
+, 497-507.
+×
+Close
+Custom Word
+Identity
+Hosts
+Geographical distribution
+Biology
+Detection and Identification
+Pathways for movement
+Pest significance
+Phytosanitary measures
+References
+Acknowledgements
+How to cite this datasheet?
+Close
+Generate
+Contact EPPO
+EPPO Website
+EPPO Data Services
+EPPO Codes categories
+Sitemap
+European Union funding:
+EPPO has been awarded EU grant agreements for the further development of the EPPO Code system (agreement nb: SANTE/2018/G5/EPPO/SI2.793173 – from 2018-12-11 to 2021-12-10), and for the revision of the EPPO Datasheets (agreement nb: SANTE/2020/G1/EPPO/SI2.823766 from 2020-03-06 to 2024-09-05). The EU Commission is not responsible for any use that may be made of the information from these projects subsequently included in the EPPO Global Database.
+EPPO 2025
+All Rights Reserved
+EPPO Cloud [www2023p74a]"
+LIBEAS,'Candidatus Liberibacter asiaticus',IDENTITY,"Preferred name:
+'Candidatus Liberibacter asiaticus'
+Authority:
+Jagoueix, Bové & Garnier
+Taxonomic position:
+Bacteria: Proteobacteria: Alphaproteobacteria: Rhizobiales: Phyllobacteriaceae
+Other scientific names:
+Citrus greening bacterium (heat-tolerant strain)
+,
+Liberibacter asiaticum
+,
+Liberibacter asiaticus
+Common names in English:
+blotchy mottle disease of citrus, citrus dieback, decline of citrus, greening of citrus, huanglongbing, leaf mottling of citrus, likubin, vein phloem degeneration of citrus deactivated, yellow branch of citrus, yellow shoot disease, yellow shoot of citrus
+view more common names online...
+Notes on taxonomy and nomenclature
+The disease name ‘greening’ was the first English name adopted by the scientific literature probably because of the influence of South Africa research, as it was the disease name in that country. In 1995 the International Organization of Citrus Virologists (IOCV) decided to adopt the original Chinese name of ‘huanglongbing’ as official (Gottwald, 2010). The acronym HLB is also widely used in the literature.
+For many years, abiotic factors such as mineral deficiencies (or toxicities) and water logging were thought to be the causes of huanglongbing. In the 1960s, it was suspected that the causal agent was a virus or a mycoplasma-like organism (MLO). The discovery by transmission electron microscopy of cell-walled bacteria in affected plants demonstrated that true bacteria were present (Laflèche & Bové, 1970; Gottwald
+et al.
+, 2007).
+Three taxonomic entities are currently associated with huanglongbing symptoms. They are all fastidious, phloem-limited, Gram-negative bacteria with a peptidoglycan-containing cell wall (Moll and Martin, 1973; Garnier
+et al.,
+1984). Molecular and phylogenetic analyses have demonstrated that they belong to the family Phyllobacteriaceae. The first proposed names were
+‘Candidatus
+Liberobacter africanum’ and ‘
+Candidatus
+Liberobacter asiaticum' Jagoueix, Bové & Garnier (Jagoueix
+et al.
+, 1994). They were then changed to '
+Candidatus
+Liberibacter africanus
+’
+and ‘
+Candidatus
+Liberibacter asiaticus' to follow the rules of the International Code of Nomenclature of Bacteria (Garnier
+et al.,
+2000). In 2005, a third species was found in Brazil and called ‘
+Ca
+. Liberibacter americanus’ (Teixeira
+et al.
+, 2005 b). As these bacteria have not yet been cultivated in axenic culture, the Koch’s postulates have not been fulfilled to confirm that they are the causal agents of the disease. Consequently, according to the rules of taxonomy they must be named ‘
+Candidatus
+,’ an interim taxonomic status. In the past, two forms of the disease were reported: a heat-tolerant ‘Asian form’ now identified as ‘
+Ca
+. Liberibacter asiaticus’, and a heat-sensitive ‘African form’ now identified as ‘
+Ca.
+Liberibacter africanus’. ‘
+Ca
+. Liberibacter americanus’ has also been shown to be heat sensitive (Lopes
+et al.,
+2009 b).
+Several subspecies have also been proposed. In 1995 a new strain was detected in
+Calodendrum capense
+from South Africa and named '
+Candidatus
+Liberibacter africanus subsp. capensis
+’
+(Garnier
+et al.
+, 2000). More recently, four new subspecies have been proposed: ‘
+Candidatus
+Liberibacter africanus subsp. clausenae’, ‘
+Candidatus
+Liberibacter africanus subsp. vepridis’, ‘
+Candidatus
+Liberibacter africanus subsp. zanthoxyli’ and ‘
+Candidatus
+Liberibacter africanus subsp. teclae’ (Roberts
+et al.
+, 2015; Roberts & Pietersen, 2017) but they are not considered as validly published.
+EPPO Categorization:
+A1 list
+EU Categorization:
+A1 Quarantine pest (Annex II A)
+view more categorizations online...
+EPPO Code:
+LIBEAS"
+LIBEAS,'Candidatus Liberibacter asiaticus',HOSTS,"The three species of ‘
+Ca
+. Liberibacter’ infect species of
+Citrus
+and other genera within the Rutaceae family. There is no available information about differences in host range between ‘
+Ca
+. Liberibacter asiaticus’ and ‘
+Ca
+. Liberibacter africanus’, and consequently the host list is the same for these two species (ANSES, 2019; EFSA, 2019). Both can multiply and colonize many
+Citrus
+spp., but the most severe symptoms are found on sweet orange (
+C. sinensis
+), mandarin (
+C. reticulata
+) and tangelo (
+C. reticulata x C. paradisi
+). Somewhat less severe symptoms are found on lemon (
+C. limon
+), grapefruit (
+C. paradisi
+), Rangpur lime (
+C. limonia
+), Palestinian sweet lime (
+C. limettioides
+), rough lemon (
+C. jambhiri
+), kumquat (
+Fortunella
+spp.) and citron (
+C. medica
+) (McClean & Schwarz, 1970). Symptoms are even weaker on lime (
+C. aurantiifolia
+) and pummelo (
+C. grandis
+).
+Some citrus-related plants have been confirmed as hosts for the disease, namely
+Severinia
+buxifolia
+,
+Limonia acidissima
+and
+Vepris lanceolata
+(ANSES, 2019). The ornamental Rutaceae,
+Murraya paniculata,
+is a very important host for ‘
+Ca.
+Liberibacter asiaticus’ in American countries and
+M. koenigii
+(
+Bergera koenigii
+) is also recorded as a host in other countries. There is some confusion concerning the taxonomic distinction between
+M. paniculata
+and
+Murraya exotica
+, the latter being more susceptible to bacterial infection and more attractive to the vector
+Diaphorina citri
+.
+Other species of Rutaceae have been infected by experimental inoculation, but apparently there are no records of natural infections. Both bacterial species have been experimentally transmitted by
+Cuscuta campestris
+, from citrus to the following non-rutaceous hosts:
+Catharanthus roseus, Nicotiana glauca, N. tabacum
+and
+Solanum lycopersicum
+(Garnier and Bové, 1983; ANSES, 2019; EFSA, 2019).
+For ‘
+Ca
+. Liberibacter americanus’, data are scarce, and it has only been reported on sweet orange (
+C. sinensis
+), mandarin (
+Citrus reticulata
+), tangor (
+C. reticulata
+x
+C. sinensis
+) and
+M. paniculata
+(Bové 2006; Lopes
+et al.
+2010).
+In summary, genera of Rutaceae with species affected by huanglongbing are:
+Atalantia, Balsamocitrus, Calodendron, Citroncirus, Citroncirus x (Citrange), Citrofortunella, Citrus, Citrus x Limonia, Citrus x Tangelo, Clausena, Fortunella, Limonia, Murraya, Poncirus, Severinia, Swinglea, Toddalia
+and
+Vepris.
+In addition, weeds of non Rutaceae plants such as some in the genera
+Cleome
+,
+Pisonia, Pithecellobium, Trichostigma
+and
+Triphasia
+may also be considered as hosts, since in Jamaica or China, species of these genera have been found infected in huanglongbing affected orchards (ANSES, 2019; EFSA, 2019 b).
+Host list:
+Atalantia buxifolia
+,
+Balsamocitrus dawei
+,
+Citroncirus webberi
+,
+Citroncirus
+,
+Citrus depressa
+,
+Citrus hystrix
+,
+Citrus limonimedica
+,
+Citrus macroptera
+,
+Citrus maxima
+,
+Citrus medica
+,
+Citrus reticulata
+,
+Citrus trifoliata
+,
+Citrus x amblycarpa
+,
+Citrus x aurantiifolia
+,
+Citrus x aurantium var. paradisi
+,
+Citrus x aurantium var. sinensis
+,
+Citrus x aurantium
+,
+Citrus x junos
+,
+Citrus x limon var. limettioides
+,
+Citrus x limon
+,
+Citrus x limonia var. jambhiri
+,
+Citrus x limonia var. volkameriana
+,
+Citrus x limonia
+,
+Citrus x nobilis
+,
+Citrus x tangelo
+,
+Citrus
+,
+Clausena indica
+,
+Clausena lansium
+,
+Cleome rutidosperma
+,
+Fortunella margarita
+,
+Fortunella
+,
+Limonia acidissima
+,
+Murraya paniculata
+,
+Murraya sumatrana
+,
+Pisonia aculeata
+,
+Rutaceae
+,
+Swinglea glutinosa
+,
+Toddalia
+,
+Trichostigma octandrum
+,
+x Citrofortunella microcarpa"
+LIBEAS,'Candidatus Liberibacter asiaticus',GEOGRAPHICAL DISTRIBUTION,"Huanglongbing was probably first observed in Asia in the 18th century when a severe disease of unknown origin called ‘citrus dieback’ was recorded in the central provinces of India. Then, in 1919, a disease causing yellowing and leaf mottle symptoms was reported in Southern China as present since the late 19th century and farmers called it ‘huanglongbing’ that means yellow shoot disease. Similar symptoms were reported in Pakistan in 1927 and in Southern China in 1943 (Gottwald
+et al
+., 2007). From the 1920s, this new citrus disease was also described in several other Asian countries (Philippines, Taiwan, Indonesia), as well as in other areas of China. During the same period, in 1928 similar disorders were reported in South Africa as ‘yellow branch disease’, later called ‘greening’, and afterwards reported in other African countries. For decades, huanglongbing (or greening) has been considered limited to Asian and African countries, but in 2004 it was found in Brazil and in 2005 in Florida (USA). In the following years, it was also found in other USA states and many American countries (Bové, 2006; Dala-Paula
+et al
+., 2019).
+The available information about the geographical distribution does not always indicate if the species identified in each country was asiaticus or africanus, especially in the old literature. The Mediterranean area and most of the Middle East, Australia, New Zealand, New Caledonia and small Pacific islands are still free from the disease (Duran-Vila
+et al.
+, 2014; Siverio
+et al
+.,2017).
+Regarding disease vectors,
+Diaphorina citri
+(EPPO/CABI, 1996 b) has not been reported in the EPPO region, but
+Trioza erytreae
+(EPPO/CABI, 1996 a) is present with restricted distribution in Spain, (including Canary Islands), and in Portugal, (including Madeira Island) (Pérez-Otero
+et al
+., 2015; Siverio
+et al
+., 2017; Arenas-Arenas
+et al.
+, 2018).
+The map below shows the world distribution of '
+Ca
+. Liberibacter asiaticus'. Click on the links to view the distributions of
+‘
+Ca.
+Liberibacter africanus’
+and ‘
+Ca
+. Liberibacter americanus
+’.
+Africa:
+Ethiopia, Kenya, Mauritius, Reunion
+Asia:
+Bangladesh, Bhutan, Cambodia, China (Fujian, Guangdong, Guangxi, Guizhou, Hainan, Hunan, Jiangxi, Sichuan, Xianggang (Hong Kong), Yunnan, Zhejiang), East Timor, India (Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Delhi, Gujarat, Haryana, Himachal Pradesh, Jammu & Kashmir, Karnataka, Kerala, Madhya Pradesh, Maharashtra, Manipur, Meghalaya, Mizoram, Nagaland, Odisha, Punjab, Rajasthan, Sikkim, Tamil Nadu, Telangana, Tripura, Uttarakhand, Uttar Pradesh, West Bengal), Indonesia (Irian Jaya, Java, Kalimantan, Nusa Tenggara, Sulawesi, Sumatra), Iran, Islamic Republic of, Japan (Kyushu, Ryukyu Archipelago), Lao People's Democratic Republic, Malaysia (Sarawak, West), Myanmar, Nepal, Oman, Pakistan, Philippines, Saudi Arabia, Sri Lanka, Taiwan, Thailand, Vietnam, Yemen
+North America:
+Mexico, United States of America (Alabama, Arizona, California, Florida, Georgia, Louisiana, Mississippi, South Carolina, Texas)
+Central America and Caribbean:
+Barbados, Belize, Costa Rica, Cuba, Dominica, Dominican Republic, El Salvador, Guadeloupe, Guatemala, Honduras, Jamaica, Martinique, Nicaragua, Panama, Puerto Rico, Trinidad and Tobago, Virgin Islands (US)
+South America:
+Argentina, Brazil (Bahia, Minas Gerais, Parana, Santa Catarina, Sao Paulo), Colombia, French Guiana, Paraguay, Uruguay, Venezuela
+Oceania:
+Papua New Guinea"
+LIBEAS,'Candidatus Liberibacter asiaticus',BIOLOGY,"Location within the plant
+The three ‘
+Ca
+. Liberibacter’ reside within phloem tissues, being restricted to the inside of sieve tubes (Folimonova and Achor, 2010), although ‘
+Ca
+. Liberibacter asiaticus’ has been reported in companion cells (Fu
+et al.
+, 2015). Systemic infection of the host plant follows the direction of phloem sap translocation, moving in a passive way from leaves to roots, flushes, and fruits. The movement of ‘
+Ca
+. Liberibacter’ occurs primarily in a vertical direction through the sieve pores, rather than horizontally to adjacent sieve tubes (Wang
+et al.
+, 2017). Bacterial infection causes accumulated starch in the sieve elements, ultrastructural changes of phloem tissue, plugged sieve pores, and eventually phloem disruption (da Graça
+et al.,
+2016). The bacteria multiply very well within the roots suggesting that early invasion of roots by these bacteria leads to root decline before the appearance of foliar symptoms (Johnson
+et al.,
+2014).
+Transmission
+In 1956, Lin described the symptoms of the disease in China and in 1963 demonstrated the graft transmissibility of the disease (Zheng
+et al
+., 2018). Later, this was confirmed in South Africa, as well as the transmission by the African citrus psyllid,
+T. erytreae
+(McClean & Oberholzer, 1965). Almost at the same time, experiments in India and the Philippines demonstrated that another psyllid,
+D. citr
+i (Capoor
+et al.
+, 1967) was also a vector of the disease in Asia. More recently,
+Cacopsylla
+citrisuga
+(Cen
+et al.
+, 2012) and
+Diaphorina
+communis
+(Donovan
+et al.
+, 2012), have also been reported as potential vectors of the disease. The two main psyllid vectors feed from the phloem sap of infected hosts and acquire the bacteria predominately from young shoots (EFSA, 2019 b). Then, they are disseminated into the plant, but with an heterogenous distribution among the different organs. Once acquired, the bacteria remain in the hemolymph and the psyllid retains the ability to transmit the bacteria in a persistent manner throughout its lifespan.
+Tolerance to temperature
+The three Liberibacter species present differences in their tolerance to temperature and transmission by psyllid vectors. ‘
+Ca
+. Liberibacter africanus’, transmitted by
+T. erytreae
+is heat-sensitive and disease symptoms do not develop in climates where temperatures above 30°C are reached several hours a day (Bové
+et al.
+, 1974). ‘
+Ca
+. Liberibacter asiaticus’ which is present in Asia and America, is heat-tolerant and withstands high temperatures, its optimum ranging from 24 to 32°C and is transmitted by
+D. citri
+. Experimentally and also naturally in some countries
+T. erytreae
+and
+D. citri
+can also transmit the Asian and African forms, respectively (Massonié
+et al.
+, 1976; Lallemand
+et al.
+, 1986; Ajene
+et al
+., 2020).
+‘
+Ca
+. Liberibacter americanus’ was detected in Brazil with
+D. citri
+as its vector and it can also be transmitted by graft inoculations under greenhouse conditions (Teixeira
+et al.
+, 2005 b).
+Ca
+. Liberibacter americanus’ is heat sensitive and was discovered in central and southern Brazilian regions, where the annual number of hours above 30°C is two to five times lower than that in the extreme northern and western regions. In experimental conditions, trees inoculated with ‘
+Ca
+. Liberibacter asiaticus’ had high bacterial titres and showed symptoms at 32 and 35°C, but not at 38°C, while temperatures of 32°C or above were detrimental to ‘
+Ca
+. Liberibacter americanus’ (Lopes
+et al.
+, 2009 a and b). Mixed infections of two of these species have been also reported (Coletta-Filho
+et al.
+, 2005).
+Epidemics
+Epidemics of huanglongbing are established by introduction of infected plant material followed by natural transmission due to vectors. The unintentional entry of infected plant material establishes the disease in new areas or countries and subsequent unregulated movement of plants can have disastrous consequences. Natural transmission appears to be related to high vector populations and the extensiveness of the inoculum reservoirs. As psyllid migrations appear to be highest when host plants are flushing, natural spread is probably greatest in late spring and perhaps in other periods when new citrus flushes are available and psyllid populations are high (Gottwald
+et al.
+, 2007; Gottwald, 2010).
+At field level, in areas where huanglongbing is present, aggregations of infected trees can be quite large, for example encompassing more than 1 600 trees in Florida (Gottwald
+et al
+., 2007). This does not mean that every tree in these areas will become infected, but that a high proportion of them will be so. Vectors apparently spread the pathogen to either adjacent or nearby trees only a few spaces away. The secondary foci are at variable distance from the main cluster of disease and when vectors move, (naturally for feeding or when disturbed by cultural practices), they occasionally move at least 25 to 50 m (Gottwald, 2010). However, as most of the spatial and temporal data analysed up to now were collected by visual assessments, it is probable that more accurate detection methods will improve the understanding of the disease epidemiology. By using PCR tests, it has been demonstrated that visual assessment largely underestimated disease prevalence. The number of trees found to be infected using PCR tests was more than double the number of positive results from visual assessment (Gottwald, 2010).
+The spatial and temporal dynamics of the bacterial species associated with huanglongbing in citrus orchards have been investigated in different parts of the world. In South Africa, epidemics of '
+Ca
+. Liberibacter africanus' have been frequently observed in young orchards, in areas where the disease is endemic and where numerous sources of inoculum are present. Studies have shown that in these areas, damage appeared more rapidly in young plants than in older ones, even when insecticide sprays were applied against
+T. erytreae
+. For '
+Ca
+. Liberibacter asiaticus' epidemics, when inoculum pressure and vector levels were high, disease prevalence reached almost 100 % in orchards managed without insecticides within three years after planting. In orchards treated with fenobucarb and imidacloprid, disease prevalence reached more than 70 % and 20 %, respectively. Similarly, in North and South American countries, the prevalence of symptomatic trees in new citrus plantations, surrounded by older and heavily affected blocks, reached 20% two years after plantation and 70% within five years (Gottwald, 2010).
+Related to the co-habitation of several bacterial species in the same area, soon after the discovery of ‘
+Ca.
+Liberibacter americanus’ in São Paulo, Brazil in 2004 (Coletta-Filho
+et al
+., 2004), '
+Ca
+. Liberibacter asiaticus' was detected in a small number of samples and ‘
+Ca
+. Liberibacter americanus’ in 95 % of symptomatic trees tested (Teixeira
+et al.
+, 2005 b). However, four years later, the situation had reversed, and most symptomatic trees when tested were found to be infected only with ‘
+Ca
+. L. asiaticus’ (Lopes
+et al.
+, 2009 b).
+Reviews of huanglongbing have been provided by McClean & Schwarz (1970), da Graça (1991), Da Graça & Korsten (2004), Bové (2006), Gottwald
+et al.
+(2007), Gottwald (2010), da Graça
+et al.
+(2016), Zheng
+et al
+. (2018), Li
+et al.
+(2020) among others."
+LIBEAS,'Candidatus Liberibacter asiaticus',DETECTION AND IDENTIFICATION,"Symptoms
+On infected plants, symptoms are expressed after a variable period of time after infection (from one to three years) which depends on several factors (e.g. initial bacterial inoculum, time of infection, environmental conditions, tree age, species/cultivar, sanitary status of the tree). Symptoms generally appear faster in young trees (Gottwald
+et al.
+, 2007). The general aspect of citrus trees affected by huanglongbing is open growth, stunting, twig dieback, sparse yellow foliage, and severe fruit drop. Certain symptoms are described as more frequently observed in some countries, such as in China, where leaf symptoms were seen initially on one limb of the tree causing yellow branch; or in South Africa where the disease is currently called greening because of the poorly coloured fruits and the inversion of colouration when maturing. Symptoms develop relatively slowly, and infected trees gradually decline in vigour and yield, and remain stunted or eventually die. The disease develops irregularly so that individual trees may show a mixture of normal and diseased sectors (Bové, 2006; Gottwald
+et al.
+, 2007; CABI, 2018; EFSA, 2019b). Symptoms are generally the same for the three ‘
+Ca
+. Liberibacter’ species, although the Asian form is considered associated to more severe symptoms, because dieback can be more extensive and eventually resulting in tree death.
+Phytoplasmas of several groups (16SrI, 16SrII, 16SrIII, 16SrVI and 16SrIX) have been reported associated with huanglongbing symptoms in Brazil, China, India, and Mexico (Wulff
+et al
+., 2019). Zinc and copper deficiency may also cause symptoms similar to those described below.
+On fruits
+On infected plants, some fruits are under-developed and sometimes poorly coloured (greening). They often fail to develop normal fruit colour because at the time when the fruit changes from green to orange, affected fruit show colour inversion: the peduncular end of the fruit turns orange, while the stylar end is still green, whereas on normal fruit the coloration starts first at the stylar end. There is early fruit drop from affected branches reducing fruit harvest. Fruits from affected plants are smaller, lighter, and more acidic. They also have a bitter and salty taste and the juice quality is severely affected, making the fruits not exploitable for the industry. Inside, the columella is curved causing the fruit to be distorted and lopsided. Seeds in the affected fruit are usually abortive.
+On leaves
+Symptoms usually first appear as leaf yellowing followed by mottling and chlorosis in one shoot or sector of the tree. Later, leaf symptoms resemble nutritional deficiencies (zinc, copper, or manganese) but may vary depending on the bacterial strain. The larger leaves on the base of branches turn yellow along the main and secondary veins and later change to a blotchy-mottle. As the discoloration spreads away from the veins, the leaves become pale to light yellow with unevenly distributed dark green areas. Leaves on weak terminal twigs are small, up-right and show a variety of chlorotic patterns. This is the most characteristic foliar symptom, because the two halves of the leaf patterns of yellow and green areas are asymmetric, in contrast with the nutrient deficiencies, that are symmetric. Mature leaves often show irregular patches between the main veins. The veins are often prominent and yellow. Frequently, there is abundant leaf drop.
+On trunk, limbs, and shoots
+Twig dieback is abundant in chronically infected trees, but no symptoms are apparent on trunk. Histological symptoms are localized zones of necrotic phloem scattered through the vascular system of the leaf. Massive accumulation of starch in the plastids is observed together with aberrations in cambial activity and excessive phloem formation.
+Morphology
+The huanglongbing associated bacteria are variable in morphology but mainly are elongated sinuous rod-like structures, around 0.1-0.2 µm in diameter and around 1-2 µm long, but round forms of larger diameter can also be found (CABI, 2018). The bacterial cells can be observed by electron microscopy in the phloem of infected trees and in both vectors showing in thin-sections a characteristic double-membrane cell envelope (Garnier
+et al.
+, 1984).
+Sequences of the three associated species have been published and they have a small genome that range from 1.1 to 1.2 Mb with a low GC content below 37 %. The average nucleotide identity (ANI) values between different strains of the same species are above 99 % and below 81% among the different species. Although genomic sequences of the three species are quite different the effect on the plants are similar, even if ‘
+Ca
+. Liberibacter asiaticus’ is generally causing more severe symptoms. Complete type I secretion systems (T1SS) and one of its putative substrates such as serralysin have been identified in ‘
+Ca
+. Liberibacter asiaticus’ and ‘
+Ca
+. Liberibacter africanus’ but not in ‘
+Ca
+. Liberibacter americanus’. A complete general secretory pathway (Sec) is present in the three liberibacters but significant differences among them have been identified in its putative substrates. Moreover, differences on the genes involved in lipopolysaccharides (LPSs) of the three liberibacters that might affect their induction of host plant defence have been also identified. As well, ‘
+Ca
+. Liberibacter asiaticus’ and ‘
+Ca
+. Liberibacter africanus’ show differences in flagella regulators as compared to ‘
+Ca
+. Liberibacter americanus’, that maybe be also connected to a different induction of plant defences (Wang
+et al.
+, 2017).
+Detection and inspection methods
+Detailed protocols for surveillance, sampling and detection are indicated in the EPPO Standard PM 9/27 (2020)
+.
+Visual inspection
+Visual symptoms are important for diagnosis in symptomatic plants and visual inspection is a routine method for huanglongbing eradication in countries where the disease is present, as well as for its surveillance in countries or areas where it is not present. Surveys must be carried out carefully, all trees in an orchard should be examined one by one, and a few minutes must be spent at each tree. The scouts in charge of the surveys should work in pairs, so that each tree is examined by the two scouts, one on each side of the row. In the case of orchards with adult trees, it is essential to examine the top of the trees. For this reason, in Brazil, high towers have been built onto tractors to permit efficient observation of treetops (Bové, 2006). Finally, once affected trees have been identified, they should be removed as quickly as possible.
+Yellow shoot and blotchy mottle on leaves are considered the most typical symptoms and can be used in field surveys as part of an initial diagnosis. However, some symptoms can be confused with nutritional disorders, deficiencies or with other
+diseases, because
+Citrus tristeza virus
+, stubborn, citrus blight, Australian citrus dieback,
+Phytophthora spp.
+, waterlogging or the use of marcots can produce similar blotchy mottle patterns, according to CABI (2018). A pest survey card on huanglongbing was prepared in the context of the EFSA mandate on plant pest surveillance, upon request by the European Commission to assist the Member States in planning annual survey activities (EFSA, 2019 a).
+Symptoms of the infected trees in the aerial part are not always easy to distinguish from those due to other citrus diseases or abiotic factors. Yellow shoots, leaf blotchy mottle and lopsided fruits with colour inversion and aborted seeds, are quite specific but they do not always appear together on the same tree, and they can be distorted or masked by symptoms of other origins. In addition, trees can be latently infected for some months and the symptoms can appear even one or more years after infection (Lee
+et al.
+, 2015). Consequently, visual inspections can lead to false positives and negatives and complementary diagnosis (for symptomatic plants) or detection methods (for asymptomatic plants), in the laboratory and/or greenhouse must be performed.
+Detection in plants
+Different tools have been developed over time for the detection and/or identification of huanglongbing associated agents and are described with details and recommendations in the EPPO Standard PM 7/121 (EPPO, 2021). However, the low bacterial concentration in host plants and their uneven distribution may render their detection difficult (Gottwald, 2010). In the leaves the detection maybe problematic due to the spatial and seasonal patterns of pathogen movement in the plant (Wang
+et al
+., 2017). Another difficulty is also that the bacteria associated with huanglongbing have not been cultured yet. Several reports claiming successful culture can be found in the literature, but there is still no experimental evidence to demonstrate that the described cultured organisms were really the causal agent of huanglongbing. However, studies indicating that the bacterium can be maintained in a biofilm form (but not yet in axenic culture) could be considered as a first step towards real isolation (Ha
+et al.
+, 2019).
+For many years, electron microscopy was used as a diagnostic method, and is still useful to confirm the presence of the characteristic bacteria in the sieve tubes of trees presenting suspicious symptoms. In the late 1980s an enzyme-linked immunosorbent assay (ELISA) and an immunofluorescence test were developed. The presence of a specific fluorescent marker, gentisoyl glucoside in infected tissue was also used for detection. Biological indexing was employed for testing, as suspect material may be grafted onto sensitive indicator plants. Preferred indicator plants are Orlando tangelo and sweet orange seedlings.
+More recently, several molecular methods have been developed for the detection and identification of the bacteria associated with huanglongbing. Conventional PCR is still used in some laboratories as screening test and for confirmation purposes for symptomatic material. For detection of ‘
+Ca
+. Liberibacter africanus’ and ‘
+Ca
+. Liberibacter asiaticus’ by conventional PCR, two sets of primers can be used (Jagoueix
+et al.
+, 1996 and Hocquellet
+et al.
+, 1999) and for ‘
+Ca
+. Liberibacter americanus’ another set has been developed (Teixeira
+et al.
+, 2005 a). Conventional PCR can be also used for doubtful samples or for the first description of the disease in a new area.
+However, real-time PCR is currently the preferred method for detecting these pathogens because of its high sensitivity and lower risk of contamination. Bertolini
+et al.
+(2014) developed a tissue-print (for plants) or squash (for vectors) methodology for performing a direct real-time PCR without the need of previous DNA extraction for detecting any ‘
+Candidatus
+Liberibacter’ from symptomatic samples or suspected plants as well as for vectors in surveys; the samples can be directly imprinted in the field and sent by conventional mail to a laboratory to be processed (the imprints are non-infective samples). It is useful as a first screening and a good alternative for being used in the current situation of the EPPO countries in which the disease is still absent. The positive detections should be followed by specific real-time or conventional PCRs for the three huanglongbing associated bacteria and sequencing of the amplicons, to avoid false positives. Such method is well adapted to the countries where any of these bacteria has been detected and when the most important criterium is to avoid false negatives. It is simple, safe, and sensitive enough to be used for processing large numbers of symptomatic or suspected plants in surveys.
+The real-time PCR based test using the TaqMan probe described by Li
+et al.
+(2006), is also very sensitive and it shows acceptable exclusivity and inclusivity criteria in the detection of these bacteria and Fu
+et al.
+(2019) also used the tissue printing system coupled with such real-time PCR with excellent results. For species identification, the primers and TaqMan probe described by Li
+et al.
+(2006); Morgan
+et al.
+(2012); Carlos
+et al.
+(2006); Teixeira
+et al.
+(2008) are also useful but all these protocols require a previous DNA extraction of the sample.
+Detection in vectors
+The different ‘
+Ca
+. Liberibacter’ associated to huanglongbing can also be detected in their psyllid vectors. Bertolini
+et al.
+(2014) developed a squash assay for individual psyllids followed by real-time PCR for
+T. erytreae
+and
+D. citri.
+Such methodology has been used in surveys conducted in Spain by Siverio
+et al
+. (2017). In the USA,
+‘Ca
+. Liberibacter asiaticus’ has been found in
+D. citri
+several months or even years before symptoms appeared on infected plants (Manjunath
+et al.
+, 2008). In California (USA), the detection of the bacteria in
+D. citri
+was successfully used during the first surveys for the disease (Kumagai
+et al.
+, 2013). Testing psyllids has also proven valuable in assessing the status of plants for sale. Positive psyllids were found on average 9 months prior to the discovery of positive‐testing symptomatic plants in retail venues (Halbert
+et al.
+, 2012)."
+LIBEAS,'Candidatus Liberibacter asiaticus',PATHWAYS FOR MOVEMENT,"As the bacteria associated to huanglongbing are limited to the plant phloem, movement of infected host plant material (seedlings, plants, grafts, and rootstocks) are the main pathways for entry and spread over short and long distances (primary introduction). It is also considered that cut flowers, branches, foliage of host plants (in particular,
+Murraya paniculata
+and
+Citrus hystrix)
+can also be a pathway (ANSES, 2019). No transmission through seeds or fruits has been demonstrated yet. Hartung
+et al.
+, (2010) and Hilf (2011) found no evidence of seed transmission in hundreds of tested seedlings from seed collected from symptomatic fruit, although PCR tests on the fruit and seeds of infected plants (from which the seeds were used to produce the seedlings) were positive.
+The psyllid vectors,
+T. erytreae
+and
+D. citri
+are responsible for disease spread over short and long distances (secondary spread), because they can both spread the disease between plants and also travel with the plants (da Graça
+et al.
+, 2016; ANSES, 2019; EFSA, 2019 b). In Florida (USA), infected samples of
+D. citri
+were found on oranges in fruit trailers, the insects were distributed throughout the loads on the fruit itself and not on accompanying plant debris (Halbert
+et al
+., 2010)."
+LIBEAS,'Candidatus Liberibacter asiaticus',PEST SIGNIFICANCE,"Economic impact
+Huanglongbing is currently regarded as one of the most important socio-economic threats to commercial citrus production at global level. Control measures in the field are difficult because long term resistance is still unknown and chemical-cultural management is technically difficult and expensive. In areas where the disease is endemic or uncontrolled, its progression within orchards can be relatively rapid. It is reported that it can reach more than 95 % of prevalence within 3 to 13 years after the onset of symptoms (Gottwald, 2010). Severe symptoms are always observed 5 to 8 years after planting in areas where abundant populations of bacteriliferous vectors are prevailing. In diseased orchards, yield is reduced and fruit quality is affected. Yield reduction can reach 30 to 100 %, depending on the proportion of affected canopy and may render affected orchards non-economical within seven to ten years after planting. In many countries of America, Asia, and Africa, yield losses and difficulties in maintaining economically viable orchards have forced many growers out of business (Gottwald, 2010; Rasowo
+et al.,
+2019).
+In Asia, where ‘
+Ca.
+Liberibacter asiaticus’ occurs, huge impacts have been reported. A review about the disease in China (Zheng
+et al
+., 2018) shows its enormous consequences for the citrus industry for over a hundred years. In Indonesia, 3 million trees were destroyed between 1960 and 1970 (Tirtawadja, 1980) and 4 million between 1986-1988 (Aubert, 1993). In India and Thailand, the disease was described as widespread and causing catastrophic losses during the 1960s and 1970s (Bové
+et al.
+, 1993; Varma
+et al.
+, 1993). In Saudi Arabia, all sweet oranges and mandarin trees had declined by 1986 leaving only limes (Aubert, 1993). In the Philippines, mandarin production decreased by 85 % in only eight years. In northern Bali, almost 100 % of mandarin trees planted in 1990-91 were severely affected five years later. In most cases, when the diseased trees were replaced, the disease reappeared on the newly planted trees. Almost 100 million trees have been affected and destroyed in many countries of South and Southeast Asia, compromising the local citriculture and large areas of citrus cultivation had to be abandoned (Gottwald, 2010).
+In the Americas, the economic impact has also been dramatic, and the current situation is still difficult, despite the fact that the first detections were made in the 21
+st
+century and the causal agent was well known. In Brazil, five years after the identification of ‘
+Ca.
+Liberibacter asiaticus’ in 2004 (Coletha-Filho
+et al.
+, 2004), more than 4 million trees were eliminated (officially and unofficially by the growers directly) in attempts to limit the dissemination of ‘
+Ca.
+Liberibacter asiaticus and ‘
+Ca
+. Liberibacter americanus’. One year later, the number of symptomatic trees was estimated to be ca. 2 million (ca. 87 %) according to Belasque
+et al.
+(2010). In Florida (USA), costs of cultivation drastically increased since 2005, when the disease was first reported (Spreen
+et al.
+, 2014). The costs of visual inspections of trees increased from 4 to 17 USD/ha and costs of insecticide treatments increased from 240 to 1000 USD/ha per year (Belasque
+et al.,
+2010). The disease also had a very high economic and social impact during the first seven years after its detection. In addition, many packing houses and processing plants closed, with significant declines in employment and it was estimated that losses reached more than 3.63 billion USD in Florida and that more than 6 600 jobs were lost (Hodges & Spreen, 2012).
+The African form, ‘
+Ca.
+Liberibacter africanus’, is considered to be less aggressive than the Asian form. However, da Graça & Korsten (2004) based on past information, reported that 4 out of 11 million trees in South Africa were affected by this disease. Crop losses of 30-100 % had been reported in South Africa during the 20
+th
+century and many of these orchards had subsequently to be abandoned or removed (Buitendag, 1991). In East Africa, surveys In Kenya and Tanzania, showed that it had the greatest impact on citrus production in the cooler highland regions, causing yield losses of 25–100 % (Rasowo
+et al
+., 2019).
+Finally, the economic impact of the disease caused by ‘
+Ca
+. Liberibacter americanus’ in Brazil is difficult to determine due to the lack of data, and the fact that it currently appears to be displaced by the Asian form (CABI, 2018).
+Control
+Control options of huanglongbing have been evaluated for over a hundred years but as the disease situation and dynamics vary among countries, these options have been adapted. Consequently, it should be stressed that there is no universal solution for huanglongbing, but some strategies have been found to be useful in different areas.
+In Africa, control of ‘
+Ca
+. Liberibacter africanus’ during the second part of the 20
+th
+century relied on a combination of measures that were considered the most appropriate for each country (including chemical or biological vector control, trunk injections with tetracycline, pruning, thermotherapy, eradication, use of disease-free planting material, alternative hosts) and this integrated approach obtained relative success (da Graça, 1991; da Graca & Korsten, 2004). In South Africa, where most of the research was performed, removal of infected branches or trees, use of
+Liberibacter
+-free planting material, and control of the psyllid vector were applied (Buitendag & von Broembsen, 1993) with the main emphasis on the effect of systemic insecticides against
+T. erytreae,
+to maintain low psyllid populations.
+In Asia, most research on strategies for a successful control of ‘
+Ca
+. Liberibacter asiaticus’ were carried out in China with a similar approach, by promoting large-scale production of healthy nursery plants, early removal of infected plants in existing orchards, and applying insecticide sprays at critical flushing periods (Ke & Fan, 1990; Zheng
+et al.,
+2018). In the Americas, the most comprehensive example for the management of ‘
+Ca
+. Liberibacter asiaticus’ is provided by the Sao Paulo state in Brazil because it is one of the few regions in the world where control against huanglongbing has been carried out on a large scale by the growers, and found to be successful. It is summarized by Belasque
+et al
+(2010) and based on three principles: (i) inoculum reduction by exhaustive inspections and frequent removal of affected trees, (ii) control of psyllid vector populations by insecticide treatments, to prevent new trees from becoming infected, and iii) replanting with healthy tested plants produced under screen facilities only. Data from farms where the recommended measures have been applied since 2004 showed that the disease can be controlled. But the success was mainly obtained in large farms and it was necessary to apply the recommended measures rigorously. They must be strictly utilised in all the orchards of the area to be efficient. However, in a review on the management practices in Florida (antibiotics, insecticide applications, enhanced foliar nutritional programs, thermotherapy, and biological control), after the analysis of their economic performance and the economic impact of several control options, Li
+et al.
+(2020) concluded that broad-spectrum insecticides provide the only cost-effective strategy for mitigating the high impact of the disease in the conditions of this state.
+An essential part of the integrated control of huanglongbing in all the continents is the use of healthy plant material for replanting after eradication, developing a certification program based on microshoot-tip grafting
+in vitro
+(Navarro & Juárez, 2007; FAO, 2014), and producing plants in protected greenhouses to avoid the presence of vectors.
+The successful management reported in some countries was considered a short-term solution to keep the citrus industry alive while other long-term solutions can be developed for an effective and integrated control of the disease.
+Phytosanitary risk
+In the EPPO region, host plants of huanglongbing are essentially
+Citrus
+species that are intensively cultivated in the Mediterranean basin countries. For the moment, none of the bacteria associated with huanglongbing has been found in the EPPO region, but one of its vectors,
+T. erytreae,
+is already present (in Spain and Portugal, Pérez-Otero
+et al
+., 2015). There is no suggestion that native Mediterranean vectors could exist. If the huanglongbing associated bacteria were introduced in citrus-growing areas of the EPPO region, it is foreseen that tree development, harvest amount and quality would be severely impacted, and that this would ultimately seriously limit the citrus industry. Based on the experience of citrus-producing countries in other parts of the world, many changes quickly take place for the industry when new outbreaks are detected. In the short term, costly eradication, vector control, and nursery certification programs have to be immediately put in place and quarantine restrictions for export probably will appear. Nursery production must be maintained free of the disease, combined with the increased demand due to increasing infected tree removals. This can result in a rapid reduction of citrus production area as diseased trees are continuously removed (Gottwald, 2010) and final consequences are not only economic but also social and environmental. Considering the severity of huanglongbing, it is essential to keep this disease (and its vectors when possible) out of the EPPO region and to prevent their spread in the Middle East."
+LIBEAS,'Candidatus Liberibacter asiaticus',PHYTOSANITARY MEASURES,"Considering the severity of huanglongbing, EPPO has recommended to prohibit the importation of citrus plants for planting and cut branches or buds of citrus from areas or countries where citrus huanglongbing (or either of its vectors) are present. In the EU, in addition, in areas where
+T. erytreae
+occurs, control is compulsory, and it is prohibited to move plant material from infested areas to pest-free areas. In the EU territory, it is also forbidden to import fruit from third countries with their peduncles and leaves. In disease free countries as those of the Mediterranean area, awareness, monitoring, surveillance, pest risk assessment, quarantine measures and action plans are advised (Duran-Vila
+et al.
+, 2014; Siverio
+et al.
+, 2017). Procedures for official control with the aim of detecting, containing and eradicating huanglongbing and its vectors are provided in the EPPO Standard PM 9/27 (EPPO, 2020)
+.
+As surveys should be carried out in all the EU member countries, a pest survey card was prepared by the European Food Safety Authority (EFSA, 2019) to assist EU Member States in planning their huanglongbing annual survey activities.
+Healthy plant material is essential, and it should be available in the different EPPO countries. It can be obtained from citrus plants grown under quarantine restricted facilities, by using microshoot-tip grafting to produce pathogen-free buds
+in vitro
+. This pathogen-free material should be kept and propagated under insect-proof screenhouses, and its health status checked periodically, preferably by molecular techniques (e.g. real-time PCR) before being released or grafted onto indicator plants. Such a certification scheme is routinely used in Spain and in many countries where citrus are economically important crops (Navarro & Juárez, 2007).
+REFERENCES
+2021-09-01
+Ajene IJ, Khami FM, van Asch B, Pietersen G, Seid N, Rwomushana I, Ombura FLO, Momanyi G, Finyange P, Rasowo BA, Tanga CM, Mohammed S & Ekesi S (2020) Distribution of
+Candidatus
+Liberibacter species in Eastern Africa, and the first report of
+Candidatus
+Liberibacter asiaticus in Kenya.
+Science Reports
+10
+, 3919.
+https://doi.org/10.1038/s41598-020-60712-0
+ANSES (2019)
+Maladie du huanglongbing. Analyse du risque phytosanitaire pour l’Union européenne.
+ANSES, Maisons-Alfort, France
+,
+278 pp.
+Arenas-Arenas FJ, Duran-Vila N, Quinto J & Hervalejo A (2018) Is the presence of
+Trioza erytreae
+, vector of huanglongbing disease, endangering the Mediterranean citrus industry? Survey of its population density and geographical spread over the last years.
+Journal of Plant Pathology
+100
+, 567-574.
+Aubert, B (1993) Citrus greening disease, a serious limiting factor for citriculture in Asia and Africa.
+Proceedings of the 4th Congress of the International Society of Citrus Nurserymen
+, South Africa. 134-142.
+Belasque J, Bassanezi R, Yamamoto P, Ayres AJ, Tachibana A, Violante AR, Tank A Jr, Giorgi F, Tersi FEA, Menezes GM, Dragone J, Tank RH Jr & Bové J (2010) Lessons from huanglongbing management in São Paulo state, Brazil.
+Journal of Plant Pathology
+92
+.
+https://doi.org/10.4454/jpp.v92i2.171
+Bertolini E, Felipe R, Sauer AV, Lopes S, Arilla A, Mourão Filho FFA, Nunes WMC, Bové JM, López MM, Cambra M (2014) Tissue-print and squash real-time polymerase chain reaction for direct detection of ‘
+Candidatus
+Liberibacter’ spp. in citrus plants and insect vectors.
+Plant Pathology
+65
+,
+1142-1158.
+Bové JM (2006) Huanglongbing: A destructive, newly-emerging, century-old disease of citrus.
+Journal of Plant
+Pathology
+88
+, 7-37.
+Bové JM, Calavan ED, Capoor SP, Cortez RE & Schwarz RE (1974) Influence of temperature on symptom of Californian stubborn, South African greening, Indian citrus decline and Philippines leaf mottling disease. In: Weathers LG, Cohen M (eds)
+Proceedings of the 6th Conference of the International Organization of Citrus Virologists.
+IOCV, University of California, Berkeley, USA, pp. 12-15.
+Bové JM, Garnier M, Ahlawat YS, Chakraborty NK & Varma A (1993) Detection of the Asian strains of the greening BLO by DNA-DNA hybridisation in Indian orchard trees and Malaysian
+Diaphorina citri
+psyllids.
+Proceedings of the 12th Conference of the International Organization of Citrus Virologists.
+IOCV, University of California, Riverside, USA, pp. 258-263.
+Buitendag CH (1991) The current status and the control of greening disease of citrus in the Republic of South Africa.
+Citrus Journal
+1
+, 35-40.
+Buitendag & von Broembsen (1993) The African form of huanglongbing could be eliminated from citrus plant material by exposure to extended periods of heat. In: Calavan EC, Garnsey SM, Timmer LW (eds)
+International Organization of Citrus
+Virologists.
+IOCV, University of California, Riverside, USA, pp. 91-97.
+CABI (2018) Citrus huanglongbing disease.
+www.cabi.org/isc/datasheet
+Capoor SP, Rao DG & Viswanath SM (1967)
+Diaphorina cit
+ri Kuwayana, a vector of greening disease of citrus in India.
+Indian Journal of Agricultural Sciences
+37
+, 572-576.
+Carlos EF, Coletta-Filho HD, Targon MLN & Machado MA (2006) Quantitative real-time PCR based on TaqMan probes for the molecular detection of
+Candidatus
+Liberibacter asiaticus and
+Ca
+. L. americanus. In:
+Proceedings of Huanglongbing-Greening International Workshop
+, Ribeirao Preto, Brazil, p 81.
+Cen Y, Zhang L, Xia Y, Guo J, Deng X, Zhou W, Sequeira R, Gao J, Wang Z, Yue J & Gao Y (2012) Detection of ‘
+Candidatus
+Liberibacter asiaticus’ in
+Cacopsylla
+(
+P
+sylla
+)
+citrisuga
+(Hemiptera: Psyllidae).
+Florida Entomologist
+95
+, 304-311.
+Coletta-Filho H, Takita MA, Targon M, & Machado MA (2005) Analysis of 16S rDNA sequences from citrus huanglongbing bacteria reveal a different ‘Ca. Liberibacter’ strain associated with citrus disease in São Paulo.
+Plant Disease
+89
+(8), 848-852.
+Coletta-Filho H, Targon M, Takita M, De Negri J, Pompeu J, & Machado M (2004) First report of the causal agent of Huanglongbing (’Candidatus Liberibacter asiaticus’) in Brazil.
+Plant Disease
+88
+, 12.
+Da Graça JV (1991) Citrus huanglongbing or greening disease.
+Annual Review of Phytopathology
+29
+, 109-136.
+Da Graça JV, Douhan GW, Halbert SE, Keremane ML, Lee RF, Vidalakis G & Zhao H (2016) Huanglongbing: An overview of a complex pathosystem ravaging the world's citrus.
+Journal of Integrative Plant Biology
+58
+, 373-387.
+Da Graça J & Korsten L (2004) Citrus Huanglongbing: Review, present status and future strategies. In: Navqui S (ed)
+Diseases of Fruits and Vegetables: Diagnosis and Management
+1
+, 848-852.
+Dala-Paula BM, Plotto A, Bai J, Manthey JA, Baldwin EA, Ferrarezi RS & Gloria MBA (2019) Effect of huanglongbing or greening disease on orange juice quality, a review.
+Frontiers in Plant Science
+https://doi.org/10.3389/fpls.2018.01976
+Donovan NJ, Beattie GAC, Chambers GA, Holford P, Englezou A, Hardy S, Dorjee, Phuntsho Wangdi, Thinlay & Namgay Om (2012) First report of ‘
+Candidatus
+Liberibacter asiaticus’ in
+Diaphorina communis
+.
+Australian Plant Diseases Notes
+7
+, 1-4.
+Duran-Vila N, Janse JD, Foissac X, Melgarejo P & Bové JM (2014) Addressing the threat of Huanglongbing in the Mediterranean region: a challenge to save the citrus industry.
+Journal of Plant Pathology
+96
+(4supl.), 4-3.
+EFSA (2019 a) Parnell S, Camilleri M, Diakaki M, Schrader G & Vos S. Pest survey card on Huanglongbing and its vectors.
+EFSA Supporting publication
+2019, EN-1574. https://doi.org/doi:10.2903/sp.efsa.2019.EN-1574
+www.efsa.europa.eu/publications
+EFSA (2019 b) Baker R, Gilioli G, Behring C, Candiani D, Gogin A, Kaluski T, Kinkar M, Mosbach-Schulz O, Neri FM, Preti S, Rosace MC, Siligato R, Stancanelli & Tramontini S.
+Candidatus
+Liberibacter - Pest Report and Datasheet to support ranking of EU candidate priority pests [Data set]. Zenodo.
+http://doi.org/10.5281/zenodo.2788905
+EPPO (2020) PM 9/27 (1) National regulatory control systems ‘
+Candidatus
+Liberibacter’ species that are causal agents of Huanglongbing disease of citrus and their vectors: procedures for ofﬁcial control
+. Bulletin OEPP/EPPO Bulletin
+50
+, 122-141.
+https://doi.org/10.1111/epp.12619
+EPPO (2021) PM 7/121 (2) '
+Candidatus
+Liberibacter africanus', '
+Candidatus
+Liberibacter americanus' and '
+Candidatus
+Liberibacter asiaticus'.
+EPPO Bulletin
+51
+(2), 267-282.
+https://doi.org/10.1111/epp.12757
+EPPO/CABI (1996 a)
+Trioza erytreae.
+In:
+Quarantine pests for Europe
+. 2nd edition (Ed. by Smith IM, McNamara DG, Scott PR, Holderness M). CAB INTERNATIONAL, Wallingford, UK.
+EPPO/CABI (1996 b)
+Diaphorina citri.
+In:
+Quarantine pests for Europe
+. 2nd edition (Ed. by Smith IM, McNamara DG, Scott PR, Holderness M). CAB INTERNATIONAL, Wallingford, UK.
+EU (2016) Regulation (EU)
+2016/2031
+of the European Parliament of the Council of 26 October 2016 on protective measures against pests of plants, amending Regulations (EU) No
+228/2013,
+(EU) No
+652/2014
+and (EU) No
+1143/2014
+of the European Parliament and of the Council and repealing Council Directives 69/464/EEC, 74/647/EEC, 93/85/EEC, 98/57/EC, 2000/29/EC, 2006/91/EC and 2007/33/EC
+. Official Journal of the European Union
+23.11.2016,
+L317/4.
+FAO (2014) Project TCP-BZE-3402
+Technical Manual Shoot-tip grafting in vitro to obtain citrus planting material free of graft transmissible pathogens and for the safe movement of citrus budwood
+. FAO, Roma.
+Folimonova SY & Achor DS (2010) Early events of citrus greening (Huanglongbing) disease development at the ultrastructural level.
+Phytopathology
+100
+, 949-958.
+Fu SM, Hartung J, Zhou CY, Su HN, Tan J & Li ZA (2015) Ultrastructural changes and putative phage particles observed in sweet orange leaves infected with ‘
+Candidatus
+Liberibacter asiaticus’.
+Plant Disease
+99
+, 320-324.
+Fu SM, Liu HW, Liu QH, Zhou CY & Hartung JS (2019) Detection of ‘
+Candidatus
+Liberibacter asiaticus’ in citrus by concurrent tissue print-based qPCR and immunoassay.
+Plant Pathology
+68
+, 796-801.
+Garnier M & Bové JM (1983) Transmission of the organism associated with citrus greening disease from sweet orange to periwinkle by dodder.
+Phytopathology
+73
+,
+1358-1363.
+Garnier M, Danel N & Bové JM (1984) Etiology of citrus huanglongbing or greening disease.
+Annales de Microbiologie (Institut Pasteur)
+153A
+, 169-179.
+Garnier M, Jagoueix-Eveillard S, Cronje P, Le Roux H & Bové_JM (2000) Genomic characterization of a liberibacter present in an ornamental Rutaceous tree,
+Calodendrum capense
+, in the Western Cape province of South Africa. Proposal for ‘
+Candidatus
+Liberibacter africanus subs. capensis’.
+International Journal of Systematic and Evolutionary Microbiology
+50
+,
+2119-2125.
+Gottwald TR (2010) Current epidemiological understanding of citrus huanglongbing.
+Annual Review of Phytopathology
+48
+, 119-139
+.
+Gottwald TR, da Graça JV & Bassanezi R (2007) Citrus Huanglongbing: the pathogen and its impact.
+Plant Health Progress
+.
+https://doi.org/10.1094/PHP-2007-0906-01-RV
+Ha PT, He R, Killiny N, Brown J, Omsland A, Gang DR & Beyenal H (2019) Host-free biofilm culture of ´
+Candidatus
+Liberibacter asiaticus´, the bacterium associated with Huanglongbing.
+Biofilm
+1
+, 100005.
+https://doi.org/10.1016/j.bioflm.2019.100005
+Halbert SE, Manjunath K, Ramadugu C & Lee RF (2012) Incidence of huanglongbing‐associated ‘
+Candidatus
+Liberibacter asiaticus’ in
+Diaphorina citri
+(Hemiptera: Psyllidae) collected form plants for sale in Florida.
+Florida Entomol
+ogist
+95
+, 617-624.
+Halbert SE, Manjunath KL, Ramadugu C, Brodie MW, Webb SE & Lee RF (2010) Trailers transporting oranges to processing plants move Asian citrus psyllids.
+Florida Entomologist
+93
+, 33-38.
+Hartung JS, Halbert SE, Pelz‐Stelinski K, Brlansky RH, Chen CX & Gmitter FG (2010) Lack of evidence for transmission of ‘
+Candidatus
+Liberibacter asiaticus’ through citrus seed taken from affected fruit.
+Plant Disease
+94
+,
+1200-1205.
+Hilf ME (2011) Colonization of citrus seed coats by ‘
+Candidatus
+Liberibacter asiaticus’: Implications for seed transmission of the bacterium.
+Phytopathology
+101
+,
+1242-1250.
+Hocquellet A, Toorawa P, Bové JM & Garnier M (1999) Detection and identification of the two
+Candidatus
+Liberobacter species associated with citrus huanglongbing by PCR amplification of ribosomal protein genes of the b operon.
+Molecular and Cellular Probes
+13
+, 373-379.
+Hodges, AW, & Spreen TH (2012)
+Economic impacts of citrus greening (huanglongbing) in Florida, 2006/07-2010/11.
+Electronic data information source (EDIS): FE903. University of Florida. Gainesville, Florida, USA.
+Jagoueix S, Bové JM & Garnier M (1994) The phloem-limited bacterium of huanglongbing or greening disease of citrus is a member of the alpha subdivision of the Proteobacteria.
+International Journal of Systematic Bacteriology
+44
+, 379-386.
+Jagoueix S, Bové JM & Garnier M (1996) PCR detection of the two Candidatus Liberobacter species associated with greening disease of citrus.
+Molecular and Cellular Probes
+10
+, 43-50.
+Johnson EG, Wu J, Bright DB & Graham JH (2014) Root loss on presymptomatic huanglongbing affected trees is preceded by
+Candidatus
+Liberibacter asiaticus root infection but not phloem plugging.
+Plant Pathol
+ogy
+63
+, 290-298.
+Ke C & Fan XC (1990) Successful integrated management of huanglongbing disease in several farms of Guangdong and Fujian, by combining early eradication with targeted insecticide sprayings. In: Aubert B, Tontyaporn S, Buangsuwon D (eds)
+Proceedings of the 4th International Asia Pacific Conference on Citrus Rehabilitation
+, Chiang Mai, Thailand. FAO-UNDP RAS/86/022 Regional Project, pp.145-148.
+Kumagai LB, LeVesque CS, . Blomquist CL,  Madishetty K, Guo Y, Woods PW, Rooney-Latham S, Rascoe J,  Gallindo T, Schnabel D & Polek M (2013) First report of
+Candidatus
+Liberibacter asiaticus associated with citrus huanglongbing in California
+.
+Plant Disease
+97
+, p 283.
+Laflèche D & Bové JM (1970) Structures de type mycoplasma dans les feuilles d’orangers atteints de la maladie du greening.
+Comptes Rendus de l’Académie des Sciences,
+Paris
+270
+,
+1915-1917.
+Lallemand J, Fos A & Bové JM (1986) Transmission de la bactérie associée à la forme africaine de la maladie du 'greening' par le psylle asiatique
+Diaphorina citri.
+Fruits
+41
+, 341-343.
+Lee JA, Halbert SE, Dawson WO, Robertson C, Keesling JE & Singer BH (2015) Asymptomatic spread of huanglongbing and implications for disease control.
+Proceedings National Academy of Science USA
+112
+,
+7605-7610.
+Li W, Hartung JS & Levy L (2006) Quantitative real-time PCR for detection and identification quantification of
+Candidatu
+s Liberibacter species associated with citrus huanglongbing.
+Journal of Microbiological Methods
+66
+, 104-115.
+Li S, Wu F, Duan Y, Singerman A & Guan Z (2020) Citrus Greening: Management strategies and their economic impact.
+Hort Science.
+https://doi.org/10.21273/HORTSCI14696-19
+Lin KH (1956) Observations on yellow shoot on citrus. Etiological studies of yellow shoot on citrus.
+Acta Phytopathologica Sinica
+2
+, 1-42.
+Lopes SA, Bertolini E, Frare GF, Martins EC, Wulff NA, Teixeira DC, Fernandes NG, Cambra M (2009 a) Graft transmission efficiencies and multiplication of ‘
+Candidatus
+Liberibacter americanus’ and ‘
+Ca.
+Liberibacter asiaticus’ in citrus plants.
+Phytopathology
+99
+, 301-306.
+Lopes SA, Frare GF, Bertolini E, Cambra M, Fernandes NG, Ayres A J, Marin D & Bové, JM (2009 b) Liberibacters associated with citrus huanglongbing in Brazil: ‘
+Candidatus
+Liberibacter asiaticus’ is heat tolerant, ‘
+Ca
+. L. americanus’ is heat sensitive.
+Plant Disease
+93
+, 257-262.
+Lopes SA, Frare GF, Camargo LEA, Wulff NA, Teixeira DC, Bassanezi RB, Beattie GAC & Ayres AJ (2010) Liberibacters associated with orange jasmine in Brazil: incidence in urban areas and relatedness to citrus liberibacters.
+Plant Pathology
+59
+,
+1044-1053.
+Manjunath KL, Halbert SE, Ramadugu C, Webb S & Lee RF (2008) Detection of ‘
+Candidatus
+Liberibacter asiaticus’ in
+Diaphorina citri
+and its importance in the management of Citrus huanglongbing in Florida.
+Phytopathology
+98
+, 387-396.
+Massonié G, Garnier M & Bové JM (1976) Transmission of Indian citrus decline by
+Trioza erytreae,
+the vector of South African greening. In: Calavan EC (ed)
+Proceedings of the 7th Conference of the International Organization of Citrus Virologists
+. OICV, University of California, Riverside, USA, pp. 18-20.
+McClean APD & Oberholzer PCJ (1965) Citrus psylla, a vector of the huanglongbing or greening disease of sweet orange.
+South African Journal of Agricultural Science
+8
+, 297-298.
+McClean APD & Schwarz RE (1970) Huanglongbing or greening or blotchy-mottle disease of citrus.
+Phytophylactica
+2
+, 177-194.
+Moll JN & Martin MN (1973) Electron microscope evidence that citrus psylla (
+Trioza erytreae
+) is a vector of citrus huanglongbing or greening in South Africa.
+Phytophylactica
+5
+, 41-44.
+Morgan JK, Zhou L, Li W, Shatters RG, Keremane M &Duan YP (2012) Improved real-time PCR detection of ‘
+Candidatus
+Liberibacter asiaticus’ from citrus and psyllid hosts by targeting the intragenic tandem-repeats of its prophage genes.
+Molecular and Cellular Probes
+26
+, 90-98.
+Navarro L & Juárez J (2007) Shoot-tip grafting in vitro: Impact in the citrus industry and research applications. In: Khan A (ed)
+Citrus Genetics, Breeding and Biotechnology
+. CABI, Wallingford, UK, pp. 353-370.
+Pérez-Otero R, Mansilla JP & del Estal P (2015) Detección de la psila africana de los cítricos,
+Trioza erytreae
+(Del Guercio, 1918) (Hemiptera: Psylloidea: Triozidae), en la Península Ibérica.
+Arquivos Entomoloxicos
+13
+, 119-122.
+Rasowo BA, Khamis FM, Mohamed SA, Ajene IJ, Aidoo OF, Ombura L, Sétamou M,
+Ekesi
+S & Borgemeister C (2019). African citrus greening disease in East Africa: Incidence, severity, and distribution patterns.
+Journal of Economic Entomology
+112,
+2389-2397.
+Roberts R & Pietersen G (2017) A novel subspecies of ‘
+Candidatus
+Liberibacter africanus’ found on native
+Teclea gerrardii
+(Family: Rutaceae) from South Africa
+.
+Antonie van Leeuwenhoek
+110
+, 437-444.
+Roberts R, Steenkamp ET & Pietersen G (2015) Three novel lineages of ‘
+Candidatus
+Liberibacter africanus’ associated with native rutaceous hosts of
+Trioza erytreae
+in South Africa.
+International Journal of Systematic and Evolutionary Microbiology
+65
+, 723-731.
+Siverio F, Marco-Noales E, Bertolini E, Ribeiro G, Peñalver J, Mansilla P, Pérez-Otero O, Abelleira A, Guerra-García A, Hernández E, Cambra M & López MM (2017). Survey of huanglongbing associated with ´
+Candidatus
+Liberibacter´species in Spain: Analyses of citrus plants and
+Trioza erytreae
+.
+Phytopathologia Mediterranea
+56
+, 98-110.
+Spreen TH, Baldwin J-P & Futch SH (2014) An economic assessment of the impact of Huanglongbing on citrus tree plantings in Florida.
+HortScience
+49
+,
+1052-1055.
+Teixeira DC, Danet JL, Eveillard S, Martins EC, Jesus WC Jr, Yamamoto PT, Aparecido Lopes S, Beozzo Bassanezi R, Ayres AJ, Saillard C, Bové JM (2005 a) Citrus huanglongbing in Sao Paulo, Brazil: PCR detection of the Candidatus Liberibacter species associated with the disease.
+Molecular and Cellular Probes
+19
+, 173-179.
+Teixeira DC, Saillard C, Couture C, Martins E, Wulff NA, Eveillard S, Jagoueix S, Yamamoto PT, Ayres AJ Bové JM (2008) Distribution and quantification of ‘
+Candidatus
+Liberibacter americanus’, agent of huanglongbing disease of citrus in Sao Paulo State, Brazil, in leaves of an affected sweet orange tree as determined by PCR.
+Molecular and Cellular Probes
+22
+, 139-150.
+Teixeira D C, Saillard C, Eveillard S, Danet JL, da Costa PI, Ayres AJ & Bové J (2005 b) ""
+Candidatus
+Liberibacter americanus”, associated with citrus huanglongbing (greening disease) in Sao Paulo State, Brazil
+.
+International Journal of Systematic and Evolutionary Microbiology
+55
+,
+1857-1862.
+Tirtawadja S (1980) Citrus virus research in Indonesia. In: Calavan E, Garnsey S, Timmer L (eds.)
+Proceedings of the 8th Conference of the International Organisation of Citrus Virologists
+. IOCV, University of California, Riverside, USA, p 129.
+Varma A, Ahlawat YS, Chakraborty NK, Garnier M & Bové JM (1993) Detection of the greening BLO by electron microscopy, DNA hybridization and ELISA in citrus leaves with and without mottle from various regions in India. In: Moreno P, da Grata JV, Timmer LW (eds.)
+Proceedings of the 12th Conference of the International Organization of Citrus Virologists.
+OICV, University of California, Riverside, USA, pp 280-285.
+Wang N, Pierson EA, Setubal JC, Xu J, Levy JG, Zhang Y, Li J, Rangel LT & Martins J Jr. (2017) The
+Candidatus
+Liberibacter-host interface: Insights into pathogenesis mechanisms and disease control.
+Annual Review
+of
+Phytopathology
+55
+, 451-482.
+Wulff NA, Fassini CG, Marques VV, Martins EC, Bonono Coletti DA, Teixeira D do C, Sanches MM & Bové JM (2019) Molecular characterization and detection of group 16SrIII phytoplasma associated with huanglongbing symptoms.
+Phytopathology
+109
+, 366-374.
+Zheng Z, Chen J & Deng X (2018) Historical perspectives, management and current research of HLB in Guangdong province of China, where the disease has been endemic for over a hundred of years.
+Phytopathology
+108
+,
+1224-1236.
+ACKNOWLEDGEMENTS
+2020-06-08
+This datasheet was prepared by EPPO and extensively revised by María M. López, Ester Marco-Noales and Mariano Cambra, from Instituto Valenciano de Investigaciones Agrarias (IVIA), Moncada, Valencia, Spain and Jaime Cubero from Instituto Nacional de Investigación y Tecnología Agraria y Alimentaria (INIA), Madrid, Spain.
+Their valuable contribution is gratefully acknowledged.
+How to cite this datasheet?
+EPPO (2025)
+'Candidatus Liberibacter asiaticus'
+. EPPO datasheets on pests recommended for regulation.
+https://gd.eppo.int
+(accessed 2025-09-11)
+Datasheet history
+2020-06-09
+This datasheet was first published in the EPPO Bulletin in 1988 and revised in the two editions of 'Quarantine Pests for Europe' in 1992 and 1997. It is now maintained in an electronic format in the EPPO Global Database. The sections on 'Identity', ‘Hosts’, and 'Geographical distribution' are automatically updated from the database. For other sections, the date of last revision is indicated on the right.
+CABI/EPPO (1992/1997)
+Quarantine Pests for Europe
+(1
+st
+and 2
+nd
+edition).
+CABI, Wallingford (GB).
+EPPO (1988) Data sheets on quarantine organisms No. 151, Citrus huanglongbing or greening bacterium and its vectors
+Diaphorina citri & Trioza erytreae
+.
+Bulletin OEPP/EPPO Bulletin
+18
+, 497-507.
+×
+Close
+Custom Word
+Identity
+Hosts
+Geographical distribution
+Biology
+Detection and Identification
+Pathways for movement
+Pest significance
+Phytosanitary measures
+References
+Acknowledgements
+How to cite this datasheet?
+Close
+Generate
+Contact EPPO
+EPPO Website
+EPPO Data Services
+EPPO Codes categories
+Sitemap
+European Union funding:
+EPPO has been awarded EU grant agreements for the further development of the EPPO Code system (agreement nb: SANTE/2018/G5/EPPO/SI2.793173 – from 2018-12-11 to 2021-12-10), and for the revision of the EPPO Datasheets (agreement nb: SANTE/2020/G1/EPPO/SI2.823766 from 2020-03-06 to 2024-09-05). The EU Commission is not responsible for any use that may be made of the information from these projects subsequently included in the EPPO Global Database.
+EPPO 2025
+All Rights Reserved
+EPPO Cloud [www2023p74a]"
+GONPGI,Gonipterus gibberus,IDENTITY,"Preferred name:
+Gonipterus gibberus
+Authority:
+Boisduval
+Taxonomic position:
+Animalia: Arthropoda: Hexapoda: Insecta: Coleoptera: Curculionidae: Gonipterinae
+Other scientific names:
+Dacnirotatus bruchi
+Marelli
+Common names in English:
+eucalyptus snout beetle, eucalyptus weevil, gum-tree weevil
+view more common names online...
+Notes on taxonomy and nomenclature
+This species was originally, when first listed by EPPO, treated as separate from
+G. scutellatus.
+In the 1980s, expert opinion combined the two, and
+G. gibberus
+accordingly disappeared from later versions of the data sheet (EPPO/CABI, 1997). Recently, on the basis of observations on populations in South America,
+G. gibberus
+is again considered a separate species (Rosado-Neto & Marques, 1996)
+EPPO Categorization:
+A1 list
+view more categorizations online...
+EPPO Code:
+GONPGI"
+GONPGI,Gonipterus gibberus,HOSTS,"The only hosts are
+Eucalyptus
+spp., of which the most susceptible are
+Eucalyptus camaldulensis, Eucalyptus globulus, Eucalyptus maidenii, Eucalyptus punctata, Eucalyptus robusta, Eucalyptus smithii
+and
+Eucalyptus viminalis
+(Griffith, 1959). Differences in susceptibility between
+Eucalyptus
+spp. exist (Richardson & Meakins, 1986). Within the EPPO region,
+Eucalyptusspp
+. are widely grown in plantations, but ornamental trees are considered to be most at risk (Cadahia, 1986).
+Host list:
+Eucalyptus camaldulensis
+,
+Eucalyptus drepanophylla
+,
+Eucalyptus globulus
+,
+Eucalyptus maidenii
+,
+Eucalyptus punctata
+,
+Eucalyptus robusta
+,
+Eucalyptus smithii
+,
+Eucalyptus viminalis
+,
+Eucalyptus"
+GONPGI,Gonipterus gibberus,GEOGRAPHICAL DISTRIBUTION,"G. gibberus
+and
+G. scutellatus
+originated in Australia and spread with their hosts to other parts of the world. Rosado-Neto (1993) summarizes the distribution of the two species in South America.
+Oceania:
+Australia (New South Wales, Queensland, South Australia, Tasmania, Victoria)"
+GONPGI,Gonipterus gibberus,BIOLOGY,"In Mauritius, eggs are laid attached to leaves in greyish capsules containing about 8-10 eggs. Females mate several times and continue to lay throughout a lifetime of about 91 days; a female lays up to 21-33 capsules. Larvae feed on leaves and twigs, and pupation occurs in cells about 5 cm deep in the soil. In the laboratory, adults mated 4-9 days after emergence, and began to lay eggs after a further 13-21 days.
+There are about four generations annually in Mauritius, continuing throughout the year. In South Africa there are only 2 to 2.5 generations and overwintering occurs in the adult stage. In Italy only two generations are recorded.
+Development periods (in days) at various times of the year in Mauritius are given below:
+Feb.-March
+Apr.-June
+July-Aug.
+Egg
+6-7
+7-9
+9-10
+1st instar
+3-4
+4-5
+5-6
+2nd instar
+3-4
+4-6
+6-7
+3rd instar
+3-4
+4-6
+5-8
+4th instar
+5-6
+6-8
+7-10
+Pupa
+29-31
+31-35
+32-38
+Total
+49-56
+56-69
+64-79
+Mean temp. (°C)
+27
+23.6
+21.3
+Max. temp. (°C)
+31.6
+28.9
+25.5
+Min. temp. (°C)
+24.4
+20.0
+17.8
+For further information on the biology of
+G. scutellatus
+see Mally (1924), Moutia & Vinson (1945), Tooke (1955), Leyva (1969 & 1970), Arzone & Meotto (1978)."
+GONPGI,Gonipterus gibberus,DETECTION AND IDENTIFICATION,"Symptoms
+Characteristically scalloped leaf edges with a resultant dieback of shoot tips and development of tufts of epicormics. Successive defoliations produce stunting and a stag-headed appearance. Trees may split and die. Adults tend to feed on the leaves and soft bark of young shoots while larval damage is most serious on the leaves alone (Moutia & Vinson, 1945; Kevan, 1964; Leyva, 1969; 1970).
+Morphology
+Eggs
+In greyish capsules containing eight to ten eggs, attached to the leaves on both surfaces.
+Larva
+Yellowish-green with black marks, 14 mm long.
+Adult
+A 12-14 mm grey-brown weevil, with a light, transverse band on the elytra."
+GONPGI,Gonipterus gibberus,PATHWAYS FOR MOVEMENT,"Adult beetles can fly and limited natural spread occurs by this means. Adults, larvae and eggs may be carried on planting material. Larvae could be present in accompanying soil."
+GONPGI,Gonipterus gibberus,PEST SIGNIFICANCE,"Economic impact
+Although the beetle is of no importance in its native country Australia, it has become an important defoliator of eucalytus in other parts of the world. Trees become stunted and may split and die. After first being found in 1940, in Mauritius, the beetle was reported in 1944 to be causing serious damage to E. viminalis. Within 2 years, however, biological control using the egg parasite Anaphes nitens had successfully reduced attacks so that they became sporadic and localized (Williams et al., 1951).
+Control
+Successful control of
+G. scutellatus
+with
+A. nitens
+is claimed in France and Italy (Cadahia, 1986), and now in Spain (Rivera
+et al.,
+1999; Santolamazza-Carbone
+et al.,
+2004). The same parasite attacks both Gonipterus spp. in Brazil (Sanches, 2000), and is used in control of G. scutellatusin USA (California; Hanks et al., 2000) and South Africa (Atkinson, 1999). Chemical treatment is not recommended because of the danger to the many honey bees attracted by the long flowering period of
+Eucalyptus
+.
+Phytosanitary risk
+G. gibberus
+and
+G. scutellatus
+continue to pose a threat to Eucalyptus plantations throughout the world. In the EPPO region, large areas in the southern part remain uninfested, and so are at risk.
+G. scutellatusin
+particular is continuing to spread, both within continents, and to previously uninfested continents (North America). G. gibberus has in practice spread less than
+G. scutellatus
+and has attracted less attention in the literature, but there is no clear evidence that it presents a lesser risk. In any case, the risk of both species to uninfested areas is to a certain degree reduced by the knowledge that, very probably, successful biological control can be achieved anywhere in the world with
+A. nitens."
+GONPGI,Gonipterus gibberus,PHYTOSANITARY MEASURES,"G. scutellatusis
+an A2 quarantine pest for EPPO (EPPO/CABI, 1997), and is also of phytosanitary significance for COSAVE and CAN. It is regulated by most EPPO countries and in particular by the EU. Measures taken by endangered countries are to require that
+Eucalyptus
+plants for planting (except seeds) and cut branches should come from a pest-free area, or else that plants should be free from soil and treated against
+G. scutellatus. G. gibberus
+was originally an A1 quarantine pest for EPPO, and was only recategorized for nomenclatural reasons. It is now reinstated as a separate species, but countries have not taken account of this nomenclatural change in their regulations. For practical purposes, exactly the same measures are appropriate for the two species, since it is not possible to differentiate risk between them (there is no reason to treat
+G. gibberus
+differently in the EPPO region because it is not yet present there).
+REFERENCES
+2019-07-12
+Arzone, A.; Meotto, F. (1978) [Biological findings on
+Gonipterus scutellatus
+Gyll. (Col. Curculionidae) infesting eucalyptus trees on the Ligurian riviera].
+Redia
+41, 205-222.
+Cadahia, D. (1986) The importance of insect pests in the Mediterranean region.
+Bulletin OEPP/EPPO Bulletin
+16, 265-283.
+CIE (1975a)
+Distribution Maps of Pests, Series A
+No. 342. CAB International, Wallingford, UK.
+CIE (1975b)
+Distribution Maps of Pests, Series A
+No. 344. CAB International, Wallingford, UK.
+Griffith, A.L. (1959) A list of
+Eucalyptus
+species known to be attacked by the snout beetle
+Gonipterus scutellatus
+.
+Empire Forestry Review
+38, 200-201.
+Kevan, D.K. (l964) The eucalyptus weevil in East Africa.
+East African Agricultural and Forestry Journal
+12, 40-44.
+Leyva, E. (1969) [Present situation of the pests on
+Eucalyptus
+sp. world-wide].
+Boletín del Servicio de Plagas Forestales
+No. 24, 119-128.
+Leyva, E. (1970) [Present situation of the pests on
+Eucalyptus
+sp. world-wide].
+Boletín del Servicio de Plagas Forestales
+No. 25, 67-80.
+Mally, C.W. (1924) The eucalyptus snout beetle (
+Gonipterus scutellatus
+Gyll.).
+Journal Department of Agriculture for South Africa
+9, 415-442.
+Moutia, L.A. and Vinson, J. (1945) Le charançon de l'Eucalyptus,
+Gonipterus scutellatus
+Gyll.
+Revue Agricole et Sucrière de Maurice
+24, 25-30.
+OEPP/EPPO (1980) Data sheets on quarantine organisms No. 38,
+Gonipterus scutellatus
+.
+Bulletin OEPP/EPPO Bulletin
+10 (1).
+OEPP/EPPO (1990) Specific Quarantine Requirements.
+EPPO Technical Documents
+No. 1008.
+Recalde, A. (1956) [The eucalyptus snout beetle (
+Gonipterus gibberus
+)].
+Cultivador Moderno
+39, 166.
+Richardson, K.F.; Meakins, R.H. (1986) Inter- and intra-specific variation in the susceptibility of eucalypts to the snout beetle
+Gonipterus scutellatus
+Gyll. (Coleoptera: Curculionidae).
+South African Forestry Journal
+139, 21-31.
+Tooke, F.G.C. (1955) The eucalyptus snout beetle
+Gonipterus scutellatus
+Gyll. A study of its ecology and control by biological means.
+Entomology Memoir, Department of Agriculture South Africa
+3, 1-282.
+Williams, J.R.; Moutia, L.A.; Hermelin, P.R. (1951) The biological control of
+Gonipterus scutellatus
+Gyll. (Col. Curculionidae) in Mauritius.
+Bulletin of Entomological Research
+42, 23-28.
+How to cite this datasheet?
+EPPO (2025)
+Gonipterus gibberus
+. EPPO datasheets on pests recommended for regulation.
+https://gd.eppo.int
+(accessed 2025-09-11)
+×
+Close
+Custom Word
+Identity
+Hosts
+Geographical distribution
+Biology
+Detection and Identification
+Pathways for movement
+Pest significance
+Phytosanitary measures
+References
+How to cite this datasheet?
+Close
+Generate
+Contact EPPO
+EPPO Website
+EPPO Data Services
+EPPO Codes categories
+Sitemap
+European Union funding:
+EPPO has been awarded EU grant agreements for the further development of the EPPO Code system (agreement nb: SANTE/2018/G5/EPPO/SI2.793173 – from 2018-12-11 to 2021-12-10), and for the revision of the EPPO Datasheets (agreement nb: SANTE/2020/G1/EPPO/SI2.823766 from 2020-03-06 to 2024-09-05). The EU Commission is not responsible for any use that may be made of the information from these projects subsequently included in the EPPO Global Database.
+EPPO 2025
+All Rights Reserved
+EPPO Cloud [www2023p74a]"

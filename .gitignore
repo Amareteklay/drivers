@@ -7,3 +7,5 @@ Ege_try.py
 dspy_training.ipynb
 .vscode
 *.pyc
+
+src/.env
