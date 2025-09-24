@@ -39,7 +39,7 @@ class EPPOReportingExtractor:
                     {
                         "role": "user",
                         "content": f"""
-                Classify the type of record described in the following plant health report into exactly one of these categories:
+                Classify the type of record described in the following plant health report for the specific EPPO code "{eppocode}" (also known as "{name}") into exactly one of these categories:
 
                 **Record Type Definitions:**
                 - **First record**: Initial detection or confirmation of a plant disease/pest in a country or region where it has never been officially recorded before
@@ -50,6 +50,8 @@ class EPPOReportingExtractor:
                 - **New type of hosts**: Discovery that a known disease/pest can affect plant species not previously known to be susceptible
                 - **New type of symptoms**: Discovery of new symptoms or damage patterns caused by a known disease/pest
                 - **Others**: Reports that don't fit the above categories, such as general surveys, methodology papers, or unclear cases. Often cases are "New EU Regulations", "EPPO Distribution List for...", etc.
+                
+                For very long reports with multiple items, classify based on the content related to the specific EPPO code "{eppocode}" (also known as "{name}").
 
                 Then, ONLY if the type_of_record is one of:
                 - First record
@@ -64,7 +66,8 @@ class EPPOReportingExtractor:
 
                 For other record types, leave the occurrences array empty.
 
-                Return a JSON object with fields:
+
+                IMPORTANT: You MUST return ONLY a valid JSON object, no additional text or explanation. The JSON format must be exactly:
                 {{
                 "type_of_record": "<classified type>",
                 "occurrences": [
@@ -77,6 +80,8 @@ class EPPOReportingExtractor:
                 ]
                 }}
                 #NOTE Take the title and content to classify the record and extract occurrences from.
+                EPPO CODE: {eppocode}
+                DISEASE/PEST NAME: {name}
                 TITLE: {title}
                 TEXT: {content}
                 """,
@@ -87,7 +92,20 @@ class EPPOReportingExtractor:
 
             raw_json = response.choices[0].message.content
             if raw_json is None:
-                return []
+                print(f"⚠️ Empty response from LLM for {eppocode}")
+                return [
+                    {
+                        "eppocode": eppocode,
+                        "name": name,
+                        "title": title,
+                        "number": number,
+                        "date": date,
+                        "type_of_record": "Others",
+                        "year": None,
+                        "country": None,
+                        "continent": None,
+                    }
+                ]
 
             # Strip markdown fences if present
             if raw_json.startswith("```json"):
@@ -95,9 +113,65 @@ class EPPOReportingExtractor:
             if raw_json.endswith("```"):
                 raw_json = raw_json.removesuffix("```").strip()
 
-            parsed = json.loads(raw_json)
+            # Handle cases where LLM adds explanatory text before JSON
+            if raw_json.startswith("```"):
+                raw_json = raw_json[3:].strip()
+
+            # Look for JSON object start - but be more careful
+            json_start = raw_json.find("{")
+            json_end = raw_json.rfind("}")
+
+            if json_start != -1 and json_end != -1 and json_end > json_start:
+                extracted_json = raw_json[json_start : json_end + 1]
+                print(f"🔍 Extracted JSON for {eppocode}: {extracted_json[:200]}...")
+                raw_json = extracted_json
+            else:
+                print(
+                    f"⚠️ No valid JSON braces found for {eppocode}, trying full response"
+                )
+
+            # Additional cleanup for common LLM response issues
+            raw_json = raw_json.strip()
+            if not raw_json:
+                print(f"⚠️ Empty JSON content after processing for {eppocode}")
+                return [
+                    {
+                        "eppocode": eppocode,
+                        "name": name,
+                        "title": title,
+                        "number": number,
+                        "date": date,
+                        "type_of_record": "Others",
+                        "year": None,
+                        "country": None,
+                        "continent": None,
+                    }
+                ]
+
+            try:
+                parsed = json.loads(raw_json)
+            except json.JSONDecodeError as json_error:
+                print(f"⚠️ JSON decode error for {eppocode}: {json_error}")
+                print(f"🔍 Raw response (full): {raw_json}")
+                # Return a fallback record
+                return [
+                    {
+                        "eppocode": eppocode,
+                        "name": name,
+                        "title": title,
+                        "number": number,
+                        "date": date,
+                        "type_of_record": "Others",
+                        "year": None,
+                        "country": None,
+                        "continent": None,
+                    }
+                ]
+
             type_of_record = parsed.get("type_of_record", "Others")
             occurrences = parsed.get("occurrences", [])
+
+            print(f"✅ Successfully parsed for {eppocode}: {type_of_record}")
 
             # Check if this record type should have occurrence data extracted
             relevant_types = [
@@ -145,9 +219,14 @@ class EPPOReportingExtractor:
             return []
 
     def process_all_reports(self):
-        for _, row in self.reports_df.iterrows():
-            print(f"📦 Processing report: {row['Title']}")
+        total_reports = len(self.reports_df)
+        for idx, (_, row) in enumerate(self.reports_df.iterrows()):
+            print(
+                f"📦 Processing report {idx + 1}/{total_reports}: {row['Title'][:100]}..."
+            )
             extracted = self.classify_and_extract(row)
+            if not extracted:
+                print(f"⚠️ No results extracted for: {row['EPPO_code']}")
             self.results.extend(extracted)
 
     def save_results(self, output_path):
@@ -185,21 +264,20 @@ class EPPOReportingExtractor:
             column_order = [
                 "eppocode",
                 "name",
-                "title",
                 "number",
                 "date",
+                "URL",
+                "title",
                 "type_of_record",
                 "year",
                 "country",
                 "continent",
-                "URL",
                 "Content",
             ]
             final_df = final_df.reindex(columns=column_order)
 
             final_df.to_csv(output_path, index=False)
             print(f"✅ Results saved to {output_path}")
-            print(f"📊 Total records processed: {len(final_df)}")
         except Exception as e:
             print(f"❌ Failed to save results: {e}")
 
@@ -215,8 +293,8 @@ def main():
         raise RuntimeError("OpenAI API key not found. Please set it in the .env file.")
 
     # === CONFIGURATION ===
-    REPORTING_CSV_PATH = "data/eppo_downloads/eppo_reporting_retrieved copy.csv"
-    OUTPUT_PATH = "data/eppo_downloads/eppo_reporting_occurrence_LLM.csv"
+    REPORTING_CSV_PATH = "data/eppo_downloads/eppo_reporting_retrieved.csv"  # TODO
+    OUTPUT_PATH = "data/eppo_downloads/eppo_reporting_occurrence_LLM.csv"  # TODO
 
     extractor = EPPOReportingExtractor(REPORTING_CSV_PATH)
     extractor.process_all_reports()
