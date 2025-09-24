@@ -63,7 +63,7 @@ class EPPOExtractor:
                     {
                         "role": "user",
                         "content": f"""
-                        From the text below, extract **all occurrences** where the citrus disease (huanglongbing / greening / citrus dieback / yellow branch disease) is mentioned.
+                        From the text below, extract **all occurrences** where the plant diseases are mentioned.
 
                         For each occurrence, return:
                         - **country** (required)

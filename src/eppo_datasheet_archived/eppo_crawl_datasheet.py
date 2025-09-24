@@ -1,4 +1,4 @@
-# NOTE the script need to be ran in Terminal: py -3.12 src/eppo_crawl_datasheet.py
+# the script need to be ran in Terminal: py -3.12 src/eppo_crawl_datasheet.py
 
 import asyncio
 from crawl4ai import *
