@@ -293,8 +293,8 @@ def main():
         raise RuntimeError("OpenAI API key not found. Please set it in the .env file.")
 
     # === CONFIGURATION ===
-    REPORTING_CSV_PATH = "data/eppo_downloads/eppo_reporting_retrieved.csv"  # TODO
-    OUTPUT_PATH = "data/eppo_downloads/eppo_reporting_occurrence_LLM.csv"  # TODO
+    REPORTING_CSV_PATH = "data/eppo_downloads/eppo_reporting_retrieved.csv"
+    OUTPUT_PATH = "data/eppo_downloads/eppo_reporting_occurrence_LLM.csv"
 
     extractor = EPPOReportingExtractor(REPORTING_CSV_PATH)
     extractor.process_all_reports()

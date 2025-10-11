@@ -13,10 +13,10 @@ CSV_PATH = "data/eppo_downloads/eppo_code.csv"
 # START_ID = 3243  # Xylella fastidiosa(XYLEFA)
 # END_ID = 3244  # Xylella fastidiosa(XYLEFA)
 
-START_ID = 62927  # 'Candidatus Liberibacter africanus'(LIBEAF)
-END_ID = 62928  # 'Candidatus Liberibacter africanus'(LIBEAF)
+START_ID = 105001  # 'Candidatus Liberibacter africanus'(LIBEAF)
+END_ID = 126094  # 'Candidatus Liberibacter africanus'(LIBEAF)
 
-OUTPUT_CSV = "data/eppo_downloads/eppo_reporting_retrieved.csv"
+OUTPUT_CSV = "data/eppo_downloads/eppo_reporting_126k.csv"
 BASE_URL = "https://gd.eppo.int"
 
 
