@@ -38,7 +38,10 @@ eppo_joined <- map_dfr(eppo_files, import, .id = "source_file") %>%
       report_year
     )
   )
-
+export(
+  eppo_joined,
+  here("data", "eppo_downloads", "eppo_crawled_joined.csv")
+)
 
 # Crawl performance review -----------------------------------------------
 
@@ -53,6 +56,12 @@ eppo_missing_codes <- eppo_code %>%
 
 100 - (nrow(eppo_missing_codes) / nrow(eppo_code) * 100) # 3.376%
 
+# count number of unique eppo_codes in the joined data
+eppo_joined %>%
+  distinct(eppo_code) %>%
+  nrow()
+
+
 # Count number of reports by eppo_code
 eppo_report_count <- eppo_joined %>%
   group_by(eppo_code) %>%
@@ -63,8 +72,20 @@ summary(eppo_report_count$report_count)
 
 # Histogram of report counts
 ggplot(eppo_report_count, aes(x = report_count)) +
-  geom_histogram(binwidth = 1)
-
+  geom_histogram(binwidth = 1, color = "seagreen") +
+  labs(title = "Distribution of Report Counts by EPPO Code") +
+  xlab("Number of Reports") +
+  ylab("Frequency") +
+  theme_minimal() +
+  # increase font size
+  theme(
+    plot.title = element_text(size = 14, face = "bold"),
+    # axis text size
+    axis.text.x = element_text(size = 14),
+    axis.text.y = element_text(size = 14),
+    axis.title.x = element_text(size = 14),
+    axis.title.y = element_text(size = 14)
+  )
 
 # Exploring data ---------------------------------------------------------
 
@@ -151,3 +172,5 @@ ggplot(new_pathogens_by_year, aes(x = first_report_year, y = new_pathogens)) +
   )
 
 # %% Geographic distribution of reports
+
+# %% Analysis 16 November
