@@ -140,7 +140,9 @@ export(
 
 # LAPHFR fall armyworm example dataset
 eppo_laphfr <- eppo_country_final %>%
-  filter(eppo_code == "LAPHFR")
+  filter(eppo_code == "LAPHFR") %>%
+  # move content column to the end
+  relocate(content, .after = last_col())
 
 export(
   eppo_laphfr,

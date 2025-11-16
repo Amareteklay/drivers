@@ -1,5 +1,5 @@
-source_file,eppo_code,name,number,title,date,url,content,report_year,countries,merge_case
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2025/030,First report of Spodoptera frugiperda in Bulgaria,2025-02,https://gd.eppo.int/reporting/article-8043,"EPPO Reporting Service no. 02 - 2025
+source_file,eppo_code,name,number,title,date,url,report_year,countries,merge_case,content
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2025/030,First report of Spodoptera frugiperda in Bulgaria,2025-02,https://gd.eppo.int/reporting/article-8043,2025-02-01,Bulgaria,one_to_one,"EPPO Reporting Service no. 02 - 2025
 Num. article:
 2025/030
 First report of Spodoptera frugiperda in Bulgaria
@@ -17,8 +17,8 @@ Absent, the entire country is pest free.
 Sources
 NPPO of Bulgaria (2025-02).
 Szanyi S, Barta M, Velchev D, Beshkov S, Mumford S, Todorov I, Nagy A, Varga Z, Tóth M, Toshova T (2025) First report of a migratory pest, the fall armyworm, Spodoptera frugiperda (JE Smith, 1797)(Lepidoptera, Noctuidae) from Bulgaria. Insects 16(2), 134.
-https://doi.org/10.3390/",2025-02-01,Bulgaria,one_to_one
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2024/150,First report of Spodoptera frugiperda in Iran,2024-07,https://gd.eppo.int/reporting/article-7900,"EPPO Reporting Service no. 07 - 2024
+https://doi.org/10.3390/"
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2024/150,First report of Spodoptera frugiperda in Iran,2024-07,https://gd.eppo.int/reporting/article-7900,2024-07-01,"Iran, Islamic Republic of",one_to_one,"EPPO Reporting Service no. 07 - 2024
 Num. article:
 2024/150
 First report of Spodoptera frugiperda in Iran
@@ -38,8 +38,8 @@ Spodoptera frugiperda
 Journal of the Entomological Society of Iran
 44
 (1), 111-116 (in Persian).
-https://doi.org/10.61186/JESI.44.1.9",2024-07-01,"Iran, Islamic Republic of",one_to_one
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2024/101,Possible incursion of Spodoptera frugiperda in Malta,2024-05,https://gd.eppo.int/reporting/article-7851,"EPPO Reporting Service no. 05 - 2024
+https://doi.org/10.61186/JESI.44.1.9"
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2024/101,Possible incursion of Spodoptera frugiperda in Malta,2024-05,https://gd.eppo.int/reporting/article-7851,2024-05-01,Malta,one_to_one,"EPPO Reporting Service no. 05 - 2024
 Num. article:
 2024/101
 Possible incursion of Spodoptera frugiperda in Malta
@@ -63,8 +63,8 @@ SHILAP Revista de lepidopterología
 52
 (205), 29-31.
 https://doi.org/10.57065/shilap.844
-NPPO of Malta (2024-05).",2024-05-01,Malta,one_to_one
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2024/003,First report of Spodoptera frugiperda in Romania,2024-01,https://gd.eppo.int/reporting/article-7753,"EPPO Reporting Service no. 01 - 2024
+NPPO of Malta (2024-05)."
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2024/003,First report of Spodoptera frugiperda in Romania,2024-01,https://gd.eppo.int/reporting/article-7753,2024-01-01,Romania,one_to_one,"EPPO Reporting Service no. 01 - 2024
 Num. article:
 2024/003
 First report of Spodoptera frugiperda in Romania
@@ -81,8 +81,8 @@ NPPO of Romania (2023-11).
 Commission Implementing Regulation (EU) 2023/1134 of 8 June 2023 as regards measures to prevent the introduction into, establishment and spread within the Union territory of
 Spodoptera frugiperda
 (Smith) and repealing Commission Implementing Decision (EU) 2018/638. OJ L 149.
-http://data.europa.eu/eli/reg_impl/2023/1134/oj",2024-01-01,Romania,one_to_one
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2023/226,First report of Spodoptera frugiperda in Portugal (Madeira),2023-10,https://gd.eppo.int/reporting/article-7708,"EPPO Reporting Service no. 10 - 2023
+http://data.europa.eu/eli/reg_impl/2023/1134/oj"
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2023/226,First report of Spodoptera frugiperda in Portugal (Madeira),2023-10,https://gd.eppo.int/reporting/article-7708,2023-10-01,Portugal,one_to_one,"EPPO Reporting Service no. 10 - 2023
 Num. article:
 2023/226
 First report of Spodoptera frugiperda in Portugal (Madeira)
@@ -104,8 +104,8 @@ NPPO of Portugal (2023-09).
 Commission Implementing Regulation (EU) 2023/1134 of 8 June 2023 as regards measures to prevent the introduction into, establishment and spread within the Union territory of
 Spodoptera frugiperda
 (Smith) and repealing Commission Implementing Decision (EU) 2018/638. OJ L 149
-http://data.europa.eu/eli/reg_impl/2023/1134/oj",2023-10-01,Portugal,one_to_one
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2023/225,First report of Spodoptera frugiperda in Greece,2023-10,https://gd.eppo.int/reporting/article-7707,"EPPO Reporting Service no. 10 - 2023
+http://data.europa.eu/eli/reg_impl/2023/1134/oj"
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2023/225,First report of Spodoptera frugiperda in Greece,2023-10,https://gd.eppo.int/reporting/article-7707,2023-10-01,Greece,one_to_one,"EPPO Reporting Service no. 10 - 2023
 Num. article:
 2023/225
 First report of Spodoptera frugiperda in Greece
@@ -128,8 +128,8 @@ NPPO of Greece (2023-10).
 Commission Implementing Regulation (EU) 2023/1134 of 8 June 2023 as regards measures to prevent the introduction into, establishment and spread within the Union territory of
 Spodoptera frugiperda
 (Smith) and repealing Commission Implementing Decision (EU) 2018/638. OJ L 149.
-http://data.europa.eu/eli/reg_impl/2023/1134/oj",2023-10-01,Greece,one_to_one
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2023/185,Update of the situation of Spodoptera frugiperda in Cyprus,2023-08,https://gd.eppo.int/reporting/article-7667,"EPPO Reporting Service no. 08 - 2023
+http://data.europa.eu/eli/reg_impl/2023/1134/oj"
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2023/185,Update of the situation of Spodoptera frugiperda in Cyprus,2023-08,https://gd.eppo.int/reporting/article-7667,2023-08-01,Cyprus,one_to_one,"EPPO Reporting Service no. 08 - 2023
 Num. article:
 2023/185
 Update of the situation of Spodoptera frugiperda in Cyprus
@@ -145,8 +145,8 @@ Spodoptera frugiperda
 in Cyprus is officially declared as:
 Present, at low prevalence, only in some parts of the Member State concerned, under eradication.
 Sources
-NPPO of Cyprus (2023-08).",2023-08-01,Cyprus,one_to_one
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2023/035,First report of Spodoptera frugiperda in Türkiye,2023-02,https://gd.eppo.int/reporting/article-7517,"EPPO Reporting Service no. 02 - 2023
+NPPO of Cyprus (2023-08)."
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2023/035,First report of Spodoptera frugiperda in Türkiye,2023-02,https://gd.eppo.int/reporting/article-7517,2023-02-01,Türkiye,one_to_one,"EPPO Reporting Service no. 02 - 2023
 Num. article:
 2023/035
 First report of Spodoptera frugiperda in Türkiye
@@ -170,8 +170,8 @@ frugiperda
 (J.E. Smith, 1797) (Lepidoptera: Noctuidae) in Türkiye.
 Çukurova Journal of Agricultural and Food Sciences
 37
-(2), 139-145.",2023-02-01,Türkiye,one_to_one
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2023/034,First report of Spodoptera frugiperda in Cyprus,2023-02,https://gd.eppo.int/reporting/article-7516,"EPPO Reporting Service no. 02 - 2023
+(2), 139-145."
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2023/034,First report of Spodoptera frugiperda in Cyprus,2023-02,https://gd.eppo.int/reporting/article-7516,2023-02-01,Cyprus,one_to_one,"EPPO Reporting Service no. 02 - 2023
 Num. article:
 2023/034
 First report of Spodoptera frugiperda in Cyprus
@@ -193,8 +193,8 @@ in Cyprus is officially declared as:
 Present, under eradication
 .
 Sources
-NPPO of Cyprus (2023-02).",2023-02-01,Cyprus,one_to_one
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2022/100,First report of Spodoptera frugiperda in New Zealand,2022-05,https://gd.eppo.int/reporting/article-7331,"EPPO Reporting Service no. 05 - 2022
+NPPO of Cyprus (2023-02)."
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2022/100,First report of Spodoptera frugiperda in New Zealand,2022-05,https://gd.eppo.int/reporting/article-7331,2022-05-01,New Zealand,one_to_one,"EPPO Reporting Service no. 05 - 2022
 Num. article:
 2022/100
 First report of Spodoptera frugiperda in New Zealand
@@ -205,8 +205,8 @@ S. frugiperda
 has been found, it is not expected that it will survive the winter. However, growers have been invited to report any suspicious findings to the phytosanitary authorities.
 Sources
 Ministry for Primary Industries. Biosecurity New Zealand (2022-04-14) Fall armyworm found in the North Island.
-https://www.mpi.govt.nz/biosecurity/major-pest-and-disease-threats/fall-armyworm/#:~:text=Fall%20armyworm%20is%20the%20name,and%20an%20adult%20moth%20stage",2022-05-01,New Zealand,one_to_one
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2022/033,First report of Spodoptera frugiperda in Saudi Arabia,2022-02,https://gd.eppo.int/reporting/article-7263,"EPPO Reporting Service no. 02 - 2022
+https://www.mpi.govt.nz/biosecurity/major-pest-and-disease-threats/fall-armyworm/#:~:text=Fall%20armyworm%20is%20the%20name,and%20an%20adult%20moth%20stage"
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2022/033,First report of Spodoptera frugiperda in Saudi Arabia,2022-02,https://gd.eppo.int/reporting/article-7263,2022-02-01,Saudi Arabia,one_to_one,"EPPO Reporting Service no. 02 - 2022
 Num. article:
 2022/033
 First report of Spodoptera frugiperda in Saudi Arabia
@@ -220,8 +220,8 @@ in Saudi Arabia can be described as follows:
 Present, not widely distributed.
 Sources
 IPPC News (2022-02-04) Fall armyworm detected in the Kingdom of Saudi Arabia.
-https://www.ippc.int/en/news/fall-armyworm-detected-in-the-kingdom-of-saudi-arabia/",2022-02-01,Saudi Arabia,one_to_one
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2021/214,First report of Spodoptera frugiperda from Brunei Darussalam,2021-10,https://gd.eppo.int/reporting/article-7153,"EPPO Reporting Service no. 10 - 2021
+https://www.ippc.int/en/news/fall-armyworm-detected-in-the-kingdom-of-saudi-arabia/"
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2021/214,First report of Spodoptera frugiperda from Brunei Darussalam,2021-10,https://gd.eppo.int/reporting/article-7153,2021-10-01,Brunei Darussalam,one_to_one,"EPPO Reporting Service no. 10 - 2021
 Num. article:
 2021/214
 First report of Spodoptera frugiperda from Brunei Darussalam
@@ -236,8 +236,8 @@ in Brunei Darussalam can be described as follows
 : Present.
 Sources
 Ministry of Primary Resources and Tourism of Brunei Darussalam. Agriculture and Agrifood Department. [Outbreak of fall armyworm (FAW) on maize plants in Brunei Darussalam] (in Malay).
-http://www.agriculture.gov.bn/Lists/Latest%20News/NewDisplay.aspx?ID=585",2021-10-01,Brunei Darussalam,one_to_one
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2021/213,First report of Spodoptera frugiperda from Cambodia,2021-10,https://gd.eppo.int/reporting/article-7152,"EPPO Reporting Service no. 10 - 2021
+http://www.agriculture.gov.bn/Lists/Latest%20News/NewDisplay.aspx?ID=585"
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2021/213,First report of Spodoptera frugiperda from Cambodia,2021-10,https://gd.eppo.int/reporting/article-7152,2021-10-01,Cambodia,one_to_one,"EPPO Reporting Service no. 10 - 2021
 Num. article:
 2021/213
 First report of Spodoptera frugiperda from Cambodia
@@ -257,8 +257,8 @@ https://www.fao.org/fall-armyworm/monitoring-tools/faw-map/en/
 Hadi B (2019) Fall armyworm in Cambodia: Surveillance, detection and response. Abstract of a paper presented at the XIX International Plant Protection Congress IPPC 2019 (Hyderabad, IN, 2019-11-10/14). Abstract Book, p 5.
 INTERNET
 Cambodia News English (2019-06-14) New pest destroys thousands of hectares of crops.
-https://cne.wtf/2019/06/14/new-pest-destroys-thousands-of-hectares-of-crops/",2021-10-01,Cambodia,one_to_one
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2021/212,First report of Spodoptera frugiperda in the Solomon Islands,2021-10,https://gd.eppo.int/reporting/article-7151,"EPPO Reporting Service no. 10 - 2021
+https://cne.wtf/2019/06/14/new-pest-destroys-thousands-of-hectares-of-crops/"
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2021/212,First report of Spodoptera frugiperda in the Solomon Islands,2021-10,https://gd.eppo.int/reporting/article-7151,2021-10-01,Solomon Islands,one_to_one,"EPPO Reporting Service no. 10 - 2021
 Num. article:
 2021/212
 First report of Spodoptera frugiperda in the Solomon Islands
@@ -273,8 +273,8 @@ Sources
 IPPC website. Official Pest Reports – Solomon Islands (SLB-01/1 of 2021-10-06)
 Spodoptera frugiperda
 (fall armyworm) detections Solomon Islands.
-https://www.ippc.int/fr/countries/solomon-islands/pestreports/2021/10/spodoptera-frugiperda-fall-armyworm-detections-solomon-islands/",2021-10-01,Solomon Islands,one_to_one
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2021/054,First report of Spodoptera frugiperda in New Caledonia,2021-03,https://gd.eppo.int/reporting/article-6993,"EPPO Reporting Service no. 03 - 2021
+https://www.ippc.int/fr/countries/solomon-islands/pestreports/2021/10/spodoptera-frugiperda-fall-armyworm-detections-solomon-islands/"
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2021/054,First report of Spodoptera frugiperda in New Caledonia,2021-03,https://gd.eppo.int/reporting/article-6993,2021-03-01,New Caledonia,one_to_one,"EPPO Reporting Service no. 03 - 2021
 Num. article:
 2021/054
 First report of Spodoptera frugiperda in New Caledonia
@@ -290,8 +290,8 @@ Sources
 IPPC website. Official Pest Reports – New Caledonia (NCL-04/1 of 2021-01-20) Detection of
 Spodoptera frugiperda
 (fall armyworm) in New Caledonia.
-https://www.ippc.int/fr/countries/new-caledonia/pestreports/2021/01/-0/",2021-03-01,New Caledonia,one_to_one
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2021/053,"First report of Spodoptera frugiperda in the Canary Islands, Spain",2021-03,https://gd.eppo.int/reporting/article-6992,"EPPO Reporting Service no. 03 - 2021
+https://www.ippc.int/fr/countries/new-caledonia/pestreports/2021/01/-0/"
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2021/053,"First report of Spodoptera frugiperda in the Canary Islands, Spain",2021-03,https://gd.eppo.int/reporting/article-6992,2021-03-01,Spain,one_to_one,"EPPO Reporting Service no. 03 - 2021
 Num. article:
 2021/053
 First report of Spodoptera frugiperda in the Canary Islands, Spain
@@ -318,8 +318,8 @@ NPPO of Spain (2021-03).
 Vives Moreno A, Gastón J (2020) [Five new species for the fauna of Spain and other interesting lepidopterological information for Spain and Sudan (Insecta: Lepidoptera)].
 SHILAP Revista de lepidopterología
 48
-(192), 717-731 (in Spanish).",2021-03-01,Spain,one_to_one
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2021/011,"Spodoptera frugiperda found in New South Wales, Australia",2021-01,https://gd.eppo.int/reporting/article-6950,"EPPO Reporting Service no. 01 - 2021
+(192), 717-731 (in Spanish)."
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2021/011,"Spodoptera frugiperda found in New South Wales, Australia",2021-01,https://gd.eppo.int/reporting/article-6950,2021-01-01,Australia,one_to_one,"EPPO Reporting Service no. 01 - 2021
 Num. article:
 2021/011
 Spodoptera frugiperda found in New South Wales, Australia
@@ -335,8 +335,8 @@ S. frugiperda
 was also detected in New South Wales, at first near Moree and then in other locations (Narrabri, Wee Waa, Dubbo, Breeza and Maitland).
 Sources
 New South Wales Government. Department of Primary Industries (2020-11-06) Fall armyworm.
-https://www.dpi.nsw.gov.au/biosecurity/plant/insect-pests-and-plant-diseases/fall-armyworm",2021-01-01,Australia,one_to_one
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2021/010,First report of Spodoptera frugiperda in Syria,2021-01,https://gd.eppo.int/reporting/article-6949,"EPPO Reporting Service no. 01 - 2021
+https://www.dpi.nsw.gov.au/biosecurity/plant/insect-pests-and-plant-diseases/fall-armyworm"
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2021/010,First report of Spodoptera frugiperda in Syria,2021-01,https://gd.eppo.int/reporting/article-6949,2021-01-01,Syrian Arab Republic,one_to_one,"EPPO Reporting Service no. 01 - 2021
 Num. article:
 2021/010
 First report of Spodoptera frugiperda in Syria
@@ -355,8 +355,8 @@ in Syria is officially declared as:
 Present: only in some areas.
 Sources
 IPPC website. Official Pest Reports – Syria (SYR-01/2 of 2020-12-27) First record of Fall Armyworm in Syria.
-https://www.ippc.int/fr/countries/syrian-arab-republic/pestreports/2020/12/first-record-of-army-warm-in-syria/",2021-01-01,Syrian Arab Republic,one_to_one
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2020/213,First report of Spodoptera frugiperda in Jordan,2020-10,https://gd.eppo.int/reporting/article-6891,"EPPO Reporting Service no. 10 - 2020
+https://www.ippc.int/fr/countries/syrian-arab-republic/pestreports/2020/12/first-record-of-army-warm-in-syria/"
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2020/213,First report of Spodoptera frugiperda in Jordan,2020-10,https://gd.eppo.int/reporting/article-6891,2020-10-01,Jordan,one_to_one,"EPPO Reporting Service no. 10 - 2020
 Num. article:
 2020/213
 First report of Spodoptera frugiperda in Jordan
@@ -375,8 +375,8 @@ Spodoptera frugiperda
 is officially declared as:
 Present in a limited area (North Shunah).
 Sources
-NPPO of Jordan (2020-09).",2020-10-01,Jordan,one_to_one
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2020/190,First report of Spodoptera frugiperda in Papua New Guinea,2020-09,https://gd.eppo.int/reporting/article-6868,"EPPO Reporting Service no. 09 - 2020
+NPPO of Jordan (2020-09)."
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2020/190,First report of Spodoptera frugiperda in Papua New Guinea,2020-09,https://gd.eppo.int/reporting/article-6868,2020-09-01,Papua New Guinea,one_to_one,"EPPO Reporting Service no. 09 - 2020
 Num. article:
 2020/190
 First report of Spodoptera frugiperda in Papua New Guinea
@@ -395,8 +395,8 @@ in Papua New Guinea can be described as follows:
 Present, only in some areas (Jiwaka, Madang, Morobe, Western, Western highlands provinces).
 Sources
 Pacific Community (SPC). News (2020-09-03) Armyworm infestation breaches the Pacific.
-https://www.spc.int/updates/news/media-release/2020/09/armyworm-infestation-breaches-the-pacific",2020-09-01,Papua New Guinea,one_to_one
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2020/161,First report of Spodoptera frugiperda in Israel,2020-08,https://gd.eppo.int/reporting/article-6839,"EPPO Reporting Service no. 08 - 2020
+https://www.spc.int/updates/news/media-release/2020/09/armyworm-infestation-breaches-the-pacific"
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2020/161,First report of Spodoptera frugiperda in Israel,2020-08,https://gd.eppo.int/reporting/article-6839,2020-08-01,Israel,one_to_one,"EPPO Reporting Service no. 08 - 2020
 Num. article:
 2020/161
 First report of Spodoptera frugiperda in Israel
@@ -412,8 +412,8 @@ Spodoptera frugiperda
 in Israel is officially declared as:
 Present: only in some areas (Western Negev, Bet Shaan valley).
 Sources
-NPPO of Israel (2020-08).",2020-08-01,Israel,one_to_one
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2020/143,First report of Spodoptera frugiperda in Mauritania,2020-07,https://gd.eppo.int/reporting/article-6821,"EPPO Reporting Service no. 07 - 2020
+NPPO of Israel (2020-08)."
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2020/143,First report of Spodoptera frugiperda in Mauritania,2020-07,https://gd.eppo.int/reporting/article-6821,2020-07-01,Mauritania,one_to_one,"EPPO Reporting Service no. 07 - 2020
 Num. article:
 2020/143
 First report of Spodoptera frugiperda in Mauritania
@@ -431,8 +431,8 @@ INTERNET
 FAO. Fall armyworm. Monitoring. FAW map.
 http://www.fao.org/fall-armyworm/monitoring-tools/faw-map/en/
 Cridem (2020-03-20) Première signalisation de la chenille légionnaire d’automne en Mauritanie.
-http://www.cridem.org/C_Info.php?article=733991",2020-07-01,Mauritania,one_to_one
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2020/142,First report of Spodoptera frugiperda in Timor-Leste,2020-07,https://gd.eppo.int/reporting/article-6820,"EPPO Reporting Service no. 07 - 2020
+http://www.cridem.org/C_Info.php?article=733991"
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2020/142,First report of Spodoptera frugiperda in Timor-Leste,2020-07,https://gd.eppo.int/reporting/article-6820,2020-07-01,East Timor,one_to_one,"EPPO Reporting Service no. 07 - 2020
 Num. article:
 2020/142
 First report of Spodoptera frugiperda in Timor-Leste
@@ -446,8 +446,8 @@ Present.
 Sources
 INTERNET
 FAO. Fall armyworm. Monitoring. FAW map.
-http://www.fao.org/fall-armyworm/monitoring-tools/faw-map/en/",2020-07-01,East Timor,one_to_one
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2020/141,First report of Spodoptera frugiperda in Pakistan,2020-07,https://gd.eppo.int/reporting/article-6819,"EPPO Reporting Service no. 07 - 2020
+http://www.fao.org/fall-armyworm/monitoring-tools/faw-map/en/"
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2020/141,First report of Spodoptera frugiperda in Pakistan,2020-07,https://gd.eppo.int/reporting/article-6819,2020-07-01,Pakistan,one_to_one,"EPPO Reporting Service no. 07 - 2020
 Num. article:
 2020/141
 First report of Spodoptera frugiperda in Pakistan
@@ -468,8 +468,8 @@ Spodoptera frugiperda
 (J.E. Smith) (Noctuidae: Lepidoptera) an alien invasive species from Pakistan.
 Applied Sciences and Business Economics
 6
-(1), 13.",2020-07-01,Pakistan,one_to_one
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2020/093,Spodoptera frugiperda continues to spread in Australia,2020-05,https://gd.eppo.int/reporting/article-6771,"EPPO Reporting Service no. 05 - 2020
+(1), 13."
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2020/093,Spodoptera frugiperda continues to spread in Australia,2020-05,https://gd.eppo.int/reporting/article-6771,2020-05-01,Australia,one_to_one,"EPPO Reporting Service no. 05 - 2020
 Num. article:
 2020/093
 Spodoptera frugiperda continues to spread in Australia
@@ -490,8 +490,8 @@ Sources
 IPPC website. Official Pest Reports – Australia (AUS-98/1 of 2020-05-07) Further detections of
 Spodoptera frugiperda
 (fall armyworm) on mainland Australia.
-https://www.ippc.int/en/countries/australia/pestreports/2020/05/further-detections-of-spodoptera-frugiperda-fall-armyworm-on-mainland-australia/",2020-05-01,Australia,one_to_one
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2020/092,First report of Spodoptera frugiperda in the United Arab Emirates,2020-05,https://gd.eppo.int/reporting/article-6770,"EPPO Reporting Service no. 05 - 2020
+https://www.ippc.int/en/countries/australia/pestreports/2020/05/further-detections-of-spodoptera-frugiperda-fall-armyworm-on-mainland-australia/"
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2020/092,First report of Spodoptera frugiperda in the United Arab Emirates,2020-05,https://gd.eppo.int/reporting/article-6770,2020-05-01,United Arab Emirates,one_to_one,"EPPO Reporting Service no. 05 - 2020
 Num. article:
 2020/092
 First report of Spodoptera frugiperda in the United Arab Emirates
@@ -508,8 +508,8 @@ Sources
 IPPC website. Official Pest Reports – United Arab Emirates (ARE-01/1 of 2020-05-10) The first detection of fall armyworm (FAM),
 Spodoptera frugiperda
 , in United Arab Emirates.
-https://www.ippc.int/en/countries/united-arab-emirates/pestreports/2020/05/the-first-detection-of-fall-armywormfam-spodoptera-frugiperda-in-united-arab-emirates/",2020-05-01,United Arab Emirates,one_to_one
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2020/071,"Spodoptera frugiperda detected in Northern Territory, Australia",2020-04,https://gd.eppo.int/reporting/article-6749,"EPPO Reporting Service no. 04 - 2020
+https://www.ippc.int/en/countries/united-arab-emirates/pestreports/2020/05/the-first-detection-of-fall-armywormfam-spodoptera-frugiperda-in-united-arab-emirates/"
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2020/071,"Spodoptera frugiperda detected in Northern Territory, Australia",2020-04,https://gd.eppo.int/reporting/article-6749,2020-04-01,Australia,one_to_one,"EPPO Reporting Service no. 04 - 2020
 Num. article:
 2020/071
 Spodoptera frugiperda detected in Northern Territory, Australia
@@ -526,8 +526,8 @@ in Australia is officially declared as:
 Present: only in some areas, but managed.
 Sources
 IPPC website. Official Pest Reports – Australia (AUS-97/2 of 2020-03-20) Detections of Spodoptera frugiperda (fall armyworm) on mainland Australia
-https://www.ippc.int/en/countries/australia/pestreports/2020/03/detections-of-spodoptera-frugiperda-fall-armyworm-on-mainland-australia/",2020-04-01,Australia,one_to_one
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2020/031,First report of Spodoptera frugiperda in Australia,2020-02,https://gd.eppo.int/reporting/article-6709,"EPPO Reporting Service no. 02 - 2020
+https://www.ippc.int/en/countries/australia/pestreports/2020/03/detections-of-spodoptera-frugiperda-fall-armyworm-on-mainland-australia/"
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2020/031,First report of Spodoptera frugiperda in Australia,2020-02,https://gd.eppo.int/reporting/article-6709,2020-02-01,Australia,one_to_one,"EPPO Reporting Service no. 02 - 2020
 Num. article:
 2020/031
 First report of Spodoptera frugiperda in Australia
@@ -550,8 +550,8 @@ Spodoptera frugip
 erda (fall armyworm) in Torres Strait.
 https://www.ippc.int/en/countries/australia/pestreports/2020/02/first-detection-of-spodoptera-frugiperda-fall-armyworm-in-torres-strait/
 Queensland Government. First mainland detection of fall armyworm. News release of 2020-02-19.
-https://www.daf.qld.gov.au/news-media/media-centre/biosecurity/news/first-mainland-detection-of-fall-armyworm",2020-02-01,Australia,one_to_one
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2019/236,First report of Spodoptera frugiperda in the Philippines,2019-11,https://gd.eppo.int/reporting/article-6666,"EPPO Reporting Service no. 11 - 2019
+https://www.daf.qld.gov.au/news-media/media-centre/biosecurity/news/first-mainland-detection-of-fall-armyworm"
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2019/236,First report of Spodoptera frugiperda in the Philippines,2019-11,https://gd.eppo.int/reporting/article-6666,2019-11-01,Philippines,one_to_one,"EPPO Reporting Service no. 11 - 2019
 Num. article:
 2019/236
 First report of Spodoptera frugiperda in the Philippines
@@ -565,8 +565,8 @@ Present: at low prevalence
 .
 Sources
 IPPC website. Official Pest Reports – Philippines (PHL-02/1 of 2019-10-28) Report of first detection of fall army worm (FAW) in the Republic of the Philippines.
-https://www.ippc.int/en/countries/philippines/pestreports/2019/10/report-of-first-detection-of-fall-army-worm-faw-in-the-republic-of-the-philippines/",2019-11-01,Philippines,one_to_one
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2019/180,First report of Spodoptera frugiperda in Nepal,2019-09,https://gd.eppo.int/reporting/article-6610,"EPPO Reporting Service no. 09 - 2019
+https://www.ippc.int/en/countries/philippines/pestreports/2019/10/report-of-first-detection-of-fall-army-worm-faw-in-the-republic-of-the-philippines/"
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2019/180,First report of Spodoptera frugiperda in Nepal,2019-09,https://gd.eppo.int/reporting/article-6610,2019-09-01,Nepal,one_to_one,"EPPO Reporting Service no. 09 - 2019
 Num. article:
 2019/180
 First report of Spodoptera frugiperda in Nepal
@@ -589,8 +589,8 @@ Sources
 IPPC website. Official Pest Reports – Nepal (NPL-04/3 of 2019-08-13)
 Spodoptera frugiperda
 (Fall Armyworm).
-https://www.ippc.int/en/countries/nepal/pestreports/2019/08/spodoptera-frugiperda-fall-armyworm/",2019-09-01,Nepal,one_to_one
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2019/179,First report of Spodoptera frugiperda in Gabon,2019-09,https://gd.eppo.int/reporting/article-6609,"EPPO Reporting Service no. 09 - 2019
+https://www.ippc.int/en/countries/nepal/pestreports/2019/08/spodoptera-frugiperda-fall-armyworm/"
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2019/179,First report of Spodoptera frugiperda in Gabon,2019-09,https://gd.eppo.int/reporting/article-6609,2019-09-01,Gabon,one_to_one,"EPPO Reporting Service no. 09 - 2019
 Num. article:
 2019/179
 First report of Spodoptera frugiperda in Gabon
@@ -616,8 +616,8 @@ IPPC website. Official Pest Reports – Gabon (GAB-03/2 of 2019-08-28) Signaleme
 http
 IPPC website. Official Pest Reports – Gabon (GAB-03/2 of 2019-08-28) Signalement de la chenille légionnaire d'automne (CLA) au Gabon.
 https://www.ippc.int/en/countries/gabon/pestreports/2019/08/signalement-de-la-chenille-legionnaire-dautomne-cla-au-gabon/
-s://www.ippc.int/en/countries/gabon/pestreports/2019/08/signalement-de-la-chenille-legionnaire-dautomne-cla-au-gabon/",2019-09-01,Gabon,one_to_one
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2019/139,First report of Spodoptera frugiperda in Indonesia,2019-07,https://gd.eppo.int/reporting/article-6569,"EPPO Reporting Service no. 07 - 2019
+s://www.ippc.int/en/countries/gabon/pestreports/2019/08/signalement-de-la-chenille-legionnaire-dautomne-cla-au-gabon/"
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2019/139,First report of Spodoptera frugiperda in Indonesia,2019-07,https://gd.eppo.int/reporting/article-6569,2019-07-01,Indonesia,one_to_one,"EPPO Reporting Service no. 07 - 2019
 Num. article:
 2019/139
 First report of Spodoptera frugiperda in Indonesia
@@ -636,8 +636,8 @@ Sources
 IPPC website. Official Pest Reports – Indonesia (IDN-04/1 of 2019-07-11) The occurrence of fall armyworm (
 Spodoptera frugiperda
 ) in Indonesia.
-https://www.ippc.int/en/countries/indonesia/pestreports/2019/07/the-occurence-of-fall-armyworm-spodoptera-frugiperda-in-indonesia/",2019-07-01,Indonesia,one_to_one
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2019/138,First report of Spodoptera frugiperda in Japan,2019-07,https://gd.eppo.int/reporting/article-6568,"EPPO Reporting Service no. 07 - 2019
+https://www.ippc.int/en/countries/indonesia/pestreports/2019/07/the-occurence-of-fall-armyworm-spodoptera-frugiperda-in-indonesia/"
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2019/138,First report of Spodoptera frugiperda in Japan,2019-07,https://gd.eppo.int/reporting/article-6568,2019-07-01,Japan,one_to_one,"EPPO Reporting Service no. 07 - 2019
 Num. article:
 2019/138
 First report of Spodoptera frugiperda in Japan
@@ -654,8 +654,8 @@ Sources
 IPPC website. Official Pest Reports – Japan (JPN-08/6 of 2019-07-03) Report of first detection of
 Spodoptera frugiperda
 – Fall armyworm (FAW) in Japan.
-https://www.ippc.int/en/countries/japan/pestreports/2019/07/report-of-first-detection-of-spodoptera-frugipedera-fall-armyworm-faw-in-japan/",2019-07-01,Japan,one_to_one
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2019/137,First report of Spodoptera frugiperda in the Republic of Korea,2019-07,https://gd.eppo.int/reporting/article-6567,"EPPO Reporting Service no. 07 - 2019
+https://www.ippc.int/en/countries/japan/pestreports/2019/07/report-of-first-detection-of-spodoptera-frugipedera-fall-armyworm-faw-in-japan/"
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2019/137,First report of Spodoptera frugiperda in the Republic of Korea,2019-07,https://gd.eppo.int/reporting/article-6567,2019-07-01,"Korea, Republic of",one_to_one,"EPPO Reporting Service no. 07 - 2019
 Num. article:
 2019/137
 First report of Spodoptera frugiperda in the Republic of Korea
@@ -672,8 +672,8 @@ in the Republic of Korea is officially declared as:
 Transient: actionable, under eradication.
 Sources
 IPPC website. Official Pest Reports – Republic of Korea (KOR-08/2 of 2019-06-21) Report of first detection of fall armyworm (FAW) in Republic of Korea.
-https://www.ippc.int/en/countries/republic-of-korea/pestreports/2019/06/report-of-first-detection-of-fall-armywormfaw-in-republic-of-korea/",2019-07-01,"Korea, Republic of",one_to_one
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2019/136,First report of Spodoptera frugiperda in Egypt,2019-07,https://gd.eppo.int/reporting/article-6566,"EPPO Reporting Service no. 07 - 2019
+https://www.ippc.int/en/countries/republic-of-korea/pestreports/2019/06/report-of-first-detection-of-fall-armywormfaw-in-republic-of-korea/"
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2019/136,First report of Spodoptera frugiperda in Egypt,2019-07,https://gd.eppo.int/reporting/article-6566,2019-07-01,Egypt,one_to_one,"EPPO Reporting Service no. 07 - 2019
 Num. article:
 2019/136
 First report of Spodoptera frugiperda in Egypt
@@ -692,8 +692,8 @@ Sources
 IPPC website. Official Pest Reports – Egypt (EGY-01/1 of 2019-06-23) Report of first detection of
 Spodoptera frugiperda
 – Fall armyworm (FAW) in Egypt.
-https://www.ippc.int/en/countries/egypt/pestreports/2019/06/report-of-first-detection-of-spodoptera-frugiperda-fall-armyworm-faw-in-egypt/",2019-07-01,Egypt,one_to_one
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2019/029,First report of Spodoptera frugiperda in China,2019-02,https://gd.eppo.int/reporting/article-6459,"EPPO Reporting Service no. 02 - 2019
+https://www.ippc.int/en/countries/egypt/pestreports/2019/06/report-of-first-detection-of-spodoptera-frugiperda-fall-armyworm-faw-in-egypt/"
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2019/029,First report of Spodoptera frugiperda in China,2019-02,https://gd.eppo.int/reporting/article-6459,2019-02-01,China,one_to_one,"EPPO Reporting Service no. 02 - 2019
 Num. article:
 2019/029
 First report of Spodoptera frugiperda in China
@@ -708,8 +708,8 @@ in China can be described as follows:
 Present: only in some areas (Yunnan province), under official control.
 Sources
 IPPC (2019) First detection of fall armyworm in China.
-https://www.ippc.int/fr/news/first-detection-of-fall-armyworm-in-china/",2019-02-01,China,one_to_one
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2019/007,First report of Spodoptera frugiperda in Yemen,2019-01,https://gd.eppo.int/reporting/article-6437,"EPPO Reporting Service no. 01 - 2019
+https://www.ippc.int/fr/news/first-detection-of-fall-armyworm-in-china/"
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2019/007,First report of Spodoptera frugiperda in Yemen,2019-01,https://gd.eppo.int/reporting/article-6437,2019-01-01,Yemen,one_to_one,"EPPO Reporting Service no. 01 - 2019
 Num. article:
 2019/007
 First report of Spodoptera frugiperda in Yemen
@@ -726,8 +726,8 @@ Sources
 FAO (2018-12-13) Briefing note on FAO actions on fall armyworm.
 http://www.fao.org/3/BS183E/bs183e.pdf
 FAO (2019-01-14) FAW monitoring & early warning system (FAMEWS)
-https://app.powerbi.com/view?r=eyJrIjoiMmFlOWQxMjctZjIwYy00MTdlLWJmMDgtMGM1ZWQ5YmZmNDQwIiwidCI6IjJmMDYwNjMyLTg4MDgtNGM5ZS05M2NmLTNmY2JkMWM1YTUxYiIsImMiOjh9&refresh=1&pageName=ReportSection0901c9217ada50684ad0",2019-01-01,Yemen,one_to_one
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2019/006,First report of Spodoptera frugiperda in Thailand,2019-01,https://gd.eppo.int/reporting/article-6436,"EPPO Reporting Service no. 01 - 2019
+https://app.powerbi.com/view?r=eyJrIjoiMmFlOWQxMjctZjIwYy00MTdlLWJmMDgtMGM1ZWQ5YmZmNDQwIiwidCI6IjJmMDYwNjMyLTg4MDgtNGM5ZS05M2NmLTNmY2JkMWM1YTUxYiIsImMiOjh9&refresh=1&pageName=ReportSection0901c9217ada50684ad0"
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2019/006,First report of Spodoptera frugiperda in Thailand,2019-01,https://gd.eppo.int/reporting/article-6436,2019-01-01,Thailand,one_to_one,"EPPO Reporting Service no. 01 - 2019
 Num. article:
 2019/006
 First report of Spodoptera frugiperda in Thailand
@@ -742,8 +742,8 @@ in Thailand is officially declared as:
 Present: subject to official control.
 Sources
 IPPC website. Official Pest Reports – Thailand (THA-03/1 of 2018-12-19) First detection of fall armyworm on the border of Thailand.
-https://www.ippc.int/en/countries/thailand/pestreports/2018/12/first-detection-of-fall-army-worm-on-the-border-of-thailand/",2019-01-01,Thailand,one_to_one
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2019/005,First report of Spodoptera frugiperda in Myanmar,2019-01,https://gd.eppo.int/reporting/article-6435,"EPPO Reporting Service no. 01 - 2019
+https://www.ippc.int/en/countries/thailand/pestreports/2018/12/first-detection-of-fall-army-worm-on-the-border-of-thailand/"
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2019/005,First report of Spodoptera frugiperda in Myanmar,2019-01,https://gd.eppo.int/reporting/article-6435,2019-01-01,Myanmar,one_to_one,"EPPO Reporting Service no. 01 - 2019
 Num. article:
 2019/005
 First report of Spodoptera frugiperda in Myanmar
@@ -760,8 +760,8 @@ Sources
 IPPC website. Official Pest Reports – Myanmar (MMR-19/6 of 2019-01-14) First detection report of the fall armyworm
 Spodoptera frugiperda
 (Lepidoptera: Noctuidae) on maize in Myanmar.
-https://www.ippc.int/en/countries/myanmar/pestreports/2019/01/first-detection-report-of-the-fall-armyworm-spodoptera-frugiperda-lepidoptra-noctuidae-on-maize-in-myanma/",2019-01-01,Myanmar,one_to_one
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2018/190,First report of Spodoptera frugiperda in Réunion,2018-10,https://gd.eppo.int/reporting/article-6384,"EPPO Reporting Service no. 10 - 2018
+https://www.ippc.int/en/countries/myanmar/pestreports/2019/01/first-detection-report-of-the-fall-armyworm-spodoptera-frugiperda-lepidoptra-noctuidae-on-maize-in-myanma/"
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2018/190,First report of Spodoptera frugiperda in Réunion,2018-10,https://gd.eppo.int/reporting/article-6384,2018-10-01,Reunion,one_to_one,"EPPO Reporting Service no. 10 - 2018
 Num. article:
 2018/190
 First report of Spodoptera frugiperda in Réunion
@@ -775,8 +775,8 @@ Spodoptera frugiperda
 in Réunion is officially declared as:
 Present, only in some areas.
 Sources
-NPPO of France (2018-10).",2018-10-01,Reunion,one_to_one
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2018/189,First report of Spodoptera frugiperda in Mayotte,2018-10,https://gd.eppo.int/reporting/article-6383,"EPPO Reporting Service no. 10 - 2018
+NPPO of France (2018-10)."
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2018/189,First report of Spodoptera frugiperda in Mayotte,2018-10,https://gd.eppo.int/reporting/article-6383,2018-10-01,Mayotte,one_to_one,"EPPO Reporting Service no. 10 - 2018
 Num. article:
 2018/189
 First report of Spodoptera frugiperda in Mayotte
@@ -792,8 +792,8 @@ Spodoptera frugiperda
 in Mayotte is officially declared as:
 Present, only in some areas.
 Sources
-NPPO of France (2018-10).",2018-10-01,Mayotte,one_to_one
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2018/154,First report of Spodoptera frugiperda in India,2018-08,https://gd.eppo.int/reporting/article-6348,"EPPO Reporting Service no. 08 - 2018
+NPPO of France (2018-10)."
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2018/154,First report of Spodoptera frugiperda in India,2018-08,https://gd.eppo.int/reporting/article-6348,2018-08-01,India,one_to_one,"EPPO Reporting Service no. 08 - 2018
 Num. article:
 2018/154
 First report of Spodoptera frugiperda in India
@@ -835,8 +835,8 @@ Internet News (Maharashtra, Tamil Nadu and Telengana)
 The Hindu (2018-08-20) Fall armyworm spreads to maize fields in Tiruchi.
 https://www.thehindu.com/todays-paper/tp-national/tp-tamilnadu/fall-armyworm-spreads-to-maize-fields-in-tiruchi/article24733851.ece
 The New Indian Express (2018-08-22) North American pest makes a debut in Telangana, officials worried.
-http://www.newindianexpress.com/states/telangana/2018/aug/22/north-american-pest-makes-a-debut-in-telangana-officials-worried-1861078.html",2018-08-01,India,one_to_one
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2021/168,"New IPPC Guidelines: Prevention, preparedness and response guidelines for Spodoptera frugiperda",2021-08,https://gd.eppo.int/reporting/article-7107,"EPPO Reporting Service no. 08 - 2021
+http://www.newindianexpress.com/states/telangana/2018/aug/22/north-american-pest-makes-a-debut-in-telangana-officials-worried-1861078.html"
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2021/168,"New IPPC Guidelines: Prevention, preparedness and response guidelines for Spodoptera frugiperda",2021-08,https://gd.eppo.int/reporting/article-7107,2021-08-01,,one_to_zero,"EPPO Reporting Service no. 08 - 2021
 Num. article:
 2021/168
 New IPPC Guidelines: Prevention, preparedness and response guidelines for Spodoptera frugiperda
@@ -851,8 +851,8 @@ Spodoptera frugiperda
 . Rome. FAO on behalf of the Secretariat of the International Plant Protection Convention.
 http://www.fao.org/3/cb5880en/cb5880en.pdf
 Sources
-EPPO Secretariat (2021-08).",2021-08-01,,one_to_zero
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2018/072,Useful publications on Spodoptera frugiperda,2018-04,https://gd.eppo.int/reporting/article-6266,"EPPO Reporting Service no. 04 - 2018
+EPPO Secretariat (2021-08)."
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2018/072,Useful publications on Spodoptera frugiperda,2018-04,https://gd.eppo.int/reporting/article-6266,2018-04-01,,one_to_zero,"EPPO Reporting Service no. 04 - 2018
 Num. article:
 2018/072
 Useful publications on Spodoptera frugiperda
@@ -868,8 +868,8 @@ st
 edition. Mexico, CDMX: CIMMYT, 109 pp.
 https://repository.cimmyt.org/xmlui/handle/10883/19204
 Sources
-EPPO Secretariat (2018-03).",2018-04-01,,one_to_zero
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2019/053,Spodoptera frugiperda continues to spread in Asia,2019-03,https://gd.eppo.int/reporting/article-6483,"EPPO Reporting Service no. 03 - 2019
+EPPO Secretariat (2018-03)."
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2019/053,Spodoptera frugiperda continues to spread in Asia,2019-03,https://gd.eppo.int/reporting/article-6483,2019-03-01,Bangladesh; India; Sri Lanka,one_to_many,"EPPO Reporting Service no. 03 - 2019
 Num. article:
 2019/053
 Spodoptera frugiperda continues to spread in Asia
@@ -932,8 +932,8 @@ Spodoptera frugiperda
 (J.E. Smith), their nature of damage and biology on maize crop at Raipur, Chhattisgarh.
 Journal of Entomology and Zoology Studies
 6
-(6), 219-221.",2019-03-01,Bangladesh; India; Sri Lanka,one_to_many
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2018/007,Spodoptera frugiperda continues to spread in Africa,2018-01,https://gd.eppo.int/reporting/article-6201,"EPPO Reporting Service no. 01 - 2018
+(6), 219-221."
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2018/007,Spodoptera frugiperda continues to spread in Africa,2018-01,https://gd.eppo.int/reporting/article-6201,2018-01-01,Cabo Verde; Cote d'Ivoire; Guinea-Bissau; Madagascar; Senegal; Seychelles; Sierra Leone; Somalia,one_to_many,"EPPO Reporting Service no. 01 - 2018
 Num. article:
 2018/007
 Spodoptera frugiperda continues to spread in Africa
@@ -961,8 +961,8 @@ S. frugiperda
 has been detected in Gabon, Mali, Sudan but its presence remains to be officially confirmed in these countries.
 Sources
 FAO (2017-11-24) Briefing note on fall armyworm (FAW) in Africa.
-http://www.fao.org/3/a-bt415e.pdf",2018-01-01,Cabo Verde; Cote d'Ivoire; Guinea-Bissau; Madagascar; Senegal; Seychelles; Sierra Leone; Somalia,one_to_many
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2017/213,Spodoptera frugiperda continues to spread in Africa,2017-11,https://gd.eppo.int/reporting/article-6181,"EPPO Reporting Service no. 11 - 2017
+http://www.fao.org/3/a-bt415e.pdf"
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2017/213,Spodoptera frugiperda continues to spread in Africa,2017-11,https://gd.eppo.int/reporting/article-6181,2017-11-01,Angola; Cameroon; Chad; Congo; Guinea; South Sudan,one_to_many,"EPPO Reporting Service no. 11 - 2017
 Num. article:
 2017/213
 Spodoptera frugiperda continues to spread in Africa
@@ -983,8 +983,8 @@ Summary version: [
 Link
 ] - Full document: [
 Link
-]",2017-11-01,Angola; Cameroon; Chad; Congo; Guinea; South Sudan,one_to_many
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2017/191,Spodoptera frugiperda continues to spread in Africa,2017-10,https://gd.eppo.int/reporting/article-6159,"EPPO Reporting Service no. 10 - 2017
+]"
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2017/191,Spodoptera frugiperda continues to spread in Africa,2017-10,https://gd.eppo.int/reporting/article-6159,2017-10-01,Angola; Central African Republic; Chad; Congo,one_to_many,"EPPO Reporting Service no. 10 - 2017
 Num. article:
 2017/191
 Spodoptera frugiperda continues to spread in Africa
@@ -999,8 +999,8 @@ Angola, Central African Republic, Chad, and Congo.
 Sources
 INTERNET
 FAO (2017-09-01) Briefing note on FAO actions on fall armyworm in Africa.
-http://www.fao.org/3/a-bs183e.pdf",2017-10-01,Angola; Central African Republic; Chad; Congo,one_to_many
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2017/116,Spodoptera frugiperda continues to spread in Africa,2017-06,https://gd.eppo.int/reporting/article-6084,"EPPO Reporting Service no. 06 - 2017
+http://www.fao.org/3/a-bs183e.pdf"
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2017/116,Spodoptera frugiperda continues to spread in Africa,2017-06,https://gd.eppo.int/reporting/article-6084,2017-06-01,"Botswana; Burkina Faso; Burundi; Cameroon; Equatorial Guinea; Ethiopia; Kenya; Niger; Rwanda; Sierra Leone; Tanzania, United Republic of; Uganda",one_to_many,"EPPO Reporting Service no. 06 - 2017
 Num. article:
 2017/116
 Spodoptera frugiperda continues to spread in Africa
@@ -1045,8 +1045,8 @@ http://www.fao.org/3/a-bs183e.pdf
 IPPC website. Official Pest Reports – Cameroon (CMR-04/6 of 2017-06-02) First report of the fall army worm
 Spodoptera frugiperda
 in Cameroon.
-https://www.ippc.int/en/countries/cameroon/pestreports/2017/06/first-report-of-the-fall-army-worm-spodoptera-frugiperda-in-cameroon/",2017-06-01,"Botswana; Burkina Faso; Burundi; Cameroon; Equatorial Guinea; Ethiopia; Kenya; Niger; Rwanda; Sierra Leone; Tanzania, United Republic of; Uganda",one_to_many
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2017/035,Spodoptera frugiperda continues to spread in Africa,2017-02,https://gd.eppo.int/reporting/article-6003,"EPPO Reporting Service no. 02 - 2017
+https://www.ippc.int/en/countries/cameroon/pestreports/2017/06/first-report-of-the-fall-army-worm-spodoptera-frugiperda-in-cameroon/"
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2017/035,Spodoptera frugiperda continues to spread in Africa,2017-02,https://gd.eppo.int/reporting/article-6003,2017-02-01,"Congo, The Democratic Republic of the; Eswatini; Ghana; Malawi; Mozambique; Namibia; San Marino; South Africa; Zimbabwe",one_to_many,"EPPO Reporting Service no. 02 - 2017
 Num. article:
 2017/035
 Spodoptera frugiperda continues to spread in Africa
@@ -1091,8 +1091,8 @@ https://www.ippc.int/en/countries/south-africa/pestreports/2017/02/first-detecti
 - Swaziland (SWZ-02/1) Detection of Fall Army Worm Spodoptera frugiperda in Swaziland.
 https://www.ippc.int/en/countries/swaziland/pestreports/2017/02/detection-of-fall-army-worm-spodoptera-frugiperda-in-swaziland/
 – Zambia (ZMB-02/2 of 2017-02-16) Preliminary report on fall Armyworm in Zambia.
-https://www.ippc.int/en/countries/zambia/pestreports/2017/02/preliminary-report-on-fall-armyworm-in-zambia/",2017-02-01,"Congo, The Democratic Republic of the; Eswatini; Ghana; Malawi; Mozambique; Namibia; San Marino; South Africa; Zimbabwe",one_to_many
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2016/188,"First reports of Spodoptera frugiperda in Benin, Nigeria, São Tomé et Príncipe, and Togo",2016-10,https://gd.eppo.int/reporting/article-5933,"EPPO Reporting Service no. 10 - 2016
+https://www.ippc.int/en/countries/zambia/pestreports/2017/02/preliminary-report-on-fall-armyworm-in-zambia/"
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2016/188,"First reports of Spodoptera frugiperda in Benin, Nigeria, São Tomé et Príncipe, and Togo",2016-10,https://gd.eppo.int/reporting/article-5933,2016-10-01,Benin; Nigeria; Sao Tome and Principe; Togo,one_to_many,"EPPO Reporting Service no. 10 - 2016
 Num. article:
 2016/188
 First reports of Spodoptera frugiperda in Benin, Nigeria, São Tomé et Príncipe, and Togo
@@ -1110,8 +1110,8 @@ in Africa.
 Sources
 Goergen G, Kumar PL, Sankung SB, Togola A, Tamò M (2016) First report of outbreaks of the fall armyworm
 Spodoptera frugiperda
-(J E Smith) (Lepidoptera, Noctuidae), a new alien invasive pest in West and Central Africa. PLoS ONE 11(10): e0165632. doi:10.1371/journal.pone.0165632",2016-10-01,Benin; Nigeria; Sao Tome and Principe; Togo,one_to_many
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2000/171,Situation of several quarantine pests in Germany in 1999 and 2000,2000-11,https://gd.eppo.int/reporting/article-3202,"EPPO Reporting Service no. 11 - 2000
+(J E Smith) (Lepidoptera, Noctuidae), a new alien invasive pest in West and Central Africa. PLoS ONE 11(10): e0165632. doi:10.1371/journal.pone.0165632"
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2000/171,Situation of several quarantine pests in Germany in 1999 and 2000,2000-11,https://gd.eppo.int/reporting/article-3202,2000-11-01,Germany,many_to_one,"EPPO Reporting Service no. 11 - 2000
 Num. article:
 2000/171
 Situation of several quarantine pests in Germany in 1999 and 2000
@@ -1144,8 +1144,8 @@ Spodoptera frugiperda
 (EPPO A1 quarantine pest) was found in Baden-Württemberg on sweet maize plants grown in a nursery (3 ha). There were clear evidence of larval feeding. In September 1999, 40 infected plants were found. Larvae were collected and destroyed. Because of the climatic conditions, it appears unlikely that any further spread occurred. Maize cobs had been imported from USA and were originally intended for fresh consumption. The production site is under quarantine and further observations will be made to verify the absence of the pest.
 Present: only in one place of production in Baden-Württemberg, under eradication.
 Sources
-NPPO of Germany, 2000-10.",2000-11-01,Germany,many_to_one
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2025/139,New data on quarantine pests and pests of the EPPO Alert List,2025-06,https://gd.eppo.int/reporting/article-8152,"EPPO Reporting Service no. 06 - 2025
+NPPO of Germany, 2000-10."
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2025/139,New data on quarantine pests and pests of the EPPO Alert List,2025-06,https://gd.eppo.int/reporting/article-8152,2025-06-01,Australia; Azerbaijan; China; Egypt; Fiji; Germany; Kazakhstan; Martinique; United Arab Emirates; United States of America,many_to_many,"EPPO Reporting Service no. 06 - 2025
 Num. article:
 2025/139
 New data on quarantine pests and pests of the EPPO Alert List
@@ -1326,8 +1326,8 @@ Plant Disease
 https://doi.org/10.1094/PDIS-02-25-0359-PDN
 NPPO of Australia (2025-05). Tomato brown rugose fruit virus
 https://www.outbreak.gov.au/current-outbreaks/tomato-brown-rugose-fruit-virus#toc_0
-NPPO of Germany (2025-06).",2025-06-01,Australia; Azerbaijan; China; Egypt; Fiji; Germany; Kazakhstan; Martinique; United Arab Emirates; United States of America,many_to_many
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2024/075,New data on quarantine pests and pests of the EPPO Alert List,2024-04,https://gd.eppo.int/reporting/article-7825,"EPPO Reporting Service no. 04 - 2024
+NPPO of Germany (2025-06)."
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2024/075,New data on quarantine pests and pests of the EPPO Alert List,2024-04,https://gd.eppo.int/reporting/article-7825,2024-04-01,Brazil; China; Ireland; Israel; Kazakhstan; Lebanon; Russian Federation (the); Tunisia; United Kingdom; United States of America,many_to_many,"EPPO Reporting Service no. 04 - 2024
 Num. article:
 2024/075
 New data on quarantine pests and pests of the EPPO Alert List
@@ -1480,8 +1480,8 @@ Stephanitis pyrioides
 (Scott, 1874) (Hemiptera: Heteroptera: Tingidae) in the European part of Russia: Molecular genetics and taxonomy of an alien pest.
 EPPO Bulletin
 53
-(3), 643–651.",2024-04-01,Brazil; China; Ireland; Israel; Kazakhstan; Lebanon; Russian Federation (the); Tunisia; United Kingdom; United States of America,many_to_many
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2024/027,New data on quarantine pests and pests of the EPPO Alert List,2024-02,https://gd.eppo.int/reporting/article-7777,"EPPO Reporting Service no. 02 - 2024
+(3), 643–651."
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2024/027,New data on quarantine pests and pests of the EPPO Alert List,2024-02,https://gd.eppo.int/reporting/article-7777,2024-02-01,Bulgaria; Canada; China; Czechia; Mexico; Morocco; South Africa; United States of America; Vanuatu,many_to_many,"EPPO Reporting Service no. 02 - 2024
 Num. article:
 2024/027
 New data on quarantine pests and pests of the EPPO Alert List
@@ -1690,8 +1690,8 @@ Suárez-Hernández HD, Infante F, Ortiz-Ceballos ÁI, Díaz-Fleischer F, López-
 Agro Productividad
 16
 (3).
-https://doi.org/10.32854/agrop.v16i3.2466",2024-02-01,Bulgaria; Canada; China; Czechia; Mexico; Morocco; South Africa; United States of America; Vanuatu,many_to_many
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2023/175,New data on quarantine pests and pests of the EPPO Alert List,2023-08,https://gd.eppo.int/reporting/article-7657,"EPPO Reporting Service no. 08 - 2023
+https://doi.org/10.32854/agrop.v16i3.2466"
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2023/175,New data on quarantine pests and pests of the EPPO Alert List,2023-08,https://gd.eppo.int/reporting/article-7657,2023-08-01,China; Equatorial Guinea; Iraq; Mexico; Russian Federation (the); Spain; Syrian Arab Republic,many_to_many,"EPPO Reporting Service no. 08 - 2023
 Num. article:
 2023/175
 New data on quarantine pests and pests of the EPPO Alert List
@@ -1878,8 +1878,8 @@ Pantoea stewartii
 on jackfruit in China.
 Plant Disease
 (early view).
-https://doi.org/10.1094/PDIS-11-22-2740-PDN",2023-08-01,China; Equatorial Guinea; Iraq; Mexico; Russian Federation (the); Spain; Syrian Arab Republic,many_to_many
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2021/096,New data on quarantine pests and pests of the EPPO Alert List,2021-05,https://gd.eppo.int/reporting/article-7035,"EPPO Reporting Service no. 05 - 2021
+https://doi.org/10.1094/PDIS-11-22-2740-PDN"
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2021/096,New data on quarantine pests and pests of the EPPO Alert List,2021-05,https://gd.eppo.int/reporting/article-7035,2021-05-01,Australia; Indonesia; Morocco; Portugal; Ukraine; United States of America,many_to_many,"EPPO Reporting Service no. 05 - 2021
 Num. article:
 2021/096
 New data on quarantine pests and pests of the EPPO Alert List
@@ -2051,8 +2051,8 @@ Vaccinium corymbosum
 ) au Maroc.
 Revue Marocaine des Sciences Agronomiques et Vétérinaires
 8
-(3), 321-330",2021-05-01,Australia; Indonesia; Morocco; Portugal; Ukraine; United States of America,many_to_many
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2021/074,New data on quarantine pests and pests of the EPPO Alert List,2021-04,https://gd.eppo.int/reporting/article-7013,"EPPO Reporting Service no. 04 - 2021
+(3), 321-330"
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2021/074,New data on quarantine pests and pests of the EPPO Alert List,2021-04,https://gd.eppo.int/reporting/article-7013,2021-04-01,Bangladesh; Canada; Greece; Kenya; Mauritius; Peru,many_to_many,"EPPO Reporting Service no. 04 - 2021
 Num. article:
 2021/074
 New data on quarantine pests and pests of the EPPO Alert List
@@ -2190,8 +2190,8 @@ Cacoecimorpha pronubana
 Insects
 12
 , 245.
-https://doi.org/10.3390/insects12030245",2021-04-01,Bangladesh; Canada; Greece; Kenya; Mauritius; Peru,many_to_many
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2021/049,New data on quarantine pests and pests of the EPPO Alert List,2021-03,https://gd.eppo.int/reporting/article-6988,"EPPO Reporting Service no. 03 - 2021
+https://doi.org/10.3390/insects12030245"
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2021/049,New data on quarantine pests and pests of the EPPO Alert List,2021-03,https://gd.eppo.int/reporting/article-6988,2021-03-01,Brazil; China; India; Italy; Japan; Romania; Spain; Sweden; Türkiye,many_to_many,"EPPO Reporting Service no. 03 - 2021
 Num. article:
 2021/049
 New data on quarantine pests and pests of the EPPO Alert List
@@ -2363,8 +2363,8 @@ Pinus brutia
 forests of south-western Turkey.
 Plant Pathology
 69
-(8), 1551–1564.",2021-03-01,Brazil; China; India; Italy; Japan; Romania; Spain; Sweden; Türkiye,many_to_many
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2020/048,New data on quarantine pests and pests of the EPPO Alert List,2020-03,https://gd.eppo.int/reporting/article-6726,"EPPO Reporting Service no. 03 - 2020
+(8), 1551–1564."
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2020/048,New data on quarantine pests and pests of the EPPO Alert List,2020-03,https://gd.eppo.int/reporting/article-6726,2020-03-01,Albania; Algeria; China; India; Iraq; Israel; United States of America,many_to_many,"EPPO Reporting Service no. 03 - 2020
 Num. article:
 2020/048
 New data on quarantine pests and pests of the EPPO Alert List
@@ -2510,8 +2510,8 @@ in commercial cucurbit seedlots during 2010-2018 in China.
 Plant Disease
 104
 (1), 255-259.
-https://doi.org/10.1094/PDIS-03-19-0666-RE",2020-03-01,Albania; Algeria; China; India; Iraq; Israel; United States of America,many_to_many
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2019/133,New data on quarantine pests and pests of the EPPO Alert List,2019-07,https://gd.eppo.int/reporting/article-6563,"EPPO Reporting Service no. 07 - 2019
+https://doi.org/10.1094/PDIS-03-19-0666-RE"
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2019/133,New data on quarantine pests and pests of the EPPO Alert List,2019-07,https://gd.eppo.int/reporting/article-6563,2019-07-01,Bolivia; Burundi; China; Cyprus; Georgia; Germany; India; Indonesia; Italy; Lao People's Democratic Republic; Malaysia; Poland; Portugal; Vietnam,many_to_many,"EPPO Reporting Service no. 07 - 2019
 Num. article:
 2019/133
 New data on quarantine pests and pests of the EPPO Alert List
@@ -2733,8 +2733,8 @@ Phylotype I in Southern China.
 Plant Disease
 103
 (2), p 364.
-https://doi.org/10.1094/PDIS-04-18-0615-PDN",2019-07-01,Bolivia; Burundi; China; Cyprus; Georgia; Germany; India; Indonesia; Italy; Lao People's Democratic Republic; Malaysia; Poland; Portugal; Vietnam,many_to_many
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2019/004,New data on quarantine pests and pests of the EPPO Alert List,2019-01,https://gd.eppo.int/reporting/article-6434,"EPPO Reporting Service no. 01 - 2019
+https://doi.org/10.1094/PDIS-04-18-0615-PDN"
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2019/004,New data on quarantine pests and pests of the EPPO Alert List,2019-01,https://gd.eppo.int/reporting/article-6434,2019-01-01,Azerbaijan; Brazil; China; India; United Kingdom,many_to_many,"EPPO Reporting Service no. 01 - 2019
 Num. article:
 2019/004
 New data on quarantine pests and pests of the EPPO Alert List
@@ -2943,8 +2943,8 @@ Verdin E, Desbiez C, Wipf-Scheibel C, Gognalons P, Kheyr-Pour A, Gronenborn B, M
 Journal of Plant Pathology
 100
 , p 335.
-https://doi.org/10.1007/s42161-018-0050-x",2019-01-01,Azerbaijan; Brazil; China; India; United Kingdom,many_to_many
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2014/216,New data on quarantine pests and pests of the EPPO Alert List,2014-11,https://gd.eppo.int/reporting/article-3309,"EPPO Reporting Service no. 11 - 2014
+https://doi.org/10.1007/s42161-018-0050-x"
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2014/216,New data on quarantine pests and pests of the EPPO Alert List,2014-11,https://gd.eppo.int/reporting/article-3309,2014-11-01,Algeria; Bosnia and Herzegovina; Canada; Colombia; Dominican Republic; France; Greece; Italy; Mexico; Spain; Tunisia; United States of America,many_to_many,"EPPO Reporting Service no. 11 - 2014
 Num. article:
 2014/216
 New data on quarantine pests and pests of the EPPO Alert List
@@ -3225,8 +3225,8 @@ Solanum elaeagnifolium
 as natural host of Tomato yellow leaf curl virus species (TYLCV and TYLCSV) in Tunisia. J
 ournal of Plant Pathology
 96
-(2), 431-439.",2014-11-01,Algeria; Bosnia and Herzegovina; Canada; Colombia; Dominican Republic; France; Greece; Italy; Mexico; Spain; Tunisia; United States of America,many_to_many
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2010/041,New data on quarantine pests and pests of the EPPO Alert List,2010-02,https://gd.eppo.int/reporting/article-396,"EPPO Reporting Service no. 02 - 2010
+(2), 431-439."
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2010/041,New data on quarantine pests and pests of the EPPO Alert List,2010-02,https://gd.eppo.int/reporting/article-396,2010-02-01,"Australia; Brazil; Burkina Faso; China; Croatia; Egypt; Germany; Greece; India; Iran, Islamic Republic of; Japan; Korea, Republic of; Malta; Niger; Pakistan; Poland; Spain; Türkiye; Venezuela",many_to_many,"EPPO Reporting Service no. 02 - 2010
 Num. article:
 2010/041
 New data on quarantine pests and pests of the EPPO Alert List
@@ -3533,8 +3533,8 @@ Zamora P, Martín AB, Arrate J, Rigling D, Diez JJ (2008) Detection of the veget
 Cryphonectria parasitica
 in Castilla y León region.
 Acta Horticulturae
-no. 784, 159-162.",2010-02-01,"Australia; Brazil; Burkina Faso; China; Croatia; Egypt; Germany; Greece; India; Iran, Islamic Republic of; Japan; Korea, Republic of; Malta; Niger; Pakistan; Poland; Spain; Türkiye; Venezuela",many_to_many
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2024/251,Pre-emptive biological control of Spodoptera frugiperda using Trichogramma species,2024-11,https://gd.eppo.int/reporting/article-8001,"EPPO Reporting Service no. 11 - 2024
+no. 784, 159-162."
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2024/251,Pre-emptive biological control of Spodoptera frugiperda using Trichogramma species,2024-11,https://gd.eppo.int/reporting/article-8001,2024-11-01,,many_to_zero,"EPPO Reporting Service no. 11 - 2024
 Num. article:
 2024/251
 Pre-emptive biological control of Spodoptera frugiperda using Trichogramma species
@@ -3588,8 +3588,8 @@ spp.
 CABI Agriculture and Bioscience
 5
 , 96.
-https://doi.org/10.1186/s43170-024-00296-1",2024-11-01,,many_to_zero
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2024/066,The potential of Trichogramma foersteri as a biological control agent for Spodoptera species,2024-03,https://gd.eppo.int/reporting/article-7816,"EPPO Reporting Service no. 03 - 2024
+https://doi.org/10.1186/s43170-024-00296-1"
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2024/066,The potential of Trichogramma foersteri as a biological control agent for Spodoptera species,2024-03,https://gd.eppo.int/reporting/article-7816,2024-03-01,,many_to_zero,"EPPO Reporting Service no. 03 - 2024
 Num. article:
 2024/066
 The potential of Trichogramma foersteri as a biological control agent for Spodoptera species
@@ -3653,8 +3653,8 @@ Spodoptera eridania
 Biological Control
 192
 , 105504.
-https://doi.org/10.1016/j.biocontrol.2024.105504",2024-03-01,,many_to_zero
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2023/130,EU emergency measures for Spodoptera frugiperda and tomato brown rugose fruit virus,2023-06,https://gd.eppo.int/reporting/article-7612,"EPPO Reporting Service no. 06 - 2023
+https://doi.org/10.1016/j.biocontrol.2024.105504"
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2023/130,EU emergency measures for Spodoptera frugiperda and tomato brown rugose fruit virus,2023-06,https://gd.eppo.int/reporting/article-7612,2023-06-01,,many_to_zero,"EPPO Reporting Service no. 06 - 2023
 Num. article:
 2023/130
 EU emergency measures for Spodoptera frugiperda and tomato brown rugose fruit virus
@@ -3685,8 +3685,8 @@ Spodoptera frugiperda
 (Smith) and repealing Commission Implementing Decision (EU) 2018/638. OJ L 149
 http://data.europa.eu/eli/reg_impl/2023/1134/oj
 Commission Implementing Regulation (EU) 2023/1032 of 25 May 2023 establishing measures to prevent the introduction into and the spread within the Union territory of Tomato brown rugose fruit virus (ToBRFV) and amending Implementing Regulation (EU) 2020/1191, OJ L 139,
-http://data.europa.eu/eli/reg_impl/2023/1032/oj",2023-06-01,,many_to_zero
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2021/211,New additions to the EPPO A1 and A2 Lists,2021-10,https://gd.eppo.int/reporting/article-7150,"EPPO Reporting Service no. 10 - 2021
+http://data.europa.eu/eli/reg_impl/2023/1032/oj"
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2021/211,New additions to the EPPO A1 and A2 Lists,2021-10,https://gd.eppo.int/reporting/article-7150,2021-10-01,,many_to_zero,"EPPO Reporting Service no. 10 - 2021
 Num. article:
 2021/211
 New additions to the EPPO A1 and A2 Lists
@@ -3730,8 +3730,8 @@ https://gd.eppo.int
 Sources
 EPPO Secretariat (2021-10).
 EPPO A1 and A2 lists of pests recommended for regulation as quarantine pests.
-https://www.eppo.int/media/uploaded_images/RESOURCES/eppo_standards/pm1/pm1-002-30-en_A1A2_2021.pdf",2021-10-01,,many_to_zero
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2020/113,New and revised dynamic EPPO datasheets are available in the EPPO Global Database,2020-06,https://gd.eppo.int/reporting/article-6791,"EPPO Reporting Service no. 06 - 2020
+https://www.eppo.int/media/uploaded_images/RESOURCES/eppo_standards/pm1/pm1-002-30-en_A1A2_2021.pdf"
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2020/113,New and revised dynamic EPPO datasheets are available in the EPPO Global Database,2020-06,https://gd.eppo.int/reporting/article-6791,2020-06-01,,many_to_zero,"EPPO Reporting Service no. 06 - 2020
 Num. article:
 2020/113
 New and revised dynamic EPPO datasheets are available in the EPPO Global Database
@@ -3776,8 +3776,8 @@ Trirachys sartus
 :
 https://gd.eppo.int/taxon/AELSSA/datasheet
 Sources
-EPPO Secretariat (2020-06).",2020-06-01,,many_to_zero
-eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2019/200,New EU Regulations,2019-10,https://gd.eppo.int/reporting/article-6630,"EPPO Reporting Service no. 10 - 2019
+EPPO Secretariat (2020-06)."
+eppo_reporting_15k.csv,LAPHFR,Spodoptera frugiperda,2019/200,New EU Regulations,2019-10,https://gd.eppo.int/reporting/article-6630,2019-10-01,,many_to_zero,"EPPO Reporting Service no. 10 - 2019
 Num. article:
 2019/200
 New EU Regulations
@@ -3808,4 +3808,4 @@ http://data.europa.eu/eli/dec_impl/2019/1615/oj
 EU (2019b) Commission Delegated Regulation (EU) 2019/1702 of 1 August 2019 supplementing Regulation (EU) 2016/2031 of the European Parliament and of the Council by establishing the list of priority pests. OJ L 260, 8–10,
 http://data.europa.eu/eli/reg_del/2019/1702/oj
 New EU plant health rules:
-https://ec.europa.eu/food/plant/plant_health_biosecurity/legislation/new_eu_rules_en",2019-10-01,,many_to_zero
+https://ec.europa.eu/food/plant/plant_health_biosecurity/legislation/new_eu_rules_en"
