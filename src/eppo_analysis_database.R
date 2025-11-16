@@ -142,7 +142,9 @@ export(
 eppo_laphfr <- eppo_country_final %>%
   filter(eppo_code == "LAPHFR") %>%
   # move content column to the end
-  relocate(content, .after = last_col())
+  relocate(content, .after = last_col()) %>%
+  mutate(report_year = ymd(report_year)) %>%
+  arrange(report_year)
 
 export(
   eppo_laphfr,
