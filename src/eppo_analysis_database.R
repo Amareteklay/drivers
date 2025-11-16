@@ -43,6 +43,130 @@ export(
   here("data", "eppo_downloads", "eppo_crawled_joined.csv")
 )
 
+# Count number of unique reports
+eppo_joined %>%
+  distinct(number, title, date, url) %>%
+  nrow() # 6910
+
+eppo_report_country <- import(here(
+  "data",
+  "eppo_downloads",
+  "eppo_reporting_countries.csv"
+)) %>%
+  clean_names()
+
+# %% Identify merge issues between eppo_joined and eppo_report_country
+
+keys <- c("number", "title", "date", "url")
+# Count occurrences in each dataset by join keys
+dup_eppo <- eppo_joined %>%
+  count(across(all_of(keys)), name = "n_eppo")
+
+dup_country <- eppo_report_country %>%
+  count(across(all_of(keys)), name = "n_country")
+
+dup_all <- dup_eppo %>%
+  left_join(dup_country, by = keys) %>%
+  replace_na(list(n_country = 0))
+
+# ============================================================
+# CLASSIFICATION
+# ============================================================
+one_to_one <- dup_all %>% filter(n_eppo == 1 & n_country == 1)
+one_to_zero <- dup_all %>% filter(n_eppo == 1 & n_country == 0)
+one_to_many <- dup_all %>% filter(n_eppo == 1 & n_country > 1)
+many_to_one <- dup_all %>% filter(n_eppo > 1 & n_country == 1)
+many_to_many <- dup_all %>% filter(n_eppo > 1 & n_country > 1)
+many_to_zero <- dup_all %>% filter(n_eppo > 1 & n_country == 0)
+
+# ============================================================
+# 3) COUNTRY VECTOR PER KEY
+# ============================================================
+country_list <- eppo_report_country %>%
+  group_by(across(all_of(keys))) %>%
+  summarise(
+    country_vector = paste(sort(unique(country)), collapse = "; "),
+    .groups = "drop"
+  )
+
+# ----  ONE-TO-ONE  ----
+eppo_country_one_one <- eppo_joined %>%
+  inner_join(one_to_one %>% select(all_of(keys)), by = keys) %>%
+  left_join(country_list, by = keys) %>%
+  mutate(merge_case = "one_to_one")
+
+# ----  ONE-TO-ZERO  ----
+eppo_country_one_zero <- eppo_joined %>%
+  inner_join(one_to_zero %>% select(all_of(keys)), by = keys) %>%
+  mutate(country_vector = NA_character_, merge_case = "one_to_zero")
+
+# ----  ONE-TO-MANY  ----
+eppo_country_one_many <- eppo_joined %>%
+  inner_join(one_to_many %>% select(all_of(keys)), by = keys) %>%
+  left_join(country_list, by = keys) %>%
+  mutate(merge_case = "one_to_many")
+
+# ----  MANY-TO-ONE  ----
+eppo_country_many_one <- eppo_joined %>%
+  inner_join(many_to_one %>% select(all_of(keys)), by = keys) %>%
+  left_join(country_list, by = keys) %>%
+  mutate(merge_case = "many_to_one")
+
+# ----  MANY-TO-MANY  ----
+eppo_country_many_many <- eppo_joined %>%
+  inner_join(many_to_many %>% select(all_of(keys)), by = keys) %>%
+  left_join(country_list, by = keys) %>%
+  mutate(merge_case = "many_to_many")
+
+# ----  MANY-TO-ZERO  ----
+eppo_country_many_zero <- eppo_joined %>%
+  inner_join(many_to_zero, by = keys) %>%
+  mutate(country_vector = NA_character_, merge_case = "many_to_zero")
+
+eppo_country_final <- bind_rows(
+  eppo_country_one_one,
+  eppo_country_one_zero,
+  eppo_country_one_many,
+  eppo_country_many_one,
+  eppo_country_many_many,
+  eppo_country_many_zero
+) %>%
+  select(-n_eppo, -n_country, country = country_vector)
+
+export(
+  eppo_country_final,
+  here("data", "eppo_downloads", "eppo_occurence_temp.csv")
+)
+
+# LAPHFR fall armyworm example dataset
+eppo_laphfr <- eppo_country_final %>%
+  filter(eppo_code == "LAPHFR")
+
+export(
+  eppo_laphfr,
+  here("data", "eppo_downloads", "eppo_laphfr.csv")
+)
+
+# #TODO: Filter irrelevant reports later
+# eppo_unmerged_filtered <- eppo_unmerged %>%
+#   # The following reports missing countries, but can drop completely
+#   filter(
+#     !str_detect(
+#       title,
+#       "Recent updates in the EPPO Global Database|Pests which should not appear in EPPO Quarantine lists|Update of the list of invasive alien species|New EU Regulations|New and revised dynamic EPPO datasheets are available in the EPPO Global Database|Changes made to the EU list of regulated pests|New additions to the EPPO Lists|New additions to the EPPO A1 and A2 Lists|New EU regulation|Guidelines for the management|A1 and A2 list|Prioritization of invasive alien plants|Prioritization of alien plants|New EPPO lists of invasive alien plants|Q-bank database on invasive alien plants|Binomial nomenclature for virus species|Invasive Alien Plants in European Macaronesia|Recognition and management guides for invasive alien plants in Belgium"
+#     )
+#   )
+
+# New analysis -----------------------------------------------------------
+eppo_expanded <- eppo_country_final %>%
+  separate_rows(country, sep = ";\\s*") %>%
+  filter(!is.na(country), country != "")
+
+
+# fmt: skip
+
+# Archived code ----------------------------------------------------------
+
 # Crawl performance review -----------------------------------------------
 
 # Check hown many eppo codes are missing in the eppo_code database
@@ -91,9 +215,9 @@ ggplot(eppo_report_count, aes(x = report_count)) +
 
 # %% Distribution of reports by year
 # Time distribution of reports
-yearly_report_counts <- eppo_joined |>
-  mutate(year = year(report_year)) |>
-  count(year, name = "reports") |>
+yearly_report_counts <- eppo_joined %>%
+  mutate(year = year(report_year)) %>%
+  count(year, name = "reports") %>%
   arrange(year)
 
 
@@ -131,14 +255,14 @@ yearly_report_counts
 
 # %% Timeline of new pathogen emergence by year
 # Find the first report year for each unique pathogen (eppo_code)
-first_report <- eppo_joined |>
-  group_by(eppo_code, name) |>
-  summarise(first_report_year = min(year(report_year)), .groups = 'drop') |>
+first_report <- eppo_joined %>%
+  group_by(eppo_code, name) %>%
+  summarise(first_report_year = min(year(report_year)), .groups = 'drop') %>%
   arrange(first_report_year)
 
 # Count new pathogens appearing each year
-new_pathogens_by_year <- first_report |>
-  count(first_report_year, name = "new_pathogens") |>
+new_pathogens_by_year <- first_report %>%
+  count(first_report_year, name = "new_pathogens") %>%
   arrange(first_report_year)
 
 # Plot new pathogens by year
